@@ -26,4 +26,5 @@ trills:
 glides:
   dorso-palatal: [j]
   labial-velar: [w]
-
+affricates:
+  lamino-alveo-palata: [tʃ] [dʒ]
