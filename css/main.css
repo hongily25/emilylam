@@ -19,8 +19,9 @@ body {
 
 @media all and (max-width: 600px) {
   .container {
+    box-sizing: border-box;
     width: 100%;
-    padding: 2px;
+    padding: 0 2 em;
     margin: auto;
     flex-flow: column wrap;
   }
