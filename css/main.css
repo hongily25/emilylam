@@ -30,7 +30,7 @@ body {
     width: 100%;
     color: #FFF;
     background-color: #000000;
-    flex: 0 0 12em;
+    flex: 1;
   }
 }
 
