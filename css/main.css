@@ -10,6 +10,12 @@ body {
   flex-flow: row wrap;
 }
 
+.section1 {
+  width: 25%;
+  padding: 5em;
+  margin: 2em;
+  background-color: #FFF;
+}
 
 @media all and max-width(600px) {
   .container {
@@ -17,13 +23,10 @@ body {
     background-color: #00FF00;
     flex-direction: column;
   }
-  
-.container div {
-  width: 25%;
-  padding: 5em;
-  margin: 2em;
-  background-color: #550000;
-}
+  .section1 {
+    width: 100%;
+    background-color: #000;
+  }
   
   
 }
