@@ -8,22 +8,27 @@ body {
   background-color: #0000FF;
   display: flex;
   flex-flow: row wrap;
+  justify-content: flex-end;
 }
 
 .section1 {
   width: 25%;
   padding: 1em;
-  margin: 2em;
+  margin: 1em;
   background-color: #FFF;
 }
 
 @media all and max-width(600px) {
   .container {
     width: 100%;
+    padding: 2px;
+    align-content: space-around;
     flex-direction: column;
+    
   }
   .section1 {
     width: 100%;
+    flex-direction: column;
   }
   
   
