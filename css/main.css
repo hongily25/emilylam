@@ -11,6 +11,7 @@ body {
 }
 
 .section1 {
+  display: flex;
   width: 25%;
   padding: 1em;
   margin: 1em;
@@ -29,7 +30,8 @@ body {
     box-sizing: border-box;
     width: 100%;
     color: #FFF;
-    background-color: #000000;
+    background-color: #FF0000;
+    align-self: center;
     flex: 1;
   }
 }
