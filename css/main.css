@@ -29,8 +29,9 @@ body {
   .container div {
     box-sizing: border-box;
     width: 100%;
+    margin: 0;
     padding: 0 2 em;
-    margin: 0 2 em;
+    background-color: #FF0000;
   }
 }
 
