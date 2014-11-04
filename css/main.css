@@ -23,7 +23,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     flex-flow: column wrap;
-    padding: 2em;
+    padding: 1em;
   }
   
   .container div {
