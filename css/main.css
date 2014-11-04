@@ -26,8 +26,9 @@ body {
   }
   
   .container div {
-    width: 90%;
-    padding: 2 em;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 2 em;
     margin: 2 em;
   }
 }
