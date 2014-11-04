@@ -1,3 +1,14 @@
 body {
   background-color: #FF0000;
 }
+
+.container {
+  width: 50%;
+}
+
+
+@media all and max-width(600px) {
+  .container {
+    width: 100%;
+  }
+}
