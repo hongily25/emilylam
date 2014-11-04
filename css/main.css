@@ -27,7 +27,9 @@ body {
   .container div {
     box-sizing: border-box;
     width: 100%;
-    background-color: #FF0000;
+    color: #FFF;
+    background-color: #000000;
+    flex: 0 0 12em;
   }
 }
 
