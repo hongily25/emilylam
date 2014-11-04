@@ -21,16 +21,12 @@ body {
   .container {
     box-sizing: border-box;
     width: 100%;
-    padding: 0 2 em;
-    margin: auto;
     flex-flow: column wrap;
   }
   
   .container div {
     box-sizing: border-box;
     width: 100%;
-    padding: 0 2 em;
-    margin: auto;
     background-color: #555;
   }
 }
