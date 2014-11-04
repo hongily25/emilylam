@@ -27,7 +27,7 @@ body {
   }
   .section1 {
     width: 100%;
-    flex-direction: column;
+    background-color: #00FF00;
   }
   
   
