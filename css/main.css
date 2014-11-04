@@ -22,14 +22,13 @@ body {
     padding: 2px;
     margin: auto;
     flex-direction: column;
-    background-color: #eee;
     justify-content: flex-start;
   }
   
   .container div {
     width: 100%;
-    padding: 10px;
-    background-color: #00FF00;
+    padding: 10 px;
+    margin: 2 em;
   }
 }
 
