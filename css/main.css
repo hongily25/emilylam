@@ -29,9 +29,9 @@ body {
   .container div {
     box-sizing: border-box;
     width: 100%;
-    margin: 2 em;
     padding: 0 2 em;
-    background-color: #00F000;
+    margin: auto;
+    background-color: #0F0000;
   }
 }
 
