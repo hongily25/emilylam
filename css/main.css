@@ -3,8 +3,11 @@ body {
 }
 
 .container {
-  width: 50%;
+  margin: auto;
+  padding: 2em;
   background-color: #0000FF;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 
@@ -12,5 +15,14 @@ body {
   .container {
     width: 100%;
     background-color: #00FF00;
+    flex-direction: column;
   }
+  
+.section1 {
+  width: 25%;
+  padding: 5em;
+
+}
+  
+  
 }
