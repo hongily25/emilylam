@@ -22,14 +22,14 @@ body {
     box-sizing: border-box;
     width: 100%;
     flex-flow: column wrap;
-    padding: 12em;
+    padding: 2em;
   }
   
   .container div {
     box-sizing: border-box;
     width: 100%;
     color: #FFF;
-    background-color: #FF0000;
+    background-color: #000000;
     flex: 0 0 12em;
   }
 }
