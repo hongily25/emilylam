@@ -6,7 +6,7 @@ body {
   margin: auto;
   background-color: #0000FF;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-around;
 }
 
@@ -22,11 +22,11 @@ body {
     width: 100%;
     padding: 2px;
     margin: auto;
-    flex-direction: column;
+    flex-flow: column wrap;
   }
   
   .container div {
-    width: 100%;
+    width: 90%;
     padding: 2 em;
     margin: 2 em;
   }
