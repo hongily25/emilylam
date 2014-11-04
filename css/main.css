@@ -14,7 +14,6 @@ body {
   width: 25%;
   padding: 1em;
   margin: 1em;
-  background-color: #FFF;
 }
 
 @media all and (max-width: 600px) {
@@ -24,6 +23,7 @@ body {
     margin: auto;
     flex-direction: column;
     background-color: #eee;
+    justify-content: flex-start;
   }
   
   .container div {
