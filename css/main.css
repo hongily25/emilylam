@@ -21,7 +21,8 @@ body {
 .section1 {
   width: 25%;
   padding: 5em;
-
+  margin: 2em;
+  background-color: #550000;
 }
   
   
