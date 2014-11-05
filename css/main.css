@@ -1,0 +1,40 @@
+body {
+  background-color: #eee;
+}
+
+.container {
+  margin: auto;
+  background-color: #0000FF;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.section1 {
+  display: flex;
+  width: 25%;
+  padding: 1em;
+  margin: 1em;
+  background-color: #FFF;
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+    flex-flow: column wrap;
+    padding: 1em;
+  }
+  
+  .container div {
+    box-sizing: border-box;
+    width: 100%;
+    color: #FFF;
+    background-color: #eee;
+    align-self: center;
+    flex: 1;
+  }
+}
+
+
+
