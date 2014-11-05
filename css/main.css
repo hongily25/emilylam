@@ -29,7 +29,7 @@ body {
   .container div {
     box-sizing: border-box;
     width: 100%;
-    color: #FFF;
+    color: #333;
     background-color: #eee;
     align-self: center;
     flex: 1;
