@@ -13,7 +13,7 @@ Project ideas:
   <li>German Phonetics Flip Card Game</li>
 </ul>
 
-Portfolio Deliverables:
+Portfolio Deliverables
 =========
 
 - Responsive
@@ -22,7 +22,7 @@ Portfolio Deliverables:
 - Academic notes
 - Graphic design
 
-Nice to have:
+Nice to have
 - Dynamic app
 
 Paypal Visualizer
