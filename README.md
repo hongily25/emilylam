@@ -5,6 +5,6 @@ This too shall pass.
 
 Project ideas:
 
-Paypal visualizer
-Portfolio
+Paypal visualizer<br><br>
+Portfolio<br><br>
 Laundry detector

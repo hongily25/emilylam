@@ -5,18 +5,17 @@ body {
 
 .container {
   margin: auto;
-  background-color: #0000FF;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
 }
 
 .section1 {
+  border: 1 px solid #a9a9a9;
   display: flex;
   width: 25%;
   padding: 1em;
   margin: 1em;
-  background-color: #FFF;
 }
 
 @media all and (max-width: 600px) {
