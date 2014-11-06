@@ -49,10 +49,10 @@ body {
   display: flex;
   margin: 1em;
   padding: 1em;
-  width: 25%;
+  width: 33.3%;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 500px) {
   body {
     background-color: #FFF;
   }
@@ -63,6 +63,10 @@ body {
     padding: 1em;
     width: 100%;
   }
+	
+	.footer, .container:after {
+		height: 100px;
+	}
   
   .container div {
     align-self: center;
