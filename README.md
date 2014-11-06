@@ -3,7 +3,7 @@ Emily Lam
 
 This too shall pass.
 
-Project ideas:
+Project ideas
 ========
 
 <ul>
