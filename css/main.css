@@ -1,38 +1,75 @@
+* {
+	margin: 0;
+}
+
 body {
-    background-image: url(https://cloud.githubusercontent.com/assets/1762760/4930939/bfd680da-656d-11e4-9136-397fc1bbe978.jpeg);
-    background-size: cover;
+  background-image: url(https://cloud.githubusercontent.com/assets/1762760/4931229/61272452-6574-11e4-92b5-6e4921224209.jpg);
+  background-repeat: repeat;
+	height: 100%;
 }
 
 .container {
-  margin: auto;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
+  margin: auto;
+	margin-bottom: -150 px;
+	min-height: 100%;
+}
+
+.container:after {
+	content: "";
+	display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.footer, .container:after {
+	color: #FFF;
+	background: blue;
+	height: 150px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	
+}
+
+.footer div {
+	padding-top: 2em;
 }
 
 .section1 {
-  border: 1 px solid #a9a9a9;
   display: flex;
-  width: 25%;
-  padding: 1em;
   margin: 1em;
+  padding: 1em;
+  width: 25%;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 800px) {
+  body {
+    background-color: #FFF;
+  }
+  
   .container {
     box-sizing: border-box;
-    width: 100%;
     flex-flow: column wrap;
     padding: 1em;
+    width: 100%;
   }
   
   .container div {
-    box-sizing: border-box;
-    width: 100%;
-    color: #333;
-    background-color: #eee;
     align-self: center;
+    box-sizing: border-box;
+    color: #333;
     flex: 1;
+    width: 100%;
   }
 }
 
