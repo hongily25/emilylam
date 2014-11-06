@@ -28,8 +28,8 @@ body {
 }
 
 .footer, .container:after {
-	color: #FFF;
-	background: blue;
+	color: #ededed;
+	background: #222;
 	height: 150px;
 	position: absolute;
 	bottom: 0;
