@@ -1,17 +1,16 @@
-* {
-	margin: 0;
-}
 
-body {
+
+html, body {
   background-image: url(https://cloud.githubusercontent.com/assets/1762760/4931229/61272452-6574-11e4-92b5-6e4921224209.jpg);
   background-repeat: repeat;
 	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .masthead {
 	display: flex;
 	justify-content: flex-end;
-	border: .8em solid #FF000;
 	margin: 1em;
 	flex-flow: row nowrap;
 }
@@ -21,8 +20,6 @@ body {
 	justify-content: flex-end;
 }
 
-
-
 .header {
   display: flex;
   justify-content: center;
@@ -30,48 +27,26 @@ body {
 }
 
 .carousel {
-	background-color: #555;
 	display: flex;
 	height: 20em;
 	justify-content: center;		
 	margin-top: 1em;
 	width: 100%;
+	padding: 1em;
 }
 
 .container {
   display: flex;
   flex-flow: row nowrap;
-  margin: auto;
-	margin-bottom: -150 px;
-	min-height: 100%;
-}
-
-.container:after {
-	content: "";
-	display: block;
-}
-
-.footer, .container:after {
-	color: #ededed;
-	background: #222;
-	height: 150px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-}
-
-.footer div {
-	padding-top: 2em;
+	padding-bottom: 2em;
+	
 }
 
 .section1 {
   display: flex;
   margin: 1em;
   padding: 1em;
+	padding-bottom: 2em;
   width: 33.3%;
 	justify-content: center;
 }
@@ -91,10 +66,11 @@ body {
 		text-align: center;
 		flex: 1;
 		padding: .25em;
+		height: 100%;
 	}
 	
-	.carousel {
-		display: none;
+	.carousel div {
+		width: 100%;
 	}
   
   .container {
@@ -104,10 +80,6 @@ body {
     width: 100%;
   }
 	
-	.footer, .container:after {
-		height: 100px;
-	}
-  
   .container div {
     align-self: center;
     box-sizing: border-box;
