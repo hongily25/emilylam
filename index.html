@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
@@ -17,6 +16,73 @@
     </head>
     
 <body>
+    <!-- load Dojo -->
+    <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.10.0/dojo/dojo.js"
+            data-dojo-config="async: true"></script>
+    <script type="text/javascript" charset="utf-8" src="//ajax.googleapis.com/ajax/libs/dojo/1.10.0/dojox//charting/plot2d/Base.js"></script>
+ <script type="text/javascript" charset="utf-8" src="//ajax.googleapis.com/ajax/libs/dojo/1.10.0/dojox//charting/themes/Claro.js"></script>
+ <link rel="stylesheet" href="dev/dijit/themes/claro/claro.css" media="screen">
+	
+	<script>
+require([
+     // Require the basic chart class
+    "dojox/charting/Chart",
+ 
+    // Require the theme of our choosing
+    "dojox/charting/themes/Claro",
+ 
+    //  We want to plot Lines
+    "dojox/charting/plot2d/Lines",
+ 
+    // Load the Legend, Tooltip, and Magnify classes
+    "dojox/charting/widget/Legend",
+    "dojox/charting/action2d/Tooltip",
+    "dojox/charting/action2d/Magnify",
+ 
+    //  We want to use Markers
+    "dojox/charting/plot2d/Markers",
+ 
+    //  We'll use default x/y axes
+    "dojox/charting/axis2d/Default",
+ 
+    // Wait until the DOM is ready
+    "dojo/domReady!"
+], function(Chart, theme, LinesPlot, Legend, Tooltip, Magnify) {
+ 
+    // Define the data
+    var chartData = [10,9,6,15];
+
+    // Create the chart within it's "holding" node
+    var chart = new Chart("chartNode");
+ 
+    // Set the theme
+    chart.setTheme(theme);
+ 
+    // Add the only/default plot
+    chart.addPlot("default", {
+        type: LinesPlot,
+        markers: true
+    });
+ 
+    // Add axes
+    chart.addAxis("x");
+    chart.addAxis("y", { min: 0, max: 100, vertical: true, fixLower: "major", fixUpper: "major" });
+ 
+    // Add the series of data
+    chart.addSeries("Paypal",chartData);
+ 
+    // Create the tooltip
+    var tip = new Tooltip(chart,"default");
+ 
+    // Create the magnifier
+    var mag = new Magnify(chart,"default");
+ 
+    // Render the chart!
+    chart.render();
+ 
+    // Create the legend
+    var legend = new Legend({ chart: chart }, "legend");
+});</script>
 	
 <div class="masthead">
 	<div>About Me</div>
@@ -28,72 +94,24 @@
 	<h1>Emily Lam</h1>
 </div>
 	
-<div class="carousel">This is the carousel.</div>
+<div class="carousel">
+	<div id="chartNode"></div>
+	<div id="legend"></div>
+	
+	</div>
 	
 	
 <div class="container">
 
-	<div class="section1">This should be something.</div>
+	<div class="section1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
 	
 	<div class="section1">
-		This should also be something.</div>	
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>	
 	
-	<div class="section1">This is the third column.</div>
+	<div class="section1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
 		
 </div>
 
-      
-<!--LINGUISTICS IPA CHART
-<div class="container">
-	
-<div class="section1">
-  Manner of Articulation 
-  stops:
-  bilabial: [p] [b] 
-  apico-alveolar: [t] [d] 
-  dorso-velar: [k] [g]
-  </div>
- 
-<div class="section1">
-nasals:
-  bilabial: [m]
-  apico-alveolar: [n]
-  dorso-velar: [ɳ] 
-  
-</div>
-
-<div class="section1">
-fricatives:
-  labio-dental: [f] [v]
-  apico-alveolar: [s] [z]
-  lamino-alveo-palatal: [ʃ] [ʒ]
-  dorso-palatal: [ç]
-  dorso-velar: [x]
-  dorso-uvular: [χ] [ʀ]
-  
-</div>
-
-<div class="section1">
-glottal:
-  stop: [ʔ]
-  fricative: [h]
-approximants:
-  apico-alveolar: [l]
-trills:
-  apico-alveolar: [r]
-glides:
-  dorso-palatal: [j]
-  labial-velar: [w]
-affricates:
-  lamino-alveo-palatal: [tʃ] [dʒ]
-  </div>
-  
-    </div>
--->
-	
-<div class="footer">
-		<div>Always have a footer.</div>
-</div>
 
 </body>
 </html>
