@@ -22,6 +22,8 @@ function drawChart() {
           
       // Create our data table out of JSON data loaded from server.
       var data = new google.visualization.DataTable(jsonData);
+
+      data.addColumns('string','Hello');
 */
 	
 	var data = new google.visualization.DataTable({
@@ -37,6 +39,7 @@ function drawChart() {
         {"c":[{"v":"YES!!","f":null},{"v":2,"f":null}]}
       ]
 });
+
 	
 	var chart = new google.visualization.AreaChart(document.getElementById('columnchart'))
 chart.draw(data, {width: 400, height: 240});
