@@ -6,28 +6,22 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 			
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript">
 google.load("visualization", '1', {packages:['corechart']});
 google.setOnLoadCallback(drawChart);
 	
 function drawChart() {
 	
-	
+	var jsonData = $.ajax({
+          url: "/getData.php",
+          dataType:"json",
+          async: false
+          }).responseText;
+          
+      // Create our data table out of JSON data loaded from server.
+      var data = new google.visualization.DataTable(jsonData);
 
-	var data = new google.visualization.DataTable(
-{
-  "cols": [
-        {"id":"","label":"People","pattern":"","type":"string"},
-        {"id":"","label":"Slices","pattern":"","type":"number"}
-      ],
-  "rows": [
-        {"c":[{"v":"Stitchy","f":null},{"v":3,"f":null}]},
-        {"c":[{"v":"Zack","f":null},{"v":1,"f":null}]},
-        {"c":[{"v":"Mike","f":null},{"v":1,"f":null}]},
-        {"c":[{"v":"Phuongy","f":null},{"v":1,"f":null}]},
-      ]
-}
-);
 	
 	var chart = new google.visualization.AreaChart(document.getElementById('columnchart'))
 chart.draw(data, {width: 400, height: 240});

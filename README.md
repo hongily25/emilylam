@@ -13,19 +13,30 @@ Project ideas
   <li>German Phonetics Flip Card Game</li>
 </ul>
 
+
+Paypal Visualizer
+==========
+
+STATUS: Can read json file. Now determining how to hook it up with Paypal API. 
+- Visual representation of paypal account
+
 Portfolio Deliverables
 =========
 
 - Responsive
 - Carousel
 - Three columns
-- Academic notes
+- Academic notes?
 - Graphic design
+- Sales page?
+- PayPal Integration?
+- I love charts! Let's add data?
 
-Nice to have
-- Dynamic app
+German Phonetics Deliverables
+=========
 
-Paypal Visualizer
-==========
+- Weekend project?
+- Should be easy enough to display phonetics table as a literal javascipt object. 
+- Maybe add some hover effects? Like a flipcard game?
 
-- Visual representation of paypal account
+
