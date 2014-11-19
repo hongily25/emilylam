@@ -13,39 +13,12 @@ google.setOnLoadCallback(drawChart);
 	
 function drawChart() {
 	
-<<<<<<< Updated upstream
-	var jsonData = new google.visualization.DataTable(
-		{
-		  "cols": [
-		        {"id":"","label":"Topping","pattern":"","type":"string"},
-		        {"id":"","label":"Slices","pattern":"","type":"number"}
-		      ],
-		  "rows": [
-		        {"c":[{"v":"Stitchy","f":null},{"v":3,"f":null}]},
-		        {"c":[{"v":"Zack","f":null},{"v":1,"f":null}]},
-		        {"c":[{"v":"Mike","f":null},{"v":1,"f":null}]},
-		        {"c":[{"v":"Phuongy","f":null},{"v":1,"f":null}]},
-		        {"c":[{"v":"YES!!","f":null},{"v":2,"f":null}]}
-		      ]
-	});
-	
-	jsonData.addColumns('string','something');
-	jsonData.addColumns('number','hey');
-	
-	//var jsonData = $.ajax({
-        //  url: "https://github.com/hongily25/emilylam/blob/master/getData.php",
-        //  dataType:"json",
-        //  async: false
-        //  }).responseText;
-=======
-	
 	var jsonData = $.ajax({
           url: "getData.php",
           dataType:"json",
           async: false
           }).responseText;
 	
->>>>>>> Stashed changes
           
       // Create our data table out of JSON data loaded from server.
       var data = new google.visualization.DataTable(jsonData);
