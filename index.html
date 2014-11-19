@@ -14,7 +14,7 @@ google.setOnLoadCallback(drawChart);
 function drawChart() {
 	
 	var jsonData = $.ajax({
-          url: "/getData.php",
+          url: "getData.php",
           dataType:"json",
           async: false
           }).responseText;
