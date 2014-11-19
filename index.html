@@ -13,6 +13,7 @@ google.setOnLoadCallback(drawChart);
 	
 function drawChart() {
 	
+<<<<<<< Updated upstream
 	var jsonData = new google.visualization.DataTable(
 		{
 		  "cols": [
@@ -36,6 +37,15 @@ function drawChart() {
         //  dataType:"json",
         //  async: false
         //  }).responseText;
+=======
+	
+	var jsonData = $.ajax({
+          url: "getData.php",
+          dataType:"json",
+          async: false
+          }).responseText;
+	
+>>>>>>> Stashed changes
           
       // Create our data table out of JSON data loaded from server.
       var data = new google.visualization.DataTable(jsonData);
