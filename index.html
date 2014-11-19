@@ -12,7 +12,7 @@ google.load("visualization", '1', {packages:['corechart']});
 google.setOnLoadCallback(drawChart);
 	
 function drawChart() {
-	/*
+
 	var jsonData = $.ajax({
           url: "getData.php",
           dataType:"json",
@@ -22,11 +22,9 @@ function drawChart() {
           
       // Create our data table out of JSON data loaded from server.
       var data = new google.visualization.DataTable(jsonData);
-      data.addColumns('string','Hello');
 
-      data.addColumns('string','Hello');
-*/
 	
+	/*
 	var data = new google.visualization.DataTable({
   "cols": [
         {"id":"","label":"Topping","pattern":"","type":"string"},
@@ -40,7 +38,7 @@ function drawChart() {
         {"c":[{"v":"YES!!","f":null},{"v":2,"f":null}]}
       ]
 });
-
+*/
 	
 	var chart = new google.visualization.AreaChart(document.getElementById('columnchart'))
 chart.draw(data, {width: 400, height: 240});
