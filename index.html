@@ -14,7 +14,7 @@ google.setOnLoadCallback(drawChart);
 function drawChart() {
 
 	var jsonData = $.ajax({
-          url: "getData.php",
+          url: "convercsv.json",
           dataType:"json",
           async: false
           }).responseText;
@@ -75,7 +75,7 @@ chart.draw(data, {width: 400, height: 240});
 	
 <div class="carousel">
 	<div id="columnchart"></div>
-
+ 
 	</div>
 	
 	
