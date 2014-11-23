@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta http-equiv="content-script-type" content="text/javascript">
 			
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -45,9 +46,6 @@
      var jsonData = $.ajax({
           url: "getData.php",
           dataType:"json",
-			 		beforeSend: function( xhr ) {
-    				xhr.overrideMimeType( "application/x-javascript; charset=x-user-defined" );
-  				},
           success: function () {	 
             alert('Hi there!');
 						var data = new google.visualization.DataTable(jsonData);
