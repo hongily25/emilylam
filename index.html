@@ -6,36 +6,72 @@
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 			
+			
+			
+			
+			
 <script type="text/javascript">
-google.load("visualization", '1', {packages:['corechart']});
-google.setOnLoadCallback(drawChart);
 	
 	
-function drawChart() {
+	/*
+	function drawChart() {                
+    $.ajax({
+        url: "getData.php",
+        type: 'POST',
+        dataType: 'json',
+        success: function (jsonData) {
+            console.log(jsonData);
+            var data = new google.visualization.DataTable(jsonData);
+
+            var chart = new google.visualization.AreaChart(document.getElementById('columnchart'));
+
+            chart.draw(data, {width: 600, height: 400, interpolateNulls:true});
+        },
+        error: function (e) {
+            alert('Not working');
+        }
+    });
+}
+
+*/
+
+	  // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+      
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
 	
 	 function drawChart() {
      var jsonData = $.ajax({
           url: "getData.php",
           dataType:"json",
-           success: function (results) {
-						 
-            alert('success');
-						 
-						 var data = new google.visualization.DataTable(jsonData);
-						 
-						 	var chart = new google.visualization.PieChart(document.getElementById('columnchart'));
-chart.draw(data, {width: 400, height: 240});
-						 
+			 		beforeSend: function( xhr ) {
+    				xhr.overrideMimeType( "application/x-javascript; charset=x-user-defined" );
+  				},
+          success: function () {	 
+            alert('Hi there!');
+						var data = new google.visualization.DataTable(jsonData);
+						
+						/*  var data = google.visualization.arrayToDataTable([
+          ['Year', 'Sales', 'Expenses'],
+          ['2013',  1000,      400],
+          ['2014',  1170,      460],
+          ['2015',  660,       1120],
+          ['2016',  1030,      540]
+        ]);
+				*/
+						
+						var chart = new google.visualization.AreaChart(document.getElementById('columnchart'));
+						chart.draw(data, {width: 400, height: 240});
 					 },
 			    error: function (e) {
             document.write("throw an error if the data pull failed");
-          });
+          }
+		 })
 		 
+		 
+		}
 	
-          
-      // Create our data table out of JSON data loaded from server.
-      
-
 	
 	/*
 	var query = new google.visualization.Query('https://docs.google.com/spreadsheet/ccc?key=0Atw2BTU52lOCdEZpUlVIdmxGOWZBR2tuLXhYN2dQTWc&usp=drive_web&gid=0#');
@@ -70,9 +106,6 @@ function handleQueryResponse(response) {
 });
 */
 
-
-	
-	}
 
 
 </script>
