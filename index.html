@@ -4,7 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 			
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 			
 <script type="text/javascript">
 google.load("visualization", '1', {packages:['corechart']});
@@ -14,9 +14,13 @@ google.setOnLoadCallback(drawChart);
 function drawChart() {
 	
 	 function drawChart() {
-      var jsonData = <?php include 'getData.php' ?> ;
+     var jsonData = $.ajax({
+          url: "getData.php",
+          dataType:"json",
+          async: false
+          }).responseText;
 		 
-		 	//console.log(jsonData);
+		 	console.log(jsonData);
           
       // Create our data table out of JSON data loaded from server.
       var data = new google.visualization.DataTable(jsonData);
@@ -56,7 +60,7 @@ function handleQueryResponse(response) {
 */
 
 	
-	var chart = new google.visualization.AreaChart(document.getElementById('columnchart'));
+	var chart = new google.visualization.PieChart(document.getElementById('columnchart'));
 chart.draw(data, {width: 400, height: 240});
 	
 	}}
