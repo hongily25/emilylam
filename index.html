@@ -25,6 +25,10 @@ function drawChart() {
 						 
 						 	var chart = new google.visualization.PieChart(document.getElementById('columnchart'));
 chart.draw(data, {width: 400, height: 240});
+						 
+					 },
+			    error: function (e) {
+            document.write("throw an error if the data pull failed");
           });
 		 
 	
@@ -68,7 +72,7 @@ function handleQueryResponse(response) {
 
 
 	
-	}}
+	}
 
 
 </script>
