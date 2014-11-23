@@ -1,0 +1,13 @@
+{
+  "cols": [
+        {"id":"","label":"Topping","pattern":"","type":"string"},
+        {"id":"","label":"Slices","pattern":"","type":"number"}
+      ],
+  "rows": [
+        {"c":[{"v":"Stitchy","f":null},{"v":3,"f":null}]},
+        {"c":[{"v":"Zack","f":null},{"v":1,"f":null}]},
+        {"c":[{"v":"Mike","f":null},{"v":1,"f":null}]},
+        {"c":[{"v":"Phuongy","f":null},{"v":1,"f":null}]},
+        {"c":[{"v":"YES!!","f":null},{"v":2,"f":null}]}
+      ]
+}
