@@ -29,7 +29,7 @@ font-family: 'Open Sans', sans-serif;
 
 .carousel {
 	display: flex;
-	height: 18em;
+	height: 20em;
 	justify-content: center;		
 	margin-top: 1em;
 	width: 100%;
