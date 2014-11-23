@@ -17,17 +17,9 @@ font-family: 'Open Sans', sans-serif;
 .masthead div {
 	width: 6em;
 	justify-content: flex-end;
-	background-color:#eee;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px; 
+
 }
 
-.masthead div a:hover {
-	width: 6em;
-	justify-content: flex-end;
-	background-color:#333;
-}
 
 .header {
   display: flex;
@@ -37,7 +29,7 @@ font-family: 'Open Sans', sans-serif;
 
 .carousel {
 	display: flex;
-	height: 10em;
+	height: 13em;
 	justify-content: center;		
 	margin-top: 1em;
 	width: 100%;
