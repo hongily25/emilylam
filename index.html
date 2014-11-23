@@ -6,25 +6,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 			
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+			
 <script type="text/javascript">
 google.load("visualization", '1', {packages:['corechart']});
 google.setOnLoadCallback(drawChart);
 	
+	
 function drawChart() {
-
-	var jsonData = $.ajax({
-          url: "convertcsv.json",
-          dataType:"json",
-          async: false
-          }).responseText;
 	
-          
-      // Create our data table out of JSON data loaded from server.
-      var data = new google.visualization.DataTable(jsonData);
-
-	
-	/*
 	var data = new google.visualization.DataTable({
   "cols": [
         {"id":"","label":"Topping","pattern":"","type":"string"},
@@ -38,7 +28,7 @@ function drawChart() {
         {"c":[{"v":"YES!!","f":null},{"v":2,"f":null}]}
       ]
 });
-*/
+
 	
 	var chart = new google.visualization.AreaChart(document.getElementById('columnchart'))
 chart.draw(data, {width: 400, height: 240});
@@ -62,7 +52,6 @@ chart.draw(data, {width: 400, height: 240});
     
 <body>
 
-
 <div class="masthead">
 	<div>About Me</div>
 	<div>My Portfolio</div>
@@ -81,7 +70,7 @@ chart.draw(data, {width: 400, height: 240});
 	
 <div class="container">
 
-	<div class="section1">THIS IS HOW I TEST THINGS! Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+	<div class="section1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
 	
 	<div class="section1">
 		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>	
