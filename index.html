@@ -17,13 +17,20 @@ function drawChart() {
      var jsonData = $.ajax({
           url: "getData.php",
           dataType:"json",
-          async: false
-          }).responseText;
+           success: function (results) {
+						 
+            alert('success');
+						 
+						 var data = new google.visualization.DataTable(jsonData);
+						 
+						 	var chart = new google.visualization.PieChart(document.getElementById('columnchart'));
+chart.draw(data, {width: 400, height: 240});
+          });
 		 
-		 	console.log(jsonData);
+	
           
       // Create our data table out of JSON data loaded from server.
-      var data = new google.visualization.DataTable(jsonData);
+      
 
 	
 	/*
@@ -59,9 +66,7 @@ function handleQueryResponse(response) {
 });
 */
 
-	
-	var chart = new google.visualization.PieChart(document.getElementById('columnchart'));
-chart.draw(data, {width: 400, height: 240});
+
 	
 	}}
 
