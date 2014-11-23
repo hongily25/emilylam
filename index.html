@@ -43,7 +43,7 @@
      var jsonData = $.ajax({
           url: "getData.php",
           dataType:"json",
-          success: function () {	 
+          success: function (results) {	 
             alert('Hi there!');
 						var data = new google.visualization.DataTable(jsonData);						
 						var chart = new google.visualization.AreaChart(document.getElementById('columnchart'));
