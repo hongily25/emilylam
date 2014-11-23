@@ -27,7 +27,7 @@ font-family: 'Open Sans', sans-serif;
 
 .carousel {
 	display: flex;
-	height: 20em;
+	height: 15em;
 	justify-content: center;		
 	margin-top: 1em;
 	width: 100%;
@@ -50,13 +50,10 @@ font-family: 'Open Sans', sans-serif;
 	justify-content: center;
 }
 
-.section1 a {
-  display: flex;
-  margin: 1em;
-  padding: 1em;
-	padding-bottom: 2em;
-  width: 33.3%;
+.sectionHeader {
+	display:flex;
 	justify-content: center;
+  font-weight: bold;
 }
 
 @media all and (max-width: 500px) {
