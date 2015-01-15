@@ -19,6 +19,13 @@ h6, .h6 {
   color: #333;
 }
 
+a, a:hover, a:visited, a:active {
+	text-decoration: none;
+}
+
+.pull-right {
+	float: right !important;
+}
 
 /*
  * Override Bootstrap's default container.
