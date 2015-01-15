@@ -8,6 +8,10 @@ html, body {
 	padding: 0;
 }
 
+a, a:visited, a:hover {
+	text-decoration: none;
+}
+
 .masthead {
 	display: flex;
 	justify-content: flex-end;
