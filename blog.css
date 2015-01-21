@@ -30,9 +30,9 @@ a, a:hover, a:visited, a:active {
     background-color: #428BCA;
     color: #EEE;
     border-color: darkgrey;
-      -webkit-box-shadow: 0 8px 6px -6px black;
-     -moz-box-shadow: 0 8px 6px -6px black;
-          box-shadow: 0 8px 6px -6px black;
+      -webkit-box-shadow: 0 7px 6px -6px #777;
+     -moz-box-shadow: 0 7px 6px -6px #777;
+          box-shadow: 0 7px 6px -6px #777;
 }
 
 
