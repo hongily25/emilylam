@@ -30,10 +30,13 @@ a, a:hover, a:visited, a:active {
     background-color: #428BCA;
     color: #EEE;
     border-color: darkgrey;
-    position: relative;
 }
 
-.panel-default > .panel-heading:before, .panel-default > .panel-heading:after {
+.panel-default {
+ position: relative;
+}
+
+.panel-default:before, .panel-default:after {
   z-index: -1;
   position: absolute;
   content: "";
@@ -53,7 +56,7 @@ a, a:hover, a:visited, a:active {
   transform: rotate(-3deg);
 }
 
-.panel-default > .panel-heading:after {
+.panel-default:after {
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
   -o-transform: rotate(3deg);
