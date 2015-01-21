@@ -95,6 +95,7 @@ a, a:hover, a:visited, a:active {
   margin-bottom: 0;
   font-size: 60px;
   font-weight: normal;
+  color:#428BCA;
 }
 .blog-description {
   font-size: 20px;
