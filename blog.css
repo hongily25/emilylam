@@ -30,6 +30,7 @@ a, a:hover, a:visited, a:active {
     background-color: #428BCA;
     color: #EEE;
     border-color: darkgrey;
+    position: relative;
 }
 
 .panel-default > .panel-heading:before, .panel-default > .panel-heading:after {
