@@ -25,9 +25,6 @@ a, a:hover, a:visited, a:active {
 	text-decoration: none;
 }
 
-.panel-default {
-    border-color: rgb(66, 139, 202);
-}
 
 .panel-default > .panel-heading {
     background-color: #428BCA;
