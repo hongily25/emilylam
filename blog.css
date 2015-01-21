@@ -25,6 +25,13 @@ a, a:hover, a:visited, a:active {
 	text-decoration: none;
 }
 
+.panel-default > .panel-heading {
+    background-color: #428BCA;
+    color: #EEE;
+    box-shadow: 2px 2px 4px 2px rgb(204, 204, 204);
+    border-color: darkolivegreen;
+}
+
 .pull-right {
 	float: right !important;
 }
