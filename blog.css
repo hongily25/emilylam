@@ -165,11 +165,16 @@ a, a:hover, a:visited, a:active {
 
 .blog-footer {
   padding: 40px 0;
-  color: #999;
+  color: #F8F8FF;
   text-align: center;
-  background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
+  background-color: #428BCA;
+  border-top: 1px solid darkgrey;
 }
+
+.blog-footer a {
+ color: #F8F8FF;
+}
+
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
