@@ -27,18 +27,7 @@ a, a:hover, a:visited, a:active {
 
 .panel-default {
     border-color: rgb(66, 139, 202);
-}
-
-.panel-default > .panel-heading {
-    background-color: #428BCA;
-    color: #EEE;
-    border-color: darkgrey;
-      	position:relative;
-}
-
-.panel-default > .panel-heading:after
-{
-  z-index: -1;
+      z-index: -1;
   position: absolute;
   content: "";
   bottom: 15px;
@@ -58,10 +47,17 @@ a, a:hover, a:visited, a:active {
   transform: rotate(3deg);
 }
 
+.panel-default > .panel-heading {
+    background-color: #428BCA;
+    color: #EEE;
+    border-color: darkgrey;
+      	position:relative;
+}
+
+
 .panel-body {
     padding: 15px;
     background-color: ghostwhite;
-    box-shadow: 1px 1px 4px 1px rgb(204, 204, 204);
 }
 
 .pull-right {
