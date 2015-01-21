@@ -32,6 +32,12 @@ a, a:hover, a:visited, a:active {
     border-color: darkolivegreen;
 }
 
+.panel-body {
+    padding: 15px;
+    background-color: ghostwhite;
+    box-shadow: 1px 1px 4px 1px rgb(204, 204, 204);
+}
+
 .pull-right {
 	float: right !important;
 }
