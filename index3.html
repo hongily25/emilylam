@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta http-equiv="content-script-type" content="text/javascript">
+			
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+			
+			
+			
+			
+			
+<script type="text/javascript">
+	
+	
+	/*
+	function drawChart() {                
+    $.ajax({
+        url: "getData.php",
+        type: 'POST',
+        dataType: 'json',
+        success: function (jsonData) {
+            console.log(jsonData);
+            var data = new google.visualization.DataTable(jsonData);
+
+            var chart = new google.visualization.AreaChart(document.getElementById('columnchart'));
+
+            chart.draw(data, {width: 600, height: 400, interpolateNulls:true});
+        },
+        error: function (e) {
+            alert('Not working');
+        }
+    });
+}
+
+*/
+
+	  // Load the Visualization API and the piechart package.
+    google.load('visualization', '1', {'packages':['corechart']});
+      
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.setOnLoadCallback(drawChart);
+	
+	/*
+	 function drawChart() {
+     var jsonData = $.ajax({
+          url: "getData.php",
+          dataType:"json",
+          success: function () {	 
+            alert('Hi there!');
+						var data = new google.visualization.DataTable(jsonData);						
+						var chart = new google.visualization.AreaChart(document.getElementById('columnchart'));
+						chart.draw(data, {width: 400, height: 240});
+					 },
+			    error: function (e) {
+            document.write("throw an error if the data pull failed");
+          }
+		 })
+		}
+		*/
+	
+		 function drawChart() {
+					var data = google.visualization.arrayToDataTable([
+          ['Year', 'Sales', 'Expenses'],
+          ['2013',  1000,      400],
+          ['2014',  1170,      460],
+          ['2015',  660,       1120],
+          ['2016',  1030,      540]
+        ]);
+			 
+			 						var chart = new google.visualization.AreaChart(document.getElementById('columnchart'));
+						chart.draw(data, {width: 400, height: 240});
+		 }
+	
+	
+	/*
+	var query = new google.visualization.Query('https://docs.google.com/spreadsheet/ccc?key=0Atw2BTU52lOCdEZpUlVIdmxGOWZBR2tuLXhYN2dQTWc&usp=drive_web&gid=0#');
+	
+	query.send(handleQueryResponse);
+	}
+
+function handleQueryResponse(response) {
+  if (response.isError()) {
+    alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+    return;
+  }
+
+	
+	var data = response.getDataTable();
+	
+	*/ 
+	
+	/*
+	var data = new google.visualization.DataTable({
+  "cols": [
+        {"id":"","label":"Topping","pattern":"","type":"string"},
+        {"id":"","label":"Slices","pattern":"","type":"number"}
+      ],
+  "rows": [
+        {"c":[{"v":"Stitchy","f":null},{"v":3,"f":null}]},
+        {"c":[{"v":"Zack","f":null},{"v":1,"f":null}]},
+        {"c":[{"v":"Mike","f":null},{"v":1,"f":null}]},
+        {"c":[{"v":"Phuongy","f":null},{"v":1,"f":null}]},
+        {"c":[{"v":"YES!!","f":null},{"v":2,"f":null}]}
+      ]
+});
+*/
+
+
+
+</script>
+			
+			
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+        <link rel="stylesheet" href="css/main.css">
+			
+			
+    </head>
+    
+<body>
+
+<div class="masthead">
+	<div>About Me</div>
+	<div>My Portfolio</div>
+	<div>Contact Me</div>
+	</div>
+      
+<div class="header">
+	<h1>Emily Lam</h1>
+</div>
+	
+<div class="carousel">
+	<div id="columnchart"></div>
+ 
+	</div>
+	
+	
+<div class="container">
+
+	<div class="section1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+	
+	<div class="section1">
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>	
+	
+	<div class="section1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+		
+</div>
+
+
+</body>
+</html>
