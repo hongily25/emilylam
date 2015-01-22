@@ -26,19 +26,16 @@ a, a:hover, a:visited, a:active {
 }
 
 
-.panel-default > .panel-heading {
+.panel {
     background-color: #428BCA;
     color: #EEE;
     border-color: darkgrey;
-    *box-shadow: -6px 0px 10px -9px #777, 6px 0px 10px -9px #777 
+    *box-shadow: -6px 0px 10px -9px #777, 6px 0px 10px -9px #777;
+     position: relative;
 }
 
 
-.panel-default {
- position: relative;
-}
-
-.panel-default:before, .panel-default:after {
+.panel:before, .panel:after {
   z-index: -1;
   position: absolute;
   content: "";
@@ -58,7 +55,7 @@ a, a:hover, a:visited, a:active {
   transform: rotate(-3deg);
 }
 
-.panel-default:after {
+.panel:after {
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
   -o-transform: rotate(3deg);
