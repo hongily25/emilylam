@@ -41,7 +41,7 @@ position: relative;
 z-index: -1;
 position: absolute;
 content: "";
-bottom: 20px;
+bottom: 10px;
 left: 10px;
 width: 50%;
 top: 80%;
