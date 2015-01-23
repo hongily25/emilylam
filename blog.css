@@ -36,12 +36,12 @@ position: relative;
 }
 
 
-.panel-default > .panel-heading:before, .panel-default:before, 
-.panel-default > .panel-heading:after, .panel-default:after {
+.panel-default:before, 
+.panel-default:after {
 z-index: -1;
 position: absolute;
 content: "";
-bottom: 10px;
+bottom: 15px;
 left: 10px;
 width: 50%;
 top: 80%;
