@@ -29,47 +29,47 @@ a, a:hover, a:visited, a:active {
 	text-decoration: none;
 }
 
-
 .panel-default > .panel-heading {
-    background-color: #428BCA;
-    color: #EEE;
-    border-color: darkgrey;
-    *box-shadow: -6px 0px 10px -9px #777, 6px 0px 10px -9px #777 
+background-color: #428BCA;
+color: #EEE;
+border-color: darkgrey;
+*box-shadow: -6px 0px 10px -9px #777, 6px 0px 10px -9px #777
 }
-
-
 .panel-default {
- position: relative;
+position: relative;
 }
 
-.panel-default:before, .panel-default:after {
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
+
+.panel-default > .panel-heading:before, .panel-default:before, 
+.panel-default > .panel-heading:after, .panel-default:after {
+z-index: -1;
+position: absolute;
+content: "";
+bottom: 15px;
+left: 10px;
+width: 50%;
+top: 80%;
+max-width:300px;
+background: #777;
+-webkit-box-shadow: 0 15px 10px #777;
+-moz-box-shadow: 0 15px 10px #777;
+box-shadow: 0 15px 10px #777;
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg);
+-o-transform: rotate(-3deg);
+-ms-transform: rotate(-3deg);
+transform: rotate(-3deg);
 }
 
-.panel-default:after {
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
-  right: 10px;
-  left: auto;
+
+.panel-default > .panel-heading:after, .panel panel-default:after {
+-webkit-transform: rotate(3deg);
+-moz-transform: rotate(3deg);
+-o-transform: rotate(3deg);
+-ms-transform: rotate(3deg);
+transform: rotate(3deg);
+right: 10px;
+left: auto;
 }
 
 
