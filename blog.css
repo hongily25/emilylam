@@ -5,12 +5,8 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
-<<<<<<< HEAD
-	background-color: #333;
-=======
   background-image: url(https://cloud.githubusercontent.com/assets/1762760/4931200/aad85e96-6573-11e4-83ac-11170fda5985.jpg);
   background-repeat: repeat;
->>>>>>> FETCH_HEAD
 }
 
 h1, .h1,
@@ -45,7 +41,7 @@ position: relative;
 z-index: -1;
 position: absolute;
 content: "";
-bottom: 15px;
+bottom: 20px;
 left: 10px;
 width: 50%;
 top: 80%;
