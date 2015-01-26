@@ -5,12 +5,8 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
-<<<<<<< HEAD
   background-image: url(https://cloud.githubusercontent.com/assets/1762760/4931200/aad85e96-6573-11e4-83ac-11170fda5985.jpg);
   background-repeat: repeat;
-=======
-	background-image: url(https://cloud.githubusercontent.com/assets/1762760/4931229/61272452-6574-11e4-92b5-6e4921224209.jpg) repeat;
->>>>>>> master
 }
 
 h1, .h1,
