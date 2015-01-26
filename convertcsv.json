@@ -1,4 +1,4 @@
-[{
+{
   "cols": [
         {"id":"","label":"Topping","pattern":"","type":"string"},
         {"id":"","label":"Slices","pattern":"","type":"number"}
@@ -10,4 +10,4 @@
         {"c":[{"v":"Phuongy","f":null},{"v":1,"f":null}]},
         {"c":[{"v":"YES!!","f":null},{"v":2,"f":null}]}
       ]
-}]
+}
