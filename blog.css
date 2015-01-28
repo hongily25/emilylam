@@ -145,11 +145,7 @@ position: relative;
   margin-bottom: 0;
   font-size: 60px;
   font-weight: normal;
-<<<<<<< HEAD
   color: #428BCA;
-=======
-  color:#428BCA;
->>>>>>> master
 }
 .blog-description {
   font-size: 20px;
@@ -179,6 +175,10 @@ position: relative;
 .sidebar-module-inset ul:last-child,
 .sidebar-module-inset ol:last-child {
   margin-bottom: 0;
+}
+
+.col-sm-3 col-sm-offset-1 blog-sidebar {
+	background-color: whitesmoke;
 }
 
 
@@ -222,6 +222,10 @@ position: relative;
   text-align: center;
   background-color: #428BCA;
   border-top: 1px solid darkgrey;
+}
+
+.blog-footer p {
+	padding: 5px;
 }
 
 .blog-footer a {
