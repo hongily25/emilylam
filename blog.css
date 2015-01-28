@@ -166,6 +166,7 @@ position: relative;
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px;
+  background-color: whitesmoke;
 }
 .sidebar-module-inset {
   padding: 15px;
@@ -175,10 +176,6 @@ position: relative;
 .sidebar-module-inset ul:last-child,
 .sidebar-module-inset ol:last-child {
   margin-bottom: 0;
-}
-
-.col-sm-3 col-sm-offset-1 blog-sidebar {
-	background-color: whitesmoke;
 }
 
 
