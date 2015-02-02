@@ -166,7 +166,7 @@ position: relative;
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px;
-  background-color: #F8F8FF;
+  background-color: gainsboro;
 }
 .sidebar-module-inset {
   padding: 15px;
