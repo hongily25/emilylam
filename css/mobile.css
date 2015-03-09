@@ -67,6 +67,9 @@ a, a:active, a:hover, a:visited {
 	padding: .3em;
 }
 
+#always div b {
+	font-family: 'Tangerine', serif;
+}
 
 }
 
