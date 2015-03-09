@@ -4,18 +4,18 @@ body{
 	margin:0;
 	padding: 0;
 	background-color: #000;
+	background: url(https://cloud.githubusercontent.com/assets/1762760/6544721/1b271388-c512-11e4-925c-63c9e8742d61.jpg) 50% 0 no-repeat fixed;
 }
 	
 #container {
-	background: url(https://cloud.githubusercontent.com/assets/1762760/6544721/1b271388-c512-11e4-925c-63c9e8742d61.jpg) 50% 0 no-repeat fixed;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	color: gray;
 	padding: .5em;
 	}
 
 div i {
 	font-family: 'Tangerine', serif;
-	font-size: 2em;
+	font-size: 1em;
 }
 
 a, a:active, a:hover, a:visited {
@@ -25,44 +25,44 @@ a, a:active, a:hover, a:visited {
 	
 #home div {
 	background-color:rgba(0,0,0,0.8);
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	padding: .1em;
 	font-family: 'Tangerine', serif;
-	font-size: 3em;
+	font-size: 1em;
 	color: firebrick;
 }
 
 #sect2 div {
 	background-color:rgba(0,0,0,0.8);
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	padding: .3em;
 	color: darkgreen;
 }
 	
 #sect4 div {
 	background-color:rgba(0,0,0,0.8);
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	padding: .3em;
 	color: goldenrod;
 }
 	
 #sect5 div {
 	background-color:rgba(0,0,0,0.8);
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	padding: .3em;
 	color: deepskyblue;
 }
 	
 #sect6 div {
 	background-color:rgba(0,0,0,0.8);
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	padding: .3em;
 	color: saddlebrown;
 }
 	
 #always div {
 	background-color:rgba(0,0,0,0.8);
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	padding: .3em;
 }
 
