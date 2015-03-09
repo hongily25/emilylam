@@ -92,7 +92,7 @@ a, a:active, a:hover, a:visited {
 /* RAVENCLAW */
 
 #sect5 { 
-	background: url(https://cloud.githubusercontent.com/assets/1762760/6544778/44986350-c514-11e4-9a55-f307ae6ee3cb.jpg) 50% 0 no-repeat fixed; 
+	background: url(https://cloud.githubusercontent.com/assets/1762760/6550277/03517198-c5e1-11e4-8392-107e65cec4ca.jpg) 50% 0 no-repeat fixed; 
 	height: 1000px;
 	margin: 0 auto; 
   width: 100%; 
@@ -106,7 +106,7 @@ a, a:active, a:hover, a:visited {
 }
 
 #sect5 div {
-	background-color:rgba(17, 41, 53, .6);
+	background-color:rgba(25, 36, 68, .6);
 	color: #FFF;
 	padding: 10px 20px;
 	margin-top: 50px;
