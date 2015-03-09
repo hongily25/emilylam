@@ -1,173 +1,71 @@
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 768px) {
 
 body{
 	margin:0;
 	padding: 0;
 	background-color: #000;
 }
+	
+#container {
+	background: url(https://cloud.githubusercontent.com/assets/1762760/6544721/1b271388-c512-11e4-925c-63c9e8742d61.jpg) 50% 0 no-repeat fixed;
+	font-size: 2.5em;
+	color: gray;
+	padding: .5em;
+	}
 
 div i {
 	font-family: 'Tangerine', serif;
-	font-size: 48px;
+	font-size: 2em;
 }
 
 a, a:active, a:hover, a:visited {
 	text-decoration:none;
 	color: gray;
 }
-
-/* GRYFFINDOR */ 
-#home { 
-
-	height: 100%; 
-	margin: 0 auto; 
-  width: 100%; 
-  max-width: 360px; 
-  position: relative; 
-	color: aliceblue;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Tangerine', serif;
-	box-shadow: 0 0 70px rgba(0,0,0,0.8);
-}
-
+	
 #home div {
 	background-color:rgba(0,0,0,0.8);
-	color: brown;
-	padding: 10px 20px;
-}
-
-/* SLYTHERIN */
-
-#sect2 { 
-
-	height: 30em;
-	margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0 0 70px rgba(0,0,0,0.8);
+	margin-bottom: 1em;
+	padding: .1em;
+	font-family: 'Tangerine', serif;
+	font-size: 3em;
+	color: firebrick;
 }
 
 #sect2 div {
-	background-color:rgba(0,0,0,0.6);
+	background-color:rgba(0,0,0,0.8);
+	margin-bottom: 1em;
+	padding: .3em;
 	color: darkgreen;
-	padding: 10px 20px;
-	max-width: 600px;
-	font-size: 22px;
-	margin-top: 50px;
 }
-
-/* HUFFLEPUFF */
-
-#sect4 { 
-
-	height: 1000px;
-	margin: 0 auto; 
-    width: 100%; 
-    max-width: 1920px; 
-    position: relative; 
-			display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0 0 70px rgba(0,0,0,0.8);
-}
-
+	
 #sect4 div {
-	background-color:rgba(24, 23, 21, 0.6);
-	color: #eee;
-	padding: 10px 20px;
-	max-width: 600px;
-	font-size: 22px;
+	background-color:rgba(0,0,0,0.8);
+	margin-bottom: 1em;
+	padding: .3em;
+	color: goldenrod;
 }
-
-/* RAVENCLAW */
-
-#sect5 { 
-
-	height: 1000px;
-	margin: 0 auto; 
-    width: 100%; 
-    max-width: 1920px; 
-    position: relative; 
-		display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0 0 70px rgba(0,0,0,0.8);
-}
-
+	
 #sect5 div {
-	background-color:rgba(17, 41, 53, .6);
-	color: #FFF;
-	padding: 10px 20px;
-	margin-top: 50px;
-	max-width: 650px;
-	font-size: 22px;
+	background-color:rgba(0,0,0,0.8);
+	margin-bottom: 1em;
+	padding: .3em;
+	color: deepskyblue;
 }
-
-/* BUCKBEAK */
-
-#sect6 { 
-
-	height: 1000px;
-	margin: 0 auto; 
-    width: 100%; 
-    max-width: 1920px; 
-    position: relative; 
-		display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0 0 70px rgba(0,0,0,0.8);
-}
-
+	
 #sect6 div {
-	background-color:rgba(17,37,50,0.75);
-	color: #FFF;
-	padding: 10px 20px;
-	margin-top: 50px;
-	max-width: 650px;
-	font-size: 22px;
+	background-color:rgba(0,0,0,0.8);
+	margin-bottom: 1em;
+	padding: .3em;
+	color: saddlebrown;
 }
-
-/* ALWAYS */
-
-#always { 
-
-	height: 1000px;
-	margin: 0 auto; 
-    width: 100%; 
-    max-width: 1920px; 
-    position: relative; 
-		display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0 0 70px rgba(0,0,0,0.8);
-}
-
-
+	
 #always div {
-	background-color:rgba(0,0,0,0.6);
-	color: #FFF;
-	padding: 10px 20px;
-	margin-top: 450px;
-	max-width: 650px;
-	font-size: 22px;
+	background-color:rgba(0,0,0,0.8);
+	margin-bottom: 1em;
+	padding: .3em;
 }
 
-#always div b {
-font-family: 'Tangerine', serif;
-	font-size: 40px;
-}
 
 }
 

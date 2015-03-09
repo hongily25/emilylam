@@ -7,6 +7,7 @@
  * 	@mohiuddinparekh   
  */
 
+if ($(window).width() > 769) {
 
 $(document).ready(function(){
 
@@ -29,3 +30,5 @@ $bgobj.css({ backgroundPosition: coords });
 
 document.createElement("article");
 document.createElement("section");
+	
+}
