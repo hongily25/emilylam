@@ -1,4 +1,4 @@
-@media only screen and (min-width: 361px) {
+@media only screen and (max-width: 360px) {
 
 body{
 	margin:0;
@@ -18,14 +18,13 @@ a, a:active, a:hover, a:visited {
 
 /* GRYFFINDOR */ 
 #home { 
-	background: url(https://cloud.githubusercontent.com/assets/1762760/6544721/1b271388-c512-11e4-925c-63c9e8742d61.jpg) 50% 0 no-repeat fixed; 
-	height: 1000px;  
+
+	height: 100%; 
 	margin: 0 auto; 
   width: 100%; 
-  max-width: 1920px; 
+  max-width: 360px; 
   position: relative; 
 	color: aliceblue;
-	font-size: 72px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -43,8 +42,8 @@ a, a:active, a:hover, a:visited {
 /* SLYTHERIN */
 
 #sect2 { 
-	background: url(https://cloud.githubusercontent.com/assets/1762760/6544731/3fe8c2c0-c512-11e4-9272-88116d9250f7.jpg) 100% 0 no-repeat fixed; 
-	height: 1000px;
+
+	height: 30em;
 	margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
@@ -68,7 +67,7 @@ a, a:active, a:hover, a:visited {
 /* HUFFLEPUFF */
 
 #sect4 { 
-	background: url(https://cloud.githubusercontent.com/assets/1762760/6544734/75039ee4-c512-11e4-8f90-ff426ad08986.jpg) 50% 0 no-repeat fixed; 
+
 	height: 1000px;
 	margin: 0 auto; 
     width: 100%; 
@@ -92,13 +91,13 @@ a, a:active, a:hover, a:visited {
 /* RAVENCLAW */
 
 #sect5 { 
-	background: url(https://cloud.githubusercontent.com/assets/1762760/6544778/44986350-c514-11e4-9a55-f307ae6ee3cb.jpg) 50% 0 no-repeat fixed; 
+
 	height: 1000px;
 	margin: 0 auto; 
-  width: 100%; 
-  position: relative; 
-	
-	display: flex;
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+		display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
@@ -117,7 +116,7 @@ a, a:active, a:hover, a:visited {
 /* BUCKBEAK */
 
 #sect6 { 
-	background: url(https://cloud.githubusercontent.com/assets/1762760/6544784/90cdb98c-c514-11e4-8973-878cbbdfa0ce.jpg) 50% 0 no-repeat fixed; 
+
 	height: 1000px;
 	margin: 0 auto; 
     width: 100%; 
@@ -142,7 +141,7 @@ a, a:active, a:hover, a:visited {
 /* ALWAYS */
 
 #always { 
-	background: url(https://cloud.githubusercontent.com/assets/1762760/6544786/a5b9c494-c514-11e4-90bd-356cd5a43c4d.jpg) 50% 0 no-repeat fixed; 
+
 	height: 1000px;
 	margin: 0 auto; 
     width: 100%; 
