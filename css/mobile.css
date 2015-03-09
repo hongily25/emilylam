@@ -6,17 +6,18 @@ body{
 	background-color: #000;
 	background: url(https://cloud.githubusercontent.com/assets/1762760/6544721/1b271388-c512-11e4-925c-63c9e8742d61.jpg) 50% 0 no-repeat fixed;
 	background-attachment: fixed;
+	background-size: cover;
 }
 	
 #container {
 	font-size: 1.5em;
 	color: gray;
-	padding: .5em;
+	padding: .5em .7em;
 	}
 
 div i {
 	font-family: 'Tangerine', serif;
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 a, a:active, a:hover, a:visited {
@@ -29,7 +30,7 @@ a, a:active, a:hover, a:visited {
 	margin-bottom: .5em;
 	padding: .1em;
 	font-family: 'Tangerine', serif;
-	font-size: 1em;
+	font-size: 1.3em;
 	color: firebrick;
 }
 
