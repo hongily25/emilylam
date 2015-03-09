@@ -9,7 +9,7 @@ body{
 	margin:0;
 	padding: 0;
 	background-color: #000;
-	background: url(https://cloud.githubusercontent.com/assets/1762760/6544721/1b271388-c512-11e4-925c-63c9e8742d61.jpg) 50% 0 no-repeat fixed;
+	background: #000 url(https://cloud.githubusercontent.com/assets/1762760/6544721/1b271388-c512-11e4-925c-63c9e8742d61.jpg) 50% 0 no-repeat fixed;
 	background-attachment: fixed;
 	background-size: cover;
 	min-height:100%;
@@ -23,7 +23,7 @@ body{
 
 div i {
 	font-family: 'Tangerine', serif;
-	font-size: 1.7em;
+	font-size: 1.8em;
 }
 
 a, a:active, a:hover, a:visited {
@@ -31,13 +31,25 @@ a, a:active, a:hover, a:visited {
 	color: gray;
 }
 	
+#home {
+
+}
+	
 #home div {
 	background-color:rgba(0,0,0,0.8);
 	margin-bottom: .5em;
 	padding: .1em;
-	font-family: 'Tangerine', serif;
-	font-size: 1.8em;
 	color: firebrick;
+		display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+	
+#home div i {
+	font-family: 'Tangerine', serif;
+	font-size: 2.2em;
 }
 
 #sect2 div {
