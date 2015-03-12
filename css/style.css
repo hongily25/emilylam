@@ -33,7 +33,7 @@ a, a:active, a:hover, a:visited {
 }
 
 #home div {
-	background-color:rgba(0,0,0,0.8);
+	/*background-color:rgba(0,0,0,0.8);*/
 	color: brown;
 	padding: 10px 20px;
 	margin-top: 5em;
@@ -42,7 +42,7 @@ a, a:active, a:hover, a:visited {
 	
 #home div i {
 	font-size: 10em;
-	box-shadow: 0 0 70px rgba(0,0,0,0.8);
+	text-shadow: 0 0 70px rgba(0,0,0,0.8);
 }
 
 /* SLYTHERIN */
