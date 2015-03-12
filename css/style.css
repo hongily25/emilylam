@@ -32,11 +32,11 @@ a, a:active, a:hover, a:visited {
 }
 
 #home div {
-	/*background-color:rgba(0,0,0,0.8);  rgb(224, 155, 114);*/
-	color: rgb(171, 126, 95);
+	background-color:rgba(253, 235, 140, 0.3);
+	color: rgb(105, 3, 3);
 	padding: 10px 20px;
 	margin-top: 5em;
-	
+	border-radius: 3em;
 }
 	
 #home div i {
