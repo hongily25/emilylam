@@ -30,7 +30,6 @@ a, a:active, a:hover, a:visited {
 	justify-content: center;
 	align-items: flex-start;
 	font-family: 'Tangerine', serif;
-	box-shadow: 0 0 70px rgba(0,0,0,0.8);
 }
 
 #home div {
@@ -43,6 +42,7 @@ a, a:active, a:hover, a:visited {
 	
 #home div i {
 	font-size: 10em;
+	box-shadow: 0 0 70px rgba(0,0,0,0.8);
 }
 
 /* SLYTHERIN */
