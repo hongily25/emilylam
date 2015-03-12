@@ -25,11 +25,10 @@ a, a:active, a:hover, a:visited {
   max-width: 1920px; 
   position: relative; 
 	color: aliceblue;
-	font-size: 72px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	font-family: 'Tangerine', serif;
 	box-shadow: 0 0 70px rgba(0,0,0,0.8);
 }
@@ -38,6 +37,12 @@ a, a:active, a:hover, a:visited {
 	background-color:rgba(0,0,0,0.8);
 	color: brown;
 	padding: 10px 20px;
+	margin-top: 5em;
+	
+}
+	
+#home div i {
+	font-size: 10em;
 }
 
 /* SLYTHERIN */
