@@ -38,6 +38,7 @@ a, a:active, a:hover, a:visited {
 	background-color: rgba(0,0,0,0.5);
 	padding: 10px 20px;
 	margin-top: 5em;
+	align-self: center;
 }
 	
 	#home .main i {
