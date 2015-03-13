@@ -13,7 +13,7 @@ div i {
 
 a, a:active, a:hover, a:visited {
 	text-decoration:none;
-	color: firebrick;
+	color: rgb(195, 146, 56);
 }
 
 /* GRYFFINDOR */ 
@@ -29,11 +29,13 @@ a, a:active, a:hover, a:visited {
 	justify-content: flex-start;
 	align-items: center;
 	box-shadow: 0 0 70px rgba(0,0,0,0.8);
+	/* background-color: rgba(152,4,4,0.4); */
+	color: firebrick;
 }
 
 #home .main {
-	background-color: rgba(152,4,4,0.4);
-	color: rgb(245, 240, 156);
+	/*color: rgb(245, 240, 156);*/
+	background-color: rgba(0,0,0,0.5);
 	padding: 10px 20px;
 	margin-top: 5em;
 }
@@ -43,8 +45,7 @@ a, a:active, a:hover, a:visited {
 }
 	
 #home .test {
-	background-color: rgba(152,4,4,0.4);
-	color: rgb(245, 240, 156);
+	background-color: rgba(0,0,0,0.5);
 	font-family: sans-serif;
 	padding: 10px 20px;
 	max-width: 600px;
