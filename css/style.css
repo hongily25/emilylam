@@ -132,32 +132,6 @@ a, a:active, a:hover, a:visited {
 	margin-top: 10em;
 }
 
-/* BUCKBEAK */
-
-#sect6 { 
-	background: url(https://cloud.githubusercontent.com/assets/1762760/6544784/90cdb98c-c514-11e4-8973-878cbbdfa0ce.jpg) 50% 0 no-repeat fixed; 
-	height: 900px;
-	margin: 0 auto; 
-    width: 100%; 
-    max-width: 1920px; 
-    position: relative; 
-		display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: flex-start;
-	box-shadow: 0 0 70px rgba(0,0,0,0.8);
-}
-
-#sect6 div {
-	background-color:rgba(17,37,50,0.75);
-	color: #FFF;
-	padding: 10px 20px;
-	margin-top: 13em;
-	max-width: 650px;
-	font-size: 22px;
-	
-}
-
 /* ALWAYS */
 
 #always { 
