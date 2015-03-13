@@ -7,42 +7,52 @@ body{
 }
 
 div i {
-	font-family: 'Tangerine', serif;
+	font-family: 'Tangerine', sans-serif;
 	font-size: 48px;
 }
 
 a, a:active, a:hover, a:visited {
 	text-decoration:none;
-	color: gray;
+	color: firebrick;
 }
 
 /* GRYFFINDOR */ 
 #home { 
 	background: url(https://cloud.githubusercontent.com/assets/1762760/6544721/1b271388-c512-11e4-925c-63c9e8742d61.jpg) 50% 0 no-repeat fixed; 
-	height: 1000px;  
+	height: 1000px;
 	margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
   position: relative; 
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: flex-start;
-	font-family: 'Tangerine', serif;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	box-shadow: 0 0 70px rgba(0,0,0,0.8);
 }
 
-#home div {
-	background-color:rgba(253, 235, 140, 0.3);
-	color: rgb(105, 3, 3);
+#home .main {
+	background-color: rgba(152,4,4,0.4);
+	color: rgb(245, 240, 156);
 	padding: 10px 20px;
 	margin-top: 5em;
-	border-radius: 3em;
 }
 	
-#home div i {
+	#home .main i {
 	font-size: 10em;
-	text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 }
+	
+#home .test {
+	background-color: rgba(152,4,4,0.4);
+	color: rgb(245, 240, 156);
+	font-family: sans-serif;
+	padding: 10px 20px;
+	max-width: 600px;
+	font-size: 22px;
+	position: relative;
+	margin-top: 6em;
+}
+
 
 /* SLYTHERIN */
 
@@ -125,7 +135,7 @@ a, a:active, a:hover, a:visited {
 
 #sect6 { 
 	background: url(https://cloud.githubusercontent.com/assets/1762760/6544784/90cdb98c-c514-11e4-8973-878cbbdfa0ce.jpg) 50% 0 no-repeat fixed; 
-	height: 1000px;
+	height: 900px;
 	margin: 0 auto; 
     width: 100%; 
     max-width: 1920px; 
@@ -151,12 +161,12 @@ a, a:active, a:hover, a:visited {
 
 #always { 
 	background: url(https://cloud.githubusercontent.com/assets/1762760/6544786/a5b9c494-c514-11e4-90bd-356cd5a43c4d.jpg) 50% 0 no-repeat fixed; 
-	height: 1000px;
+	height: 1250px;
 	margin: 0 auto; 
-    width: 100%; 
-    max-width: 1920px; 
-    position: relative; 
-		display: flex;
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
@@ -168,7 +178,7 @@ a, a:active, a:hover, a:visited {
 	background-color:rgba(0,0,0,0.6);
 	color: #FFF;
 	padding: 10px 20px;
-	margin-top: 450px;
+	margin-top: 35em;
 	max-width: 650px;
 	font-size: 22px;
 }
