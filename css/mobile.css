@@ -39,7 +39,7 @@ a, a:active, a:hover, a:visited {
 	background-color:rgba(0,0,0,0.8);
 	margin-bottom: .5em;
 	padding: .1em;
-	color: saddlebrown;
+	color: firebrick;
 		display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
