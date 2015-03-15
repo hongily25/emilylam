@@ -13,7 +13,18 @@
 
 <!-- JS Code -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript">$(window).width()>769&&($(document).ready(function(){var e=$(window);$('section[data-type="background"]').each(function(){var n=$(this);$(window).scroll(function(){var t=-(e.scrollTop()/n.data("speed")),o="50% "+t+"px";n.css({backgroundPosition:o})})})}),document.createElement("article"),document.createElement("section"));</script>
+<script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "js/script.min.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
 </head>
 
 <body>
