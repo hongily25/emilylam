@@ -28,7 +28,7 @@ div i {
 
 a, a:active, a:hover, a:visited {
 	text-decoration:none;
-	color: gray;
+	color: rgb(195, 146, 56);
 }
 	
 #home {
@@ -73,12 +73,6 @@ a, a:active, a:hover, a:visited {
 	color: rgb(56, 107, 187);
 }
 	
-#sect6 div {
-	background-color:rgba(0,0,0,0.8);
-	margin-bottom: .5em;
-	padding: .3em;
-	color: firebrick;
-}
 	
 #always div {
 	background-color:rgba(0,0,0,0.8);
