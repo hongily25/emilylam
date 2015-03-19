@@ -1,34 +1,32 @@
-/**
- * Parallax Scrolling Tutorial
- * For NetTuts+
- *  
- * Author: Mohiuddin Parekh
- *	http://www.mohi.me
- * 	@mohiuddinparekh   
- */
+
 
 if ($(window).width() > 769) {
 
-$(document).ready(function(){
+	$(document).ready(function () {
 
-var $window = $(window); 
+		var $window = $(window);
 
-$('section[data-type="background"]').each(function(){
-var $bgobj = $(this); // assigning the object
-$(window).scroll(function() {
-var yPos = -($window.scrollTop() / $bgobj.data('speed'));
-// Put together our final background position
-var coords = '50% '+ yPos + 'px';
-// Move the background
-$bgobj.css({ backgroundPosition: coords });
-});
-});
-});
-/* 
- * Create HTML5 elements for IE's sake
- */
+		$('section[data-type="background"]').each(function () {
+			var $bgobj = $(this); // assigning the object
+			$(window).scroll(function () {
+				var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+				// Put together our final background position
+				var coords = '50% ' + yPos + 'px';
+				// Move the background
+				$bgobj.css({
+					backgroundPosition: coords
+				});
+			});
+		});
+	});
+	/* 
+	 * Create HTML5 elements for IE's sake
+	 */
 
-document.createElement("article");
-document.createElement("section");
-	
+	document.createElement("article");
+	document.createElement("section");
+
+
+
+
 }

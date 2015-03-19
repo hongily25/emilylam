@@ -53,6 +53,7 @@ a, a:active, a:hover, a:visited {
 	font-size: 22px;
 	position: relative;
 	margin-top: 6em;
+	/*margin-left: -100em;*/
 }
 
 
