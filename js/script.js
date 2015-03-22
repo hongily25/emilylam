@@ -16,7 +16,9 @@ if ($(window).width() > 769) {
 				$bgobj.css({
 					backgroundPosition: coords
 				});
+				
 			});
+
 		});
 	});
 	/* 

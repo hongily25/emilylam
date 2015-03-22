@@ -67,22 +67,23 @@ a, a:active, a:hover, a:visited {
   max-width: 1920px; 
   position: relative; 
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: flex-start;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: center;
 	box-shadow: 0 0 70px rgba(0,0,0,0.8);
 }
 
-#sect2 div {
+.slytherin {
+	align-self: center;
 	background-color:rgba(0,0,0,0.6);
 	color: darkgreen;
 	padding: 10px 20px;
 	max-width: 600px;
 	font-size: 22px;
 	margin-top: 17em;
-	
+	position: relative;
 }
-
+	
 /* HUFFLEPUFF */
 
 #sect4 { 
@@ -131,7 +132,7 @@ a, a:active, a:hover, a:visited {
 	margin-top: 50px;
 	max-width: 650px;
 	font-size: 22px;
-	margin-top: 10em;
+	margin-top: 12em;
 }
 
 /* ALWAYS */
