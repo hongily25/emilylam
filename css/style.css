@@ -45,7 +45,7 @@ a, a:active, a:hover, a:visited {
 	font-size: 10em;
 }
 	
-#home #test {
+#home .test {
 	background-color: rgba(0,0,0,0.5);
 	font-family: sans-serif;
 	padding: 10px 20px;
