@@ -6,8 +6,7 @@ Project ideas
 
     Paypal visualizer
     Portfolio
-    Laundry detector
-    German Phonetics Flip Card Game
+    Laundry detector 
 
 Paypal Visualizer
 
