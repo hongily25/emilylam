@@ -1,0 +1,4802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="bootstrap-3.0.3%25203/docs-assets/ico/favicon.png">
+
+	<title>Carousel Template for Bootstrap</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="bootstrap-3.0.3%203/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<!-- Custom styles for this template -->
+	<link href="css/carousel.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/chosen.css">
+
+
+
+</head>
+<!-- NAVBAR
+================================================== -->
+
+<body>
+	<div class="navbar-wrapper">
+		<div class="container">
+
+			<!--<nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header ">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Travel. Date. Discover. </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse pull-right">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+								<li><a href="#">Pricing</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Ebook covers</a></li>
+                    <li><a href="#">Websites</a></li>
+                    <li><a href="#">Miscellaneous</a></li>
+                    <!--<li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li> 
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav> -->
+
+		</div>
+	</div>
+
+
+
+
+
+	<!-- Marketing messaging and featurettes
+    ================================================== -->
+	<!-- Wrap the rest of the page in another container to center all the content. -->
+
+	<div class="container marketing">
+
+		<div class="row">
+			<div class="col-lg-12">
+
+
+				<a href="travel-index.html"><img src="images/travel.png" style="width:226px;height:127px;">
+				</a>
+
+				<div>
+					<h1 class="text-center">Calendar</h1>
+				</div>
+
+				<div>
+
+					<h3 class="text-center">I am visiting...</h3>
+
+					<table style="margin-left:auto;margin-right:auto">
+						<tr>
+							<td>
+
+
+								<div class="chosen-container" style="margin-left:auto;margin-right:auto">
+									<select data-placeholder="Choose a Country..." class="chosen-select" style="width:350px;margin-left:auto;margin-right:auto" tabindex="2">
+
+										<option value="">Choose a country</option>
+
+										<option value="United States">
+											United States
+										</option>
+										<option value="United Kingdom">United Kingdom</option>
+										<option value="Afghanistan">Afghanistan</option>
+										<option value="Aland Islands">Aland Islands</option>
+										<option value="Albania">Albania</option>
+										<option value="Algeria">Algeria</option>
+										<option value="American Samoa">American Samoa</option>
+										<option value="Andorra">Andorra</option>
+										<option value="Angola">Angola</option>
+										<option value="Anguilla">Anguilla</option>
+										<option value="Antarctica">Antarctica</option>
+										<option value="Antigua and Barbuda">Antigua and Barbuda</option>
+										<option value="Argentina">Argentina</option>
+										<option value="Armenia">Armenia</option>
+										<option value="Aruba">Aruba</option>
+										<option value="Australia">Australia</option>
+										<option value="Austria">Austria</option>
+										<option value="Azerbaijan">Azerbaijan</option>
+										<option value="Bahamas">Bahamas</option>
+										<option value="Bahrain">Bahrain</option>
+										<option value="Bangladesh">Bangladesh</option>
+										<option value="Barbados">Barbados</option>
+										<option value="Belarus">Belarus</option>
+										<option value="Belgium">Belgium</option>
+										<option value="Belize">Belize</option>
+										<option value="Benin">Benin</option>
+										<option value="Bermuda">Bermuda</option>
+										<option value="Bhutan">Bhutan</option>
+										<option value="Bolivia, Plurinational State of">Bolivia, Plurinational State of</option>
+										<option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint Eustatius and Saba</option>
+										<option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+										<option value="Botswana">Botswana</option>
+										<option value="Bouvet Island">Bouvet Island</option>
+										<option value="Brazil">Brazil</option>
+										<option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+										<option value="Brunei Darussalam">Brunei Darussalam</option>
+										<option value="Bulgaria">Bulgaria</option>
+										<option value="Burkina Faso">Burkina Faso</option>
+										<option value="Burundi">Burundi</option>
+										<option value="Cambodia">Cambodia</option>
+										<option value="Cameroon">Cameroon</option>
+										<option value="Canada">Canada</option>
+										<option value="Cape Verde">Cape Verde</option>
+										<option value="Cayman Islands">Cayman Islands</option>
+										<option value="Central African Republic">Central African Republic</option>
+										<option value="Chad">Chad</option>
+										<option value="Chile">Chile</option>
+										<option value="China">China</option>
+										<option value="Christmas Island">Christmas Island</option>
+										<option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+										<option value="Colombia">Colombia</option>
+										<option value="Comoros">Comoros</option>
+										<option value="Congo">Congo</option>
+										<option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+										<option value="Cook Islands">Cook Islands</option>
+										<option value="Costa Rica">Costa Rica</option>
+										<option value="Cote D&apos;ivoire">Cote D'ivoire</option>
+										<option value="Croatia">Croatia</option>
+										<option value="Cuba">Cuba</option>
+										<option value="Curacao">Curacao</option>
+										<option value="Cyprus">Cyprus</option>
+										<option value="Czech Republic">Czech Republic</option>
+										<option value="Denmark">Denmark</option>
+										<option value="Djibouti">Djibouti</option>
+										<option value="Dominica">Dominica</option>
+										<option value="Dominican Republic">Dominican Republic</option>
+										<option value="Ecuador">Ecuador</option>
+										<option value="Egypt">Egypt</option>
+										<option value="El Salvador">El Salvador</option>
+										<option value="Equatorial Guinea">Equatorial Guinea</option>
+										<option value="Eritrea">Eritrea</option>
+										<option value="Estonia">Estonia</option>
+										<option value="Ethiopia">Ethiopia</option>
+										<option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+										<option value="Faroe Islands">Faroe Islands</option>
+										<option value="Fiji">Fiji</option>
+										<option value="Finland">Finland</option>
+										<option value="France">France</option>
+										<option value="French Guiana">French Guiana</option>
+										<option value="French Polynesia">French Polynesia</option>
+										<option value="French Southern Territories">French Southern Territories</option>
+										<option value="Gabon">Gabon</option>
+										<option value="Gambia">Gambia</option>
+										<option value="Georgia">Georgia</option>
+										<option value="Germany">Germany</option>
+										<option value="Ghana">Ghana</option>
+										<option value="Gibraltar">Gibraltar</option>
+										<option value="Greece">Greece</option>
+										<option value="Greenland">Greenland</option>
+										<option value="Grenada">Grenada</option>
+										<option value="Guadeloupe">Guadeloupe</option>
+										<option value="Guam">Guam</option>
+										<option value="Guatemala">Guatemala</option>
+										<option value="Guernsey">Guernsey</option>
+										<option value="Guinea">Guinea</option>
+										<option value="Guinea-bissau">Guinea-bissau</option>
+										<option value="Guyana">Guyana</option>
+										<option value="Haiti">Haiti</option>
+										<option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+										<option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+										<option value="Honduras">Honduras</option>
+										<option value="Hong Kong">Hong Kong</option>
+										<option value="Hungary">Hungary</option>
+										<option value="Iceland">Iceland</option>
+										<option value="India">India</option>
+										<option value="Indonesia">Indonesia</option>
+										<option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+										<option value="Iraq">Iraq</option>
+										<option value="Ireland">Ireland</option>
+										<option value="Isle of Man">Isle of Man</option>
+										<option value="Israel">Israel</option>
+										<option value="Italy">Italy</option>
+										<option value="Jamaica">Jamaica</option>
+										<option value="Japan">Japan</option>
+										<option value="Jersey">Jersey</option>
+										<option value="Jordan">Jordan</option>
+										<option value="Kazakhstan">Kazakhstan</option>
+										<option value="Kenya">Kenya</option>
+										<option value="Kiribati">Kiribati</option>
+										<option value="Korea, Democratic People&apos;s Republic of">Korea, Democratic People's Republic of</option>
+										<option value="Korea, Republic of">Korea, Republic of</option>
+										<option value="Kuwait">Kuwait</option>
+										<option value="Kyrgyzstan">Kyrgyzstan</option>
+										<option value="Lao People&apos;s Democratic Republic">Lao People's Democratic Republic</option>
+										<option value="Latvia">Latvia</option>
+										<option value="Lebanon">Lebanon</option>
+										<option value="Lesotho">Lesotho</option>
+										<option value="Liberia">Liberia</option>
+										<option value="Libya">Libya</option>
+										<option value="Liechtenstein">Liechtenstein</option>
+										<option value="Lithuania">Lithuania</option>
+										<option value="Luxembourg">Luxembourg</option>
+										<option value="Macao">Macao</option>
+										<option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+										<option value="Madagascar">Madagascar</option>
+										<option value="Malawi">Malawi</option>
+										<option value="Malaysia">Malaysia</option>
+										<option value="Maldives">Maldives</option>
+										<option value="Mali">Mali</option>
+										<option value="Malta">Malta</option>
+										<option value="Marshall Islands">Marshall Islands</option>
+										<option value="Martinique">Martinique</option>
+										<option value="Mauritania">Mauritania</option>
+										<option value="Mauritius">Mauritius</option>
+										<option value="Mayotte">Mayotte</option>
+										<option value="Mexico">Mexico</option>
+										<option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+										<option value="Moldova, Republic of">Moldova, Republic of</option>
+										<option value="Monaco">Monaco</option>
+										<option value="Mongolia">Mongolia</option>
+										<option value="Montenegro">Montenegro</option>
+										<option value="Montserrat">Montserrat</option>
+										<option value="Morocco">Morocco</option>
+										<option value="Mozambique">Mozambique</option>
+										<option value="Myanmar">Myanmar</option>
+										<option value="Namibia">Namibia</option>
+										<option value="Nauru">Nauru</option>
+										<option value="Nepal">Nepal</option>
+										<option value="Netherlands">Netherlands</option>
+										<option value="New Caledonia">New Caledonia</option>
+										<option value="New Zealand">New Zealand</option>
+										<option value="Nicaragua">Nicaragua</option>
+										<option value="Niger">Niger</option>
+										<option value="Nigeria">Nigeria</option>
+										<option value="Niue">Niue</option>
+										<option value="Norfolk Island">Norfolk Island</option>
+										<option value="Northern Mariana Islands">Northern Mariana Islands</option>
+										<option value="Norway">Norway</option>
+										<option value="Oman">Oman</option>
+										<option value="Pakistan">Pakistan</option>
+										<option value="Palau">Palau</option>
+										<option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+										<option value="Panama">Panama</option>
+										<option value="Papua New Guinea">Papua New Guinea</option>
+										<option value="Paraguay">Paraguay</option>
+										<option value="Peru">Peru</option>
+										<option value="Philippines">Philippines</option>
+										<option value="Pitcairn">Pitcairn</option>
+										<option value="Poland">Poland</option>
+										<option value="Portugal">Portugal</option>
+										<option value="Puerto Rico">Puerto Rico</option>
+										<option value="Qatar">Qatar</option>
+										<option value="Reunion">Reunion</option>
+										<option value="Romania">Romania</option>
+										<option value="Russian Federation">Russian Federation</option>
+										<option value="Rwanda">Rwanda</option>
+										<option value="Saint Barthelemy">Saint Barthelemy</option>
+										<option value="Saint Helena, Ascension and Tristan da Cunha">Saint Helena, Ascension and Tristan da Cunha</option>
+										<option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+										<option value="Saint Lucia">Saint Lucia</option>
+										<option value="Saint Martin (French part)">Saint Martin (French part)</option>
+										<option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+										<option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+										<option value="Samoa">Samoa</option>
+										<option value="San Marino">San Marino</option>
+										<option value="Sao Tome and Principe">Sao Tome and Principe</option>
+										<option value="Saudi Arabia">Saudi Arabia</option>
+										<option value="Senegal">Senegal</option>
+										<option value="Serbia">Serbia</option>
+										<option value="Seychelles">Seychelles</option>
+										<option value="Sierra Leone">Sierra Leone</option>
+										<option value="Singapore">Singapore</option>
+										<option value="Sint Maarten (Dutch part)">Sint Maarten (Dutch part)</option>
+										<option value="Slovakia">Slovakia</option>
+										<option value="Slovenia">Slovenia</option>
+										<option value="Solomon Islands">Solomon Islands</option>
+										<option value="Somalia">Somalia</option>
+										<option value="South Africa">South Africa</option>
+										<option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+										<option value="South Sudan">South Sudan</option>
+										<option value="Spain">Spain</option>
+										<option value="Sri Lanka">Sri Lanka</option>
+										<option value="Sudan">Sudan</option>
+										<option value="Suriname">Suriname</option>
+										<option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+										<option value="Swaziland">Swaziland</option>
+										<option value="Sweden">Sweden</option>
+										<option value="Switzerland">Switzerland</option>
+										<option value="Syrian Arab Republic">Syrian Arab Republic</option>
+										<option value="Taiwan, Province of China">Taiwan, Province of China</option>
+										<option value="Tajikistan">Tajikistan</option>
+										<option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+										<option value="Thailand">Thailand</option>
+										<option value="Timor-leste">Timor-leste</option>
+										<option value="Togo">Togo</option>
+										<option value="Tokelau">Tokelau</option>
+										<option value="Tonga">Tonga</option>
+										<option value="Trinidad and Tobago">Trinidad and Tobago</option>
+										<option value="Tunisia">Tunisia</option>
+										<option value="Turkey">Turkey</option>
+										<option value="Turkmenistan">Turkmenistan</option>
+										<option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+										<option value="Tuvalu">Tuvalu</option>
+										<option value="Uganda">Uganda</option>
+										<option value="Ukraine">Ukraine</option>
+										<option value="United Arab Emirates">United Arab Emirates</option>
+										<option value="United Kingdom">United Kingdom</option>
+										<option value="United States">United States</option>
+										<option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+										<option value="Uruguay">Uruguay</option>
+										<option value="Uzbekistan">Uzbekistan</option>
+										<option value="Vanuatu">Vanuatu</option>
+										<option value="Venezuela, Bolivarian Republic of">Venezuela, Bolivarian Republic of</option>
+										<option value="Viet Nam">Viet Nam</option>
+										<option value="Virgin Islands, British">Virgin Islands, British</option>
+										<option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+										<option value="Wallis and Futuna">Wallis and Futuna</option>
+										<option value="Western Sahara">Western Sahara</option>
+										<option value="Yemen">Yemen</option>
+										<option value="Zambia">Zambia</option>
+										<option value="Zimbabwe">Zimbabwe</option>
+									</select>
+
+								</div>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<div class="chosen-container" style="margin-left:auto;margin-right:auto;margin-top:15px">
+									<select data-placeholder="Type in a city..." class="chosen-select" style="width:350px;margin-left:auto;margin-right:auto" tabindex="2">
+
+										<option value="">Type in a state/region/province
+										</option>
+
+										<option>Aakkr</option>
+<option>Aargau</option>
+<option>Abashis Raioni</option>
+<option>Aberdeen City</option>
+<option>Aberdeenshire</option>
+<option>Abia</option>
+<option>Abkhazia</option>
+<option>Abra</option>
+<option>Abruzzi</option>
+<option>Abseron</option>
+<option>Abu Dhabi</option>
+<option>Abyan</option>
+<option>Aceh</option>
+<option>Acklins and Crooked Islands</option>
+<option>Acquaviva</option>
+<option>Acre</option>
+<option>Ad Dakhiliyah</option>
+<option>Ad Dali</option>
+<option>Ad Daqahliyah</option>
+<option>Ad Dawhah</option>
+<option>Adamaoua</option>
+<option>Adamawa</option>
+<option>Adan</option>
+<option>Adana</option>
+<option>Adigenis Raioni</option>
+<option>Adis Abeba</option>
+<option>Adiyaman</option>
+<option>Adjumani</option>
+<option>Adrar</option>
+<option>Adrar</option>
+<option>Adygeya, Republic of</option>
+<option>Aerodrom</option>
+<option>Afar</option>
+<option>Afyonkarahisar</option>
+<option>Agadez</option>
+<option>Agalega Islands</option>
+<option>Agcabadi</option>
+<option>Agdam</option>
+<option>Agdas</option>
+<option>Aginsky Buryatsky AO</option>
+<option>Agneby</option>
+<option>Agri</option>
+<option>Agstafa</option>
+<option>Agsu</option>
+<option>Aguascalientes</option>
+<option>Agusan del Norte</option>
+<option>Agusan del Sur</option>
+<option>Ahal</option>
+<option>Ahuachapan</option>
+<option>Aiana</option>
+<option>Aichi</option>
+<option>Aiga-i-le-Tai</option>
+<option>Ain Defla</option>
+<option>Ain Temouchent</option>
+<option>Aisen del General Carlos Ibanez del Campo</option>
+<option>Aitolia kai Akarnania</option>
+<option>Aiwo</option>
+<option>Aizkraukles</option>
+<option>Ajaria</option>
+<option>Ajdabiya</option>
+<option>Ajdovscina Commune</option>
+<option>Ajlun</option>
+<option>Ajman</option>
+<option>Akershus</option>
+<option>Akhaia</option>
+<option>Akhalgoris Raioni</option>
+<option>Akhalk'alak'is Raioni</option>
+<option>Akhalts'ikhis Raioni</option>
+<option>Akhmetis Raioni</option>
+<option>Akita</option>
+<option>Aklan</option>
+<option>Aksaray</option>
+<option>Akwa Ibom</option>
+<option>Al Ahmadi</option>
+<option>Al Anbar</option>
+<option>Al Aqabah</option>
+<option>Al Asimah</option>
+<option>Al Aziziyah</option>
+<option>Al Bahah</option>
+<option>Al Bahr al Ahmar</option>
+<option>Al Balqa'</option>
+<option>Al Basrah</option>
+<option>Al Batinah</option>
+<option>Al Bayda'</option>
+<option>Al Bayda'</option>
+<option>Al Buhayrah</option>
+<option>Al Farwaniyah</option>
+<option>Al Fatih</option>
+<option>Al Fayyum</option>
+<option>Al Gharbiyah</option>
+<option>Al Ghuwariyah</option>
+<option>Al Hadd</option>
+<option>Al Hasakah</option>
+<option>Al Hudaydah</option>
+<option>Al Hudud ash Shamaliyah</option>
+<option>Al Iskandariyah</option>
+<option>Al Isma'iliyah</option>
+<option>Al Istiwa'iyah</option>
+<option>Al Jabal al Akhdar</option>
+<option>Al Jahra</option>
+<option>Al Janub</option>
+<option>Al Janubiyah</option>
+<option>Al Jawf</option>
+<option>Al Jawf</option>
+<option>Al Jawf</option>
+<option>Al Jizah</option>
+<option>Al Jufrah</option>
+<option>Al Jumaliyah</option>
+<option>Al Karak</option>
+<option>Al Khartum</option>
+<option>Al Khawr</option>
+<option>Al Khums</option>
+<option>Al Kufrah</option>
+<option>Al Kuwayt</option>
+<option>Al Ladhiqiyah</option>
+<option>Al Madinah</option>
+<option>Al Mafraq</option>
+<option>Al Mahdia</option>
+<option>Al Mahrah</option>
+<option>Al Mahwit</option>
+<option>Al Manamah</option>
+<option>Al Mintaqah al Gharbiyah</option>
+<option>Al Mintaqah al Wusta</option>
+<option>Al Mintaqah ash Shamaliyah</option>
+<option>Al Minufiyah</option>
+<option>Al Minya</option>
+<option>Al Muharraq</option>
+<option>Al Munastir</option>
+<option>Al Muthanna</option>
+<option>Al Qadisiyah</option>
+<option>Al Qahirah</option>
+<option>Al Qalyubiyah</option>
+<option>Al Qasim</option>
+<option>Al Qunaytirah</option>
+<option>Al Uqsur</option>
+<option>Al Wadi al Jadid</option>
+<option>Al Wahadah State</option>
+<option>Al Wakrah Municipality</option>
+<option>Al Wakrah</option>
+<option>Al Wusta</option>
+<option>Al Wusta</option>
+<option>Al Wusta</option>
+<option>Alabama</option>
+<option>Alagoas</option>
+<option>Alajuela</option>
+<option>Aland</option>
+<option>Alaska</option>
+<option>Alba</option>
+<option>Albay</option>
+<option>Alberta</option>
+<option>Alborz</option>
+<option>Alger</option>
+<option>Ali Bayramli</option>
+<option>Ali Sabieh</option>
+<option>Alibori</option>
+<option>Alibori</option>
+<option>Alifu</option>
+<option>Almaty City</option>
+<option>Almaty</option>
+<option>Alsace</option>
+<option>Alta Verapaz</option>
+<option>Altaisky krai</option>
+<option>Alto Paraguay</option>
+<option>Alto Parana</option>
+<option>Aluksnes</option>
+<option>Alytaus Apskritis</option>
+<option>Amambay</option>
+<option>Amapa</option>
+<option>Amara</option>
+<option>Amasya</option>
+<option>Amazonas</option>
+<option>Amazonas</option>
+<option>Amazonas</option>
+<option>Amazonas</option>
+<option>Ambrolauris Raioni</option>
+<option>Ambrym</option>
+<option>American Samoa</option>
+<option>Amman</option>
+<option>Amnat Charoen</option>
+<option>Amran</option>
+<option>Amur</option>
+<option>An Giang</option>
+<option>An Najaf</option>
+<option>An Nuqat al Khams</option>
+<option>Anabar</option>
+<option>Anambra</option>
+<option>Ancash</option>
+<option>Andalucia</option>
+<option>Andaman and Nicobar Islands</option>
+<option>Andhra Pradesh</option>
+<option>Andijon</option>
+<option>Andorra la Vella</option>
+<option>Anenii Noi</option>
+<option>Anetan</option>
+<option>Ang Thong</option>
+<option>Angeles</option>
+<option>Angus</option>
+<option>Anhui</option>
+<option>Anibare</option>
+<option>Anjouan</option>
+<option>Ankara</option>
+<option>Annaba</option>
+<option>Annobon</option>
+<option>Anse aux Pins</option>
+<option>Anse Boileau</option>
+<option>Anse Etoile</option>
+<option>Anse Louis</option>
+<option>Anse Royale</option>
+<option>Anse-la-Raye</option>
+<option>Anseba</option>
+<option>Antalya</option>
+<option>Antananarivo</option>
+<option>Antioquia</option>
+<option>Antique</option>
+<option>Antofagasta</option>
+<option>Antrim</option>
+<option>Antsiranana</option>
+<option>Antwerpen</option>
+<option>Anzoategui</option>
+<option>Aoba</option>
+<option>Aomori</option>
+<option>Apac</option>
+<option>Apace Commune</option>
+<option>Apure</option>
+<option>Apurimac</option>
+<option>Aqmola</option>
+<option>Aqtobe</option>
+<option>Aquitaine</option>
+<option>Ar Raqqah</option>
+<option>Ar Rayyan</option>
+<option>Ar Rifa</option>
+<option>Ar Riyad</option>
+<option>Aracinovo</option>
+<option>Arad</option>
+<option>Aragatsotn</option>
+<option>Aragon</option>
+<option>Aragua</option>
+<option>Ararat</option>
+<option>Arauca</option>
+<option>Araucania</option>
+<option>Arbil</option>
+<option>Ardabil</option>
+<option>Ardahan</option>
+<option>Ards</option>
+<option>Arequipa</option>
+<option>Arges</option>
+<option>Argolis</option>
+<option>Argyll and Bute</option>
+<option>Arhangay</option>
+<option>Arica y Parinacota</option>
+<option>Arima</option>
+<option>Arizona</option>
+<option>Arkadhia</option>
+<option>Arkansas</option>
+<option>Arkhangel'sk</option>
+<option>Armagh</option>
+<option>Armavir</option>
+<option>Armed Forces Americas</option>
+<option>Armed Forces Europe, Middle East, & Canada</option>
+<option>Armed Forces Pacific</option>
+<option>Arnessysla</option>
+<option>Arta</option>
+<option>Arta</option>
+<option>Artibonite</option>
+<option>Artigas</option>
+<option>Artvin</option>
+<option>Arua</option>
+<option>Arunachal Pradesh</option>
+<option>Arusha</option>
+<option>As Sulaymaniyah</option>
+<option>As Suwayda'</option>
+<option>As Suways</option>
+<option>Ascension</option>
+<option>Ash Shamaliyah</option>
+<option>Ash Shamaliyah</option>
+<option>Ash Sharqiyah</option>
+<option>Ash Sharqiyah</option>
+<option>Ash Sharqiyah</option>
+<option>Ash Sharqiyah</option>
+<option>Ash Shati'</option>
+<option>Ashanti</option>
+<option>Asir Province</option>
+<option>Aspindzis Raioni</option>
+<option>Assaba</option>
+<option>Assam</option>
+<option>Astana</option>
+<option>Astara</option>
+<option>Astrakhan'</option>
+<option>Asturias</option>
+<option>Asuncion</option>
+<option>Aswan</option>
+<option>Asyut</option>
+<option>At Ta'mim</option>
+<option>At Tafilah</option>
+<option>Atacama</option>
+<option>Atakora</option>
+<option>Atlantico</option>
+<option>Atlantida</option>
+<option>Atlanyique</option>
+<option>Attapu</option>
+<option>Attiki</option>
+<option>Atua</option>
+<option>Atyrau</option>
+<option>Auckland</option>
+<option>Aurora</option>
+<option>Ausser-Rhoden</option>
+<option>Aust-Agder</option>
+<option>Australian Capital Territory</option>
+<option>Austur-Hunavatnssysla</option>
+<option>Austur-Skaftafellssysla</option>
+<option>Austurland</option>
+<option>Autonoma Atlantico Norte</option>
+<option>Auvergne</option>
+<option>Aveiro</option>
+<option>Awbari</option>
+<option>Awdal</option>
+<option>Ayacucho</option>
+<option>Aydin</option>
+<option>Az Zahirah</option>
+<option>Az Zaraqa</option>
+<option>Az Zawiyah</option>
+<option>Azad Kashmir</option>
+<option>Azarbayjan-e Bakhtari</option>
+<option>Azores</option>
+<option>Azua</option>
+<option>Azuay</option>
+<option>Ba Ria-Vung Tau</option>
+<option>Baa</option>
+<option>Baalbek-Hermel</option>
+<option>Babil</option>
+<option>Bac Giang</option>
+<option>Bac Kan</option>
+<option>Bac Lieu</option>
+<option>Bac Ninh</option>
+<option>Bac</option>
+<option>Bacau</option>
+<option>Bacolod</option>
+<option>Bacs-Kiskun</option>
+<option>Badakhshan</option>
+<option>Baden-Wurttemberg</option>
+<option>Badghis</option>
+<option>Bafata</option>
+<option>Bafing</option>
+<option>Baghdad</option>
+<option>Baghdat'is Raioni</option>
+<option>Baghlan</option>
+<option>Bagmati</option>
+<option>Bago</option>
+<option>Baguio</option>
+<option>Bahia</option>
+<option>Bahr al Ghazal</option>
+<option>Baie Lazare</option>
+<option>Baie Sainte Anne</option>
+<option>Bais</option>
+<option>Baiti</option>
+<option>Baja California Sur</option>
+<option>Baja California</option>
+<option>Baja Verapaz</option>
+<option>Bajah</option>
+<option>Bakhtaran</option>
+<option>Baki</option>
+<option>Bakool</option>
+<option>Balaka</option>
+<option>Balakan</option>
+<option>Bale</option>
+<option>Bali</option>
+<option>Balikesir</option>
+<option>Balkan</option>
+<option>Balkh</option>
+<option>Ballymena</option>
+<option>Ballymoney</option>
+<option>Balochistan</option>
+<option>Balti</option>
+<option>Balvu</option>
+<option>Balzers</option>
+<option>Bam</option>
+<option>Bamako</option>
+<option>Bamian</option>
+<option>Bamingui-Bangoran</option>
+<option>Banaadir</option>
+<option>Banbridge</option>
+<option>Bandundu</option>
+<option>Banghazi</option>
+<option>Bangui</option>
+<option>Bani Suwayf</option>
+<option>Banjul</option>
+<option>Banska Bystrica</option>
+<option>Banteay Meanchey</option>
+<option>Banten</option>
+<option>Banwa</option>
+<option>Baoruco</option>
+<option>Barahona</option>
+<option>Baranya</option>
+<option>Barbuda</option>
+<option>Barda</option>
+<option>Bari</option>
+<option>Barima-Waini</option>
+<option>Barinas</option>
+<option>Barisal</option>
+<option>Barking and Dagenham</option>
+<option>Barnet</option>
+<option>Barnsley</option>
+<option>Bartin</option>
+<option>Bas-Congo</option>
+<option>Bas-Sassandra</option>
+<option>Basarabeasca</option>
+<option>Basel-Landschaft</option>
+<option>Basel-Stadt</option>
+<option>Bashkortostan</option>
+<option>Basilan City</option>
+<option>Basilan</option>
+<option>Basilicata</option>
+<option>Basse-Kotto</option>
+<option>Basse-Normandie</option>
+<option>Bataan</option>
+<option>Batanes</option>
+<option>Batangas City</option>
+<option>Batangas</option>
+<option>Batdambang</option>
+<option>Batdambang</option>
+<option>Bath and North East Somerset</option>
+<option>Batha</option>
+<option>Batken</option>
+<option>Batman</option>
+<option>Batna</option>
+<option>Bauchi</option>
+<option>Bauskas</option>
+<option>Bay of Plenty</option>
+<option>Bay</option>
+<option>Bayan-Olgiy</option>
+<option>Bayanhongor</option>
+<option>Bayburt</option>
+<option>Bayelsa</option>
+<option>Bayern</option>
+<option>Bayqonyr</option>
+<option>Bazega</option>
+<option>Beau Vallon</option>
+<option>Bechar</option>
+<option>Bedfordshire</option>
+<option>Bedfordshire</option>
+<option>Beijing</option>
+<option>Beja</option>
+<option>Bejaia</option>
+<option>Bekes</option>
+<option>Bekescsaba</option>
+<option>Bel Air</option>
+<option>Bel Ombre</option>
+<option>Belait</option>
+<option>Belcista</option>
+<option>Belfast</option>
+<option>Belgorod</option>
+<option>Belize</option>
+<option>Beltinci Commune</option>
+<option>Ben Arous</option>
+<option>Ben Tre</option>
+<option>Bender</option>
+<option>Benedikt Commune</option>
+<option>Bengkulu</option>
+<option>Bengo</option>
+<option>Benguela</option>
+<option>Benguet</option>
+<option>Benue</option>
+<option>Beqaa</option>
+<option>Beqaa</option>
+<option>Berat</option>
+<option>Berea</option>
+<option>Berlin</option>
+<option>Bern</option>
+<option>Berovo</option>
+<option>Bethanien</option>
+<option>Bexley</option>
+<option>Beyla</option>
+<option>Beylaqan</option>
+<option>Beyrouth</option>
+<option>Bheri</option>
+<option>Bie</option>
+<option>Bihar</option>
+<option>Bihor</option>
+<option>Bilasuvar</option>
+<option>Bilecik</option>
+<option>Biliran</option>
+<option>Biltine</option>
+<option>Bimini</option>
+<option>Bingol</option>
+<option>Binh Dinh</option>
+<option>Binh Duong</option>
+<option>Binh Phuoc</option>
+<option>Binh Thuan</option>
+<option>Binshangul Gumuz</option>
+<option>Bio-Bio</option>
+<option>Bioko Norte</option>
+<option>Bioko Sur</option>
+<option>Biombo</option>
+<option>Birmingham</option>
+<option>Bishkek</option>
+<option>Biskra</option>
+<option>Bissau</option>
+<option>Bistrica ob Sotli Commune</option>
+<option>Bistrica</option>
+<option>Bistrita-Nasaud</option>
+<option>Bitlis</option>
+<option>Bitola</option>
+<option>Bizerte</option>
+<option>Bjelovarsko-Bilogorska</option>
+<option>Black River</option>
+<option>Blackburn with Darwen</option>
+<option>Blackpool</option>
+<option>Blaenau Gwent</option>
+<option>Blagoevgrad</option>
+<option>Blantyre</option>
+<option>Blatec</option>
+<option>Bled Commune</option>
+<option>Blekinge Lan</option>
+<option>Blida</option>
+<option>Bloke Commune</option>
+<option>Boa Vista</option>
+<option>Boaco</option>
+<option>Bocas del Toro</option>
+<option>Boe</option>
+<option>Boesmanland</option>
+<option>Boffa</option>
+<option>Bogdanci</option>
+<option>Bogomila</option>
+<option>Bogovinje</option>
+<option>Bohinj Commune</option>
+<option>Bohol</option>
+<option>Boke</option>
+<option>Bolama</option>
+<option>Bolivar</option>
+<option>Bolivar</option>
+<option>Bolivar</option>
+<option>Bolnisis Raioni</option>
+<option>Bolton</option>
+<option>Bolu</option>
+<option>Bong</option>
+<option>Boqueron</option>
+<option>Bordj Bou Arreridj</option>
+<option>Borgarfjardarsysla</option>
+<option>Borgo Maggiore</option>
+<option>Borgou</option>
+<option>Borjomis Raioni</option>
+<option>Borkou-Ennedi-Tibesti</option>
+<option>Borno</option>
+<option>Borovnica Commune</option>
+<option>Borsod-Abauj-Zemplen</option>
+<option>Bosilovo</option>
+<option>Botosani</option>
+<option>Bouenza</option>
+<option>Bougouriba</option>
+<option>Bouira</option>
+<option>Boulgou</option>
+<option>Boulkiemde</option>
+<option>Boumerdes</option>
+<option>Bourgogne</option>
+<option>Bournemouth</option>
+<option>Bovec Commune</option>
+<option>Boyaca</option>
+<option>Brabant Wallon</option>
+<option>Bracknell Forest</option>
+<option>Bradford</option>
+<option>Braga</option>
+<option>Braganca</option>
+<option>Braila</option>
+<option>Brakna</option>
+<option>Brandenburg</option>
+<option>Braslovce Commune</option>
+<option>Brasov</option>
+<option>Bratislava</option>
+<option>Brava</option>
+<option>Brazzaville</option>
+<option>Brcko District</option>
+<option>Brda Commune</option>
+<option>Bremen</option>
+<option>Brent</option>
+<option>Brestskaya Voblasts'</option>
+<option>Bretagne</option>
+<option>Brezice Commune</option>
+<option>Brezovica Commune</option>
+<option>Briceni</option>
+<option>Bridgend</option>
+<option>Brighton and Hove</option>
+<option>Bristol, City of</option>
+<option>British Columbia</option>
+<option>Brodsko-Posavska</option>
+<option>Brokopondo</option>
+<option>Bromley</option>
+<option>Brong-Ahafo</option>
+<option>Brunei and Muara</option>
+<option>Brussels Hoofdstedelijk Gewest</option>
+<option>Brvenica</option>
+<option>Bryansk</option>
+<option>Buada</option>
+<option>Bubanza</option>
+<option>Buckinghamshire</option>
+<option>Bucuresti</option>
+<option>Budapest</option>
+<option>Bueng Kan</option>
+<option>Buenos Aires</option>
+<option>Bugiri</option>
+<option>Bujumbura</option>
+<option>Bukhoro</option>
+<option>Bukidnon</option>
+<option>Bulacan</option>
+<option>Bulawayo</option>
+<option>Bulgan</option>
+<option>Bumthang</option>
+<option>Bundibugyo</option>
+<option>Bur Sa'id</option>
+<option>Burdur</option>
+<option>Burgas</option>
+<option>Burgenland</option>
+<option>Buriram</option>
+<option>Bursa</option>
+<option>Bururi</option>
+<option>Bury</option>
+<option>Buryat</option>
+<option>Bushehr</option>
+<option>Bushenyi</option>
+<option>Busia</option>
+<option>Buskerud</option>
+<option>Butare</option>
+<option>Butha-Buthe</option>
+<option>Butuan</option>
+<option>Buzau</option>
+<option>Ca Mau</option>
+<option>Caaguazu</option>
+<option>Caazapa</option>
+<option>Cabanas</option>
+<option>Cabanatuan</option>
+<option>Cabinda</option>
+<option>Cabo Delgado</option>
+<option>Cabrayil</option>
+<option>Cacheu</option>
+<option>Cadiz</option>
+<option>Caerphilly</option>
+<option>Cagayan de Oro</option>
+<option>Cagayan</option>
+<option>Cahul</option>
+<option>Cair</option>
+<option>Cair</option>
+<option>Cajamarca</option>
+<option>Calabria</option>
+<option>Calarasi</option>
+<option>Calarasi</option>
+<option>Calbayog</option>
+<option>Caldas</option>
+<option>Calderdale</option>
+<option>California</option>
+<option>Calilabad</option>
+<option>Callao</option>
+<option>Caloocan</option>
+<option>Camaguey</option>
+<option>Camarines Norte</option>
+<option>Camarines Sur</option>
+<option>Cambridgeshire</option>
+<option>Camden</option>
+<option>Camiguin</option>
+<option>Campania</option>
+<option>Campeche</option>
+<option>Can Tho</option>
+<option>Canakkale</option>
+<option>Canar</option>
+<option>Canarias</option>
+<option>Canelones</option>
+<option>Canillo</option>
+<option>Canindeyu</option>
+<option>Cankiri</option>
+<option>Cankova Commune</option>
+<option>Cankuzo</option>
+<option>Canlaon</option>
+<option>Cantabria</option>
+<option>Cantemir</option>
+<option>Canterbury</option>
+<option>Cao Bang</option>
+<option>Capari</option>
+<option>Capiz</option>
+<option>Caprivi Oos</option>
+<option>Caprivi</option>
+<option>Caqueta</option>
+<option>Carabobo</option>
+<option>Caras-Severin</option>
+<option>Carazo</option>
+<option>Carchi</option>
+<option>Cardiff</option>
+<option>Cargados Carajos</option>
+<option>Carlow</option>
+<option>Carmarthenshire</option>
+<option>Caroni</option>
+<option>Carrickfergus</option>
+<option>Cartago</option>
+<option>Casanare</option>
+<option>Cascade</option>
+<option>Caska</option>
+<option>Caska</option>
+<option>Castelo Branco</option>
+<option>Castilla y Leon</option>
+<option>Castilla-La Mancha</option>
+<option>Castlereagh</option>
+<option>Castries</option>
+<option>Cat Island</option>
+<option>Catalonia</option>
+<option>Catamarca</option>
+<option>Catanduanes</option>
+<option>Cauca</option>
+<option>Causeni</option>
+<option>Cavan</option>
+<option>Cavite City</option>
+<option>Cavite</option>
+<option>Cayo</option>
+<option>Ceara</option>
+<option>Cebu City</option>
+<option>Cebu</option>
+<option>Cegrane</option>
+<option>Celje Commune</option>
+<option>Centar Zupa</option>
+<option>Centar</option>
+<option>Central Bedfordshire</option>
+<option>Central Equatoria State</option>
+<option>Central Equatoria</option>
+<option>Central River</option>
+<option>Central</option>
+<option>Central</option>
+<option>Central</option>
+<option>Central</option>
+<option>Central</option>
+<option>Central</option>
+<option>Central</option>
+<option>Central</option>
+<option>Central</option>
+<option>Centrale</option>
+<option>Centre</option>
+<option>Centre</option>
+<option>Centre</option>
+<option>Centro Sur</option>
+<option>Ceredigion</option>
+<option>Cerklje na Gorenjskem Commune</option>
+<option>Cerknica Commune</option>
+<option>Cerkno Commune</option>
+<option>Cerkvenjak Commune</option>
+<option>Cerro Largo</option>
+<option>Cesar</option>
+<option>Cesinovo</option>
+<option>Cesu</option>
+<option>Ch'khorotsqus Raioni</option>
+<option>Ch'okhatauris Raioni</option>
+<option>Ch'ungch'ong-bukto</option>
+<option>Ch'ungch'ong-namdo</option>
+<option>Chachoengsao</option>
+<option>Chaco</option>
+<option>Chagang-do</option>
+<option>Chahar Mahall va Bakhtiari</option>
+<option>Chai Nat</option>
+<option>Chaiyaphum</option>
+<option>Chalatenango</option>
+<option>Champagne-Ardenne</option>
+<option>Champasak</option>
+<option>Chandigarh</option>
+<option>Chanthaburi</option>
+<option>Chaouia-Ouardigha</option>
+<option>Chari-Baguirmi</option>
+<option>Charlotte</option>
+<option>Chatham Islands</option>
+<option>Chechnya</option>
+<option>Cheju-do</option>
+<option>Chelyabinsk</option>
+<option>Cherkas'ka Oblast'</option>
+<option>Chernihivs'ka Oblast'</option>
+<option>Chernivets'ka Oblast'</option>
+<option>Cheshire East</option>
+<option>Cheshire West and Chester</option>
+<option>Cheshire</option>
+<option>Chhattisgarh</option>
+<option>Chhukha</option>
+<option>Chiang Mai</option>
+<option>Chiang Rai</option>
+<option>Chiapas</option>
+<option>Chiat'ura</option>
+<option>Chiba</option>
+<option>Chiesanuova</option>
+<option>Chihuahua</option>
+<option>Chikwawa</option>
+<option>Chimaltenango</option>
+<option>Chimborazo</option>
+<option>Chimbu</option>
+<option>Chin State</option>
+<option>Chinandega</option>
+<option>Chiquimula</option>
+<option>Chiradzulu</option>
+<option>Chirang</option>
+<option>Chiriqui</option>
+<option>Chisinau</option>
+<option>Chita</option>
+<option>Chitipa</option>
+<option>Chittagong</option>
+<option>Chlef</option>
+<option>Choco</option>
+<option>Choiseul</option>
+<option>Choiseul</option>
+<option>Cholla-bukto</option>
+<option>Cholla-namdo</option>
+<option>Choluteca</option>
+<option>Chon Buri</option>
+<option>Chongqing</option>
+<option>Chontales</option>
+<option>Christ Church Nichola Town</option>
+<option>Christ Church</option>
+<option>Chubut</option>
+<option>Chukot</option>
+<option>Chumphon</option>
+<option>Chuquisaca</option>
+<option>Chuuk</option>
+<option>Chuvashia</option>
+<option>Chuy</option>
+<option>Cibitoke</option>
+<option>Ciego de Avila</option>
+<option>Cienfuegos</option>
+<option>Cimislia</option>
+<option>Cirkulane Commune</option>
+<option>Ciudad de la Habana</option>
+<option>Clackmannanshire</option>
+<option>Clare</option>
+<option>Clarendon</option>
+<option>Cluj</option>
+<option>Coahuila de Zaragoza</option>
+<option>Coast</option>
+<option>Cochabamba</option>
+<option>Cocle</option>
+<option>Coimbra</option>
+<option>Cojedes</option>
+<option>Coleraine</option>
+<option>Colima</option>
+<option>Collines</option>
+<option>Collines</option>
+<option>Colon</option>
+<option>Colon</option>
+<option>Colonia</option>
+<option>Colorado</option>
+<option>Comayagua</option>
+<option>Commewijne</option>
+<option>Compostela Valley</option>
+<option>Comunidad Valenciana</option>
+<option>Conakry</option>
+<option>Concepcion</option>
+<option>Connecticut</option>
+<option>Constanta</option>
+<option>Constantine</option>
+<option>Conwy</option>
+<option>Cookstown</option>
+<option>Copan</option>
+<option>Copperbelt</option>
+<option>Coquimbo</option>
+<option>Cordillera</option>
+<option>Cordoba</option>
+<option>Cordoba</option>
+<option>Cork</option>
+<option>Cornwall</option>
+<option>Coronie</option>
+<option>Corozal</option>
+<option>Corrientes</option>
+<option>Corse</option>
+<option>Cortes</option>
+<option>Corum</option>
+<option>Cotabato</option>
+<option>Cotopaxi</option>
+<option>Covasna</option>
+<option>Coventry</option>
+<option>Coyah</option>
+<option>Craigavon</option>
+<option>Creek</option>
+<option>Crensovci Commune</option>
+<option>Criuleni</option>
+<option>Crna na Koroskem Commune</option>
+<option>Crnomelj Commune</option>
+<option>Cross River</option>
+<option>Croydon</option>
+<option>Csongrad</option>
+<option>Cuando Cubango</option>
+<option>Cuanza Norte</option>
+<option>Cuanza Sul</option>
+<option>Cucer-Sandevo</option>
+<option>Cumbria</option>
+<option>Cundinamarca</option>
+<option>Cunene</option>
+<option>Cuscatlan</option>
+<option>Cusco</option>
+<option>Cuvette-Ouest</option>
+<option>Cuvette-Ouest</option>
+<option>Cuvette</option>
+<option>Cuyuni-Mazaruni</option>
+<option>Da Nang</option>
+<option>Dabola</option>
+<option>Dac Lak</option>
+<option>Dadra and Nagar Haveli</option>
+<option>Daga</option>
+<option>Dagestan</option>
+<option>Dagupan</option>
+<option>Dahuk</option>
+<option>Dajabon</option>
+<option>Dak Nong</option>
+<option>Dakar</option>
+<option>Dakhlet Nouadhibou</option>
+<option>Dalaba</option>
+<option>Dalarnas Lan</option>
+<option>Daman and Diu</option>
+<option>Damaraland</option>
+<option>Dambovita</option>
+<option>Danao</option>
+<option>Dapitan</option>
+<option>Dar es Salaam</option>
+<option>Dar</option>
+<option>Darfur</option>
+<option>Darhan-Uul</option>
+<option>Darhan</option>
+<option>Darien</option>
+<option>Darlington</option>
+<option>Darnah</option>
+<option>Dashoguz</option>
+<option>Daskasan</option>
+<option>Daugavpils</option>
+<option>Daugavpils</option>
+<option>Dauphin</option>
+<option>Davaci</option>
+<option>Davao City</option>
+<option>Davao del Norte</option>
+<option>Davao del Sur</option>
+<option>Davao Oriental</option>
+<option>Davao</option>
+<option>Daykondi</option>
+<option>Dayr az Zawr</option>
+<option>Debar</option>
+<option>Debar</option>
+<option>Debrecen</option>
+<option>Debub</option>
+<option>Debubawi K'eyih Bahri</option>
+<option>Dedop'listsqaros Raioni</option>
+<option>Dedza</option>
+<option>Delaware</option>
+<option>Delcevo</option>
+<option>Delhi</option>
+<option>Delogozdi</option>
+<option>Delta Amacuro</option>
+<option>Delta</option>
+<option>Demerara-Mahaica</option>
+<option>Demir Hisar</option>
+<option>Demir Hisar</option>
+<option>Demir Kapija</option>
+<option>Denbighshire</option>
+<option>Denguele</option>
+<option>Denigomodu</option>
+<option>Denizli</option>
+<option>Dennery</option>
+<option>Dependencias Federales</option>
+<option>Derby</option>
+<option>Derbyshire</option>
+<option>Derry</option>
+<option>Destrnik Commune</option>
+<option>Devon</option>
+<option>Devonshire</option>
+<option>Dhaalu</option>
+<option>Dhaka</option>
+<option>Dhamar</option>
+<option>Dhawalagiri</option>
+<option>Dhi Qar</option>
+<option>Dhodhekanisos</option>
+<option>Diber</option>
+<option>Diekirch</option>
+<option>Dien Bien</option>
+<option>Diffa</option>
+<option>Dikhil</option>
+<option>Dili</option>
+<option>Dimashq</option>
+<option>Dinguiraye</option>
+<option>Diourbel</option>
+<option>Dipolog</option>
+<option>Dire Dawa</option>
+<option>District of Columbia</option>
+<option>Distrito Especial</option>
+<option>Distrito Federal</option>
+<option>Distrito Federal</option>
+<option>Distrito Federal</option>
+<option>Distrito Federal</option>
+<option>Distrito Nacional</option>
+<option>Distrito Nacional</option>
+<option>Divaca Commune</option>
+<option>Dix-Huit Montagnes</option>
+<option>Diyala</option>
+<option>Diyarbakir</option>
+<option>Djelfa</option>
+<option>Djibouti</option>
+<option>Dmanisis Raioni</option>
+<option>Dnipropetrovs'ka Oblast'</option>
+<option>Dobeles</option>
+<option>Dobje Commune</option>
+<option>Dobrepolje Commune</option>
+<option>Dobrich</option>
+<option>Dobrna Commune</option>
+<option>Dobrova-Horjul-Polhov Gradec Commune</option>
+<option>Dobrovnik-Dobronak Commune</option>
+<option>Dobrusevo</option>
+<option>Dodoma</option>
+<option>Dojran</option>
+<option>Dol pri Ljubljani Commune</option>
+<option>Dolenjske Toplice Commune</option>
+<option>Dolj</option>
+<option>Dolna Banjica</option>
+<option>Dolneni</option>
+<option>Dolnoslaskie</option>
+<option>Domagnano</option>
+<option>Domzale Commune</option>
+<option>Doncaster</option>
+<option>Donduseni</option>
+<option>Donegal</option>
+<option>Donets'ka Oblast'</option>
+<option>Dong Nai</option>
+<option>Dong Thap</option>
+<option>Donga</option>
+<option>Donga</option>
+<option>Dorce Petrov</option>
+<option>Dornava Commune</option>
+<option>Dornod</option>
+<option>Dornogovi</option>
+<option>Dorset</option>
+<option>Dosso</option>
+<option>Doukkala-Abda</option>
+<option>Dowa</option>
+<option>Down</option>
+<option>Drama</option>
+<option>Dravograd Commune</option>
+<option>Drenthe</option>
+<option>Drochia</option>
+<option>Drugovo</option>
+<option>Duarte</option>
+<option>Dubai</option>
+<option>Dubasari</option>
+<option>Dublin</option>
+<option>Dubreka</option>
+<option>Dubrovacko-Neretvanska</option>
+<option>Dudley</option>
+<option>Dumaguete</option>
+<option>Dumfries and Galloway</option>
+<option>Dumyat</option>
+<option>Dunaujvaros</option>
+<option>Dundee City</option>
+<option>Dundgovi</option>
+<option>Dungannon</option>
+<option>Duplek Commune</option>
+<option>Durango</option>
+<option>Durazno</option>
+<option>Durham</option>
+<option>Durres</option>
+<option>Dushanbe</option>
+<option>Dushet'is Raioni</option>
+<option>Duzce</option>
+<option>Dzavhan</option>
+<option>Dzepciste</option>
+<option>Ealing</option>
+<option>East Ayrshire</option>
+<option>East Azarbaijan</option>
+<option>East Berbice-Corentyne</option>
+<option>East Dunbartonshire</option>
+<option>East Kazakhstan</option>
+<option>East Lothian</option>
+<option>East New Britain</option>
+<option>East Renfrewshire</option>
+<option>East Riding of Yorkshire</option>
+<option>East Sepik</option>
+<option>East Sussex</option>
+<option>Eastern Cape</option>
+<option>Eastern Equatoria</option>
+<option>Eastern Finland</option>
+<option>Eastern Highlands</option>
+<option>Eastern Samar</option>
+<option>Eastern</option>
+<option>Eastern</option>
+<option>Eastern</option>
+<option>Eastern</option>
+<option>Eastern</option>
+<option>Eastern</option>
+<option>Eastern</option>
+<option>Ebonyi</option>
+<option>Edinburgh, City of</option>
+<option>Edinet</option>
+<option>Edirne</option>
+<option>Edo</option>
+<option>Efate</option>
+<option>Eger</option>
+<option>Ehime</option>
+<option>Eilean Siar</option>
+<option>Ekiti</option>
+<option>El Bayadh</option>
+<option>El Beni</option>
+<option>El Kef</option>
+<option>El Oro</option>
+<option>El Oued</option>
+<option>El Paraiso</option>
+<option>El Progreso</option>
+<option>El Seibo</option>
+<option>El Tarf</option>
+<option>Elazig</option>
+<option>Elbasan</option>
+<option>Elias Pina</option>
+<option>Emilia-Romagna</option>
+<option>Encamp</option>
+<option>Enfield</option>
+<option>Enga</option>
+<option>Entre Rios</option>
+<option>Enugu</option>
+<option>Epi</option>
+<option>Equateur</option>
+<option>Erd</option>
+<option>Erdenet</option>
+<option>Erongo</option>
+<option>Erzincan</option>
+<option>Erzurum</option>
+<option>Escaldes-Engordany</option>
+<option>Eschen</option>
+<option>Escuintla</option>
+<option>Esfahan</option>
+<option>Eskisehir</option>
+<option>Esmeraldas</option>
+<option>Espaillat</option>
+<option>Espirito Santo</option>
+<option>Essequibo Islands-West Demerara</option>
+<option>Essex</option>
+<option>Est</option>
+<option>Est</option>
+<option>Esteli</option>
+<option>Estuaire</option>
+<option>Evenk</option>
+<option>Evora</option>
+<option>Evritania</option>
+<option>Evros</option>
+<option>Evvoia</option>
+<option>Ewa</option>
+<option>Extremadura</option>
+<option>Extreme-Nord</option>
+<option>Exuma</option>
+<option>Eyjafjardarsysla</option>
+<option>Fa</option>
+<option>Faafu </option>
+<option>Faetano</option>
+<option>Falcon</option>
+<option>Falesti</option>
+<option>Falkirk</option>
+<option>Famagusta</option>
+<option>Farah</option>
+<option>Faranah</option>
+<option>Farghona</option>
+<option>Faro</option>
+<option>Fars</option>
+<option>Faryab</option>
+<option>Fatick</option>
+<option>Federal Capital Territory</option>
+<option>Federally Administered Tribal Areas</option>
+<option>Federated States of Micronesia</option>
+<option>Federation of Bosnia and Herzegovina</option>
+<option>Fejer</option>
+<option>Fermanagh</option>
+<option>Fes-Boulemane</option>
+<option>Fianarantsoa</option>
+<option>Fier</option>
+<option>Fife</option>
+<option>Finnmark</option>
+<option>Fiorentino</option>
+<option>Flacq</option>
+<option>Flanders</option>
+<option>Flevoland</option>
+<option>Flintshire</option>
+<option>Flores</option>
+<option>Floresti</option>
+<option>Florida</option>
+<option>Florida</option>
+<option>Florina</option>
+<option>Fokis</option>
+<option>Forecariah</option>
+<option>Formosa</option>
+<option>Franche-Comte</option>
+<option>Francisco Morazan</option>
+<option>Free State</option>
+<option>Freeport</option>
+<option>Fresh Creek</option>
+<option>Fria</option>
+<option>Fribourg</option>
+<option>Friesland</option>
+<option>Friuli-Venezia Giulia</option>
+<option>Fromager</option>
+<option>Fthiotis</option>
+<option>Fu-chien</option>
+<option>Fujairah</option>
+<option>Fujian</option>
+<option>Fukui</option>
+<option>Fukuoka</option>
+<option>Fukushima</option>
+<option>Fuzuli</option>
+<option>Gaafu Alifu</option>
+<option>Gaafu Dhaalu</option>
+<option>Gabes</option>
+<option>Gabrovo</option>
+<option>Gabu</option>
+<option>Gadabay</option>
+<option>Gaga</option>
+<option>Gagaifomauga</option>
+<option>Gagauzia</option>
+<option>Galapagos</option>
+<option>Galati</option>
+<option>Galguduud</option>
+<option>Galicia</option>
+<option>Galway</option>
+<option>Gambela Hizboch</option>
+<option>Gamprin</option>
+<option>Ganca</option>
+<option>Gandaki</option>
+<option>Gansu</option>
+<option>Ganzourgou</option>
+<option>Gao</option>
+<option>Gaoual</option>
+<option>Gardabanis Raioni</option>
+<option>Gash Barka</option>
+<option>Gateshead</option>
+<option>Gauteng</option>
+<option>Gavleborgs Lan</option>
+<option>Gaza</option>
+<option>Gaza</option>
+<option>Gazi Baba</option>
+<option>Gaziantep</option>
+<option>Gbarpolu</option>
+<option>Gbarpolu</option>
+<option>Gedo</option>
+<option>Geghark'unik'</option>
+<option>Gelderland</option>
+<option>General Santos</option>
+<option>Geneve</option>
+<option>Georgia</option>
+<option>Gevgelija</option>
+<option>Geylegphug</option>
+<option>Ghadamis</option>
+<option>Ghanzi</option>
+<option>Gharb-Chrarda-Beni Hssen</option>
+<option>Ghardaia</option>
+<option>Gharyan</option>
+<option>Ghazni</option>
+<option>Ghowr</option>
+<option>Gia Lai</option>
+<option>Gifu</option>
+<option>Gilan</option>
+<option>Gilbert Islands</option>
+<option>Gingoog</option>
+<option>Giresun</option>
+<option>Gisborne</option>
+<option>Gitarama</option>
+<option>Gitega</option>
+<option>Giurgiu</option>
+<option>Gjirokaster</option>
+<option>Glacis</option>
+<option>Glarus</option>
+<option>Glasgow City</option>
+<option>Glodeni</option>
+<option>Gloucestershire</option>
+<option>Gnagna</option>
+<option>Gnaviyani</option>
+<option>Goa</option>
+<option>Gobabis</option>
+<option>Goias</option>
+<option>Golestan</option>
+<option>Gombe</option>
+<option>Goranboy</option>
+<option>Gorenja vas-Poljane Commune</option>
+<option>Gorgol</option>
+<option>Gori</option>
+<option>Goris Raioni</option>
+<option>Gorisnica Commune</option>
+<option>Gorj</option>
+<option>Gorje</option>
+<option>Gornja Radgona Commune</option>
+<option>Gornji Grad Commune</option>
+<option>Gornji Petrovci Commune</option>
+<option>Gorno-Altay</option>
+<option>Gorontalo</option>
+<option>Gostivar</option>
+<option>Gostivar</option>
+<option>Gotlands Lan</option>
+<option>Gourma</option>
+<option>Governor's Harbour</option>
+<option>Govi-Altay</option>
+<option>Govisumber</option>
+<option>Goycay</option>
+<option>Gracias a Dios</option>
+<option>Grad Commune</option>
+<option>Grad Sofiya</option>
+<option>Grad Zagreb</option>
+<option>Gradsko</option>
+<option>Granada</option>
+<option>Grand Bassa</option>
+<option>Grand Cape Mount</option>
+<option>Grand Cape Mount</option>
+<option>Grand Casablanca</option>
+<option>Grand Gedeh</option>
+<option>Grand Port</option>
+<option>Grand' Anse</option>
+<option>Grand' Anse</option>
+<option>Grand' Anse</option>
+<option>Grande Comore</option>
+<option>Granma</option>
+<option>Graubunden</option>
+<option>Greater Accra</option>
+<option>Green Turtle Cay</option>
+<option>Greenwich</option>
+<option>Grenadines</option>
+<option>Grevena</option>
+<option>Grevenmacher</option>
+<option>Groningen</option>
+<option>Grootfontein</option>
+<option>Gros-Islet</option>
+<option>Grosuplje Commune</option>
+<option>Guadalcanal</option>
+<option>Guainia</option>
+<option>Guaira</option>
+<option>Guam</option>
+<option>Guanacaste</option>
+<option>Guanajuato</option>
+<option>Guangdong</option>
+<option>Guangxi</option>
+<option>Guantanamo</option>
+<option>Guarda</option>
+<option>Guarico</option>
+<option>Guatemala</option>
+<option>Guaviare</option>
+<option>Guayas</option>
+<option>Gueckedou</option>
+<option>Guelma</option>
+<option>Guelmim-Es Smara</option>
+<option>Guera</option>
+<option>Guerrero</option>
+<option>Guidimaka</option>
+<option>Guimaras</option>
+<option>Guizhou</option>
+<option>Gujarat</option>
+<option>Gulbenes</option>
+<option>Gulf</option>
+<option>Gullbringusysla</option>
+<option>Gulu</option>
+<option>Gumma</option>
+<option>Gumushane</option>
+<option>Gurjaanis Raioni</option>
+<option>Gwynedd</option>
+<option>Gyor-Moson-Sopron</option>
+<option>Gyor</option>
+<option>Ha Giang</option>
+<option>Ha Nam</option>
+<option>Ha Noi</option>
+<option>Ha Tinh</option>
+<option>Ha'il</option>
+<option>Ha</option>
+<option>Ha</option>
+<option>Haa Alifu</option>
+<option>Haa Dhaalu</option>
+<option>Haciqabul</option>
+<option>Hackney</option>
+<option>HaDarom</option>
+<option>Hadramawt</option>
+<option>Hai Duong</option>
+<option>Hai Phong</option>
+<option>Hainan</option>
+<option>Hainaut</option>
+<option>Hajdina Commune</option>
+<option>Hajdu-Bihar</option>
+<option>Hajjah</option>
+<option>Hajjah</option>
+<option>Hakkari</option>
+<option>Halab</option>
+<option>Hallands Lan</option>
+<option>Halton</option>
+<option>Hamadan</option>
+<option>Hamah</option>
+<option>Hamburg</option>
+<option>HaMerkaz</option>
+<option>Hamgyong-bukto</option>
+<option>Hamgyong-namdo</option>
+<option>Hamilton</option>
+<option>Hamilton</option>
+<option>Hammersmith and Fulham</option>
+<option>Hampshire</option>
+<option>Hanover</option>
+<option>Harare</option>
+<option>Harbour Island</option>
+<option>Hardap</option>
+<option>Hareri Hizb</option>
+<option>Harghita</option>
+<option>Haringey</option>
+<option>Harjumaa</option>
+<option>Harrow</option>
+<option>Hartlepool</option>
+<option>Haryana</option>
+<option>Hatay</option>
+<option>Hato Mayor</option>
+<option>Hau Giang</option>
+<option>Haut-Mbomou</option>
+<option>Haut-Ogooue</option>
+<option>Haut-Sassandra</option>
+<option>Haute-Kotto</option>
+<option>Haute-Normandie</option>
+<option>Havering</option>
+<option>Hawaii</option>
+<option>Hawalli</option>
+<option>Hawke's Bay</option>
+<option>HaZafon</option>
+<option>Hebei</option>
+<option>Hedmark</option>
+<option>Hefa</option>
+<option>Heilongjiang</option>
+<option>Helmand</option>
+<option>Henan</option>
+<option>Hentiy</option>
+<option>Herat</option>
+<option>Heredia</option>
+<option>Herefordshire</option>
+<option>Hereroland Oos</option>
+<option>Hereroland Wes</option>
+<option>Herrera</option>
+<option>Hertford</option>
+<option>Hessen</option>
+<option>Heves</option>
+<option>Hhohho</option>
+<option>Hidalgo</option>
+<option>High Rock</option>
+<option>Highland</option>
+<option>Hiiraan</option>
+<option>Hiiumaa</option>
+<option>Hillingdon</option>
+<option>Himachal Pradesh</option>
+<option>Himamaylan</option>
+<option>Hims</option>
+<option>Hincesti</option>
+<option>Hiroshima</option>
+<option>Hlavni mesto Praha</option>
+<option>Ho Chi Minh</option>
+<option>Hoa Binh</option>
+<option>Hoce-Slivnica Commune</option>
+<option>Hodh Ech Chargui</option>
+<option>Hodh El Gharbi</option>
+<option>Hodmezovasarhely</option>
+<option>Hodos-Hodos Commune</option>
+<option>Hofuoborgarsvaoio</option>
+<option>Hoima</option>
+<option>Hokkaido</option>
+<option>Holguin</option>
+<option>Homyel'skaya Voblasts'</option>
+<option>Hordaland</option>
+<option>Horjul Commune</option>
+<option>Hormozgan</option>
+<option>Houaphan</option>
+<option>Houet</option>
+<option>Hounslow</option>
+<option>Hovd</option>
+<option>Hovedstaden</option>
+<option>Hovsgol</option>
+<option>Hrastnik Commune</option>
+<option>Hrodzyenskaya Voblasts'</option>
+<option>Hrpelje-Kozina Commune</option>
+<option>Huambo</option>
+<option>Huancavelica</option>
+<option>Huanuco</option>
+<option>Hubei</option>
+<option>Huehuetenango</option>
+<option>Huila</option>
+<option>Huila</option>
+<option>Hunan</option>
+<option>Hunedoara</option>
+<option>Hung Yen</option>
+<option>Hwanghae-bukto</option>
+<option>Hwanghae-namdo</option>
+<option>Hyogo</option>
+<option>Ialomita</option>
+<option>Ialoveni</option>
+<option>Iasi</option>
+<option>Ibaraki</option>
+<option>Ibb</option>
+<option>Ibb</option>
+<option>Ica</option>
+<option>Ida-Virumaa</option>
+<option>Idaho</option>
+<option>Idlib</option>
+<option>Idrija Commune</option>
+<option>Ifugao</option>
+<option>Ig Commune</option>
+<option>Iganga</option>
+<option>Igdir</option>
+<option>Ijuw</option>
+<option>Ilam</option>
+<option>Ile-de-France</option>
+<option>Ilfov</option>
+<option>Ilhas</option>
+<option>Ilia</option>
+<option>Iligan</option>
+<option>Ilinden</option>
+<option>Ilirska Bistrica Commune</option>
+<option>Illinois</option>
+<option>Illizi</option>
+<option>Ilocos Norte</option>
+<option>Ilocos Sur</option>
+<option>Iloilo City</option>
+<option>Iloilo</option>
+<option>Imathia</option>
+<option>Imbabura</option>
+<option>Imisli</option>
+<option>Imo</option>
+<option>Inagua</option>
+<option>Inch'on-jikhalsi</option>
+<option>Inchiri</option>
+<option>Independencia</option>
+<option>Indiana</option>
+<option>Ingush</option>
+<option>Inhambane</option>
+<option>Inner-Rhoden</option>
+<option>Intibuca</option>
+<option>Inverclyde</option>
+<option>Ioannina</option>
+<option>Ioba</option>
+<option>Iowa</option>
+<option>Iraklion</option>
+<option>Irbid</option>
+<option>Irian Jaya Barat</option>
+<option>Iriga</option>
+<option>Iringa</option>
+<option>Irkutsk</option>
+<option>Irrawaddy</option>
+<option>Isabel</option>
+<option>Isabela</option>
+<option>Ishikawa</option>
+<option>Isla de la Juventud</option>
+<option>Islamabad</option>
+<option>Islas Baleares</option>
+<option>Islas de la Bahia</option>
+<option>Isle of Anglesey</option>
+<option>Isle of Wight</option>
+<option>Isles of Scilly</option>
+<option>Islington</option>
+<option>Ismayilli</option>
+<option>Isparta</option>
+<option>Istanbul</option>
+<option>Istarska</option>
+<option>Itapua</option>
+<option>Ivancna Gorica Commune</option>
+<option>Ivano-Frankivs'ka Oblast'</option>
+<option>Ivanovo</option>
+<option>Iwate</option>
+<option>Izabal</option>
+<option>Izmir</option>
+<option>Izola-Isola Commune</option>
+<option>Izvor</option>
+<option>Jakarta Raya</option>
+<option>Jalal-Abad</option>
+<option>Jalapa</option>
+<option>Jalisco</option>
+<option>Jambi</option>
+<option>Jammu and Kashmir</option>
+<option>Jamtlands Lan</option>
+<option>Janakpur</option>
+<option>Janub Sina'</option>
+<option>Jarash</option>
+<option>Jariyan al Batnah</option>
+<option>Jarvamaa</option>
+<option>Jasz-Nagykun-Szolnok</option>
+<option>Javis Raioni</option>
+<option>Jawa Barat</option>
+<option>Jawa Tengah</option>
+<option>Jawa Timur</option>
+<option>Jegunovce</option>
+<option>Jegunovce</option>
+<option>Jekabpils</option>
+<option>Jelgava</option>
+<option>Jelgavas</option>
+<option>Jendouba</option>
+<option>Jesenice Commune</option>
+<option>Jezersko Commune</option>
+<option>Jharkhand</option>
+<option>Jiangsu</option>
+<option>Jiangxi</option>
+<option>Jidd Hafs</option>
+<option>Jigawa</option>
+<option>Jihocesky kraj</option>
+<option>Jihomoravsky kraj</option>
+<option>Jijel</option>
+<option>Jilin</option>
+<option>Jinja</option>
+<option>Jinotega</option>
+<option>Jizan</option>
+<option>Jizzakh</option>
+<option>Jizzax</option>
+<option>Jogevamaa</option>
+<option>Johor</option>
+<option>Jonglei</option>
+<option>Jonkopings Lan</option>
+<option>Jowzjan</option>
+<option>Jubbada Dhexe</option>
+<option>Jubbada Hoose</option>
+<option>Jujuy</option>
+<option>Junin</option>
+<option>Jura</option>
+<option>Jurmala</option>
+<option>Jursinci Commune</option>
+<option>Jutiapa</option>
+<option>K'arelis Raioni</option>
+<option>K'ut'aisi</option>
+<option>Kaafu</option>
+<option>Kabardin-Balkar</option>
+<option>Kabarole</option>
+<option>Kaberamaido</option>
+<option>Kabol</option>
+<option>Kachin State</option>
+<option>Kadiogo</option>
+<option>Kaduna</option>
+<option>Kaesong-si</option>
+<option>Kafr ash Shaykh</option>
+<option>Kagawa</option>
+<option>Kagera</option>
+<option>Kagoshima</option>
+<option>Kahramanmaras</option>
+<option>Kairouan</option>
+<option>Kalangala</option>
+<option>Kalasin</option>
+<option>Kalbacar</option>
+<option>Kalimantan Barat</option>
+<option>Kalimantan Selatan</option>
+<option>Kalimantan Tengah</option>
+<option>Kalimantan Timur</option>
+<option>Kalinga-Apayao</option>
+<option>Kalinga</option>
+<option>Kaliningrad</option>
+<option>Kalmar Lan</option>
+<option>Kalmyk</option>
+<option>Kaluga</option>
+<option>Kamchatka</option>
+<option>Kamchatskiy Kray</option>
+<option>Kamenjane</option>
+<option>Kamnik Commune</option>
+<option>Kampala</option>
+<option>Kamphaeng Phet</option>
+<option>Kampong Cham</option>
+<option>Kampong Chhnang</option>
+<option>Kampong Speu</option>
+<option>Kampong Thum</option>
+<option>Kampot</option>
+<option>Kamuli</option>
+<option>Kamwenge</option>
+<option>Kanagawa</option>
+<option>Kanal Commune</option>
+<option>Kanchanaburi</option>
+<option>Kandahar</option>
+<option>Kandal</option>
+<option>Kanem</option>
+<option>Kangwon-do</option>
+<option>Kangwon-do</option>
+<option>Kankan</option>
+<option>Kano</option>
+<option>Kansas</option>
+<option>Kanungu</option>
+<option>Kao-hsiung</option>
+<option>Kaokoland</option>
+<option>Kaolack</option>
+<option>Kapchorwa</option>
+<option>Kapisa</option>
+<option>Kaposvar</option>
+<option>Kara</option>
+<option>Karabuk</option>
+<option>Karachay-Cherkess</option>
+<option>Karaman</option>
+<option>Karan State</option>
+<option>Karas</option>
+<option>Karasburg</option>
+<option>Karbala'</option>
+<option>Karbinci</option>
+<option>Kardhitsa</option>
+<option>Karelia</option>
+<option>Karibib</option>
+<option>Karlovacka</option>
+<option>Karlovarsky kraj</option>
+<option>Karnali</option>
+<option>Karnataka</option>
+<option>Karnten</option>
+<option>Karonga</option>
+<option>Karpos</option>
+<option>Kars</option>
+<option>Karuzi</option>
+<option>Kasai-Oriental</option>
+<option>Kasese</option>
+<option>Kaspis Raioni</option>
+<option>Kassala</option>
+<option>Kasserine</option>
+<option>Kastamonu</option>
+<option>Kastoria</option>
+<option>Kasungu</option>
+<option>Katakwi</option>
+<option>Katanga</option>
+<option>Katsina</option>
+<option>Kauno Apskritis</option>
+<option>Kavadarci</option>
+<option>Kavadarci</option>
+<option>Kavala</option>
+<option>Kavango</option>
+<option>Kayah State</option>
+<option>Kayanza</option>
+<option>Kayes</option>
+<option>Kayseri</option>
+<option>Kayunga</option>
+<option>Kebbi</option>
+<option>Kebili</option>
+<option>Kecskemet</option>
+<option>Kedah</option>
+<option>Keetmanshoop</option>
+<option>Kefallinia</option>
+<option>Kelantan</option>
+<option>Kemerovo</option>
+<option>Kemo</option>
+<option>Kemps Bay</option>
+<option>Kenedougou</option>
+<option>Kensington and Chelsea</option>
+<option>Kent</option>
+<option>Kentucky</option>
+<option>Kepulauan Bangka Belitung</option>
+<option>Kepulauan Riau</option>
+<option>Kerala</option>
+<option>Kerkira</option>
+<option>Kerman</option>
+<option>Kerman</option>
+<option>Kerouane</option>
+<option>Kerry</option>
+<option>Kgalagadi</option>
+<option>Kgatleng</option>
+<option>Khabarovsk</option>
+<option>Khakass</option>
+<option>Khalkidhiki</option>
+<option>Khammouan</option>
+<option>Khanh Hoa</option>
+<option>Khania</option>
+<option>Khanty-Mansiy</option>
+<option>Kharagaulis Raioni</option>
+<option>Kharkivs'ka Oblast'</option>
+<option>Khashuris Raioni</option>
+<option>Khaskovo</option>
+<option>Khatlon</option>
+<option>Khenchela</option>
+<option>Khersons'ka Oblast'</option>
+<option>Khios</option>
+<option>Khmel'nyts'ka Oblast'</option>
+<option>Khobis Raioni</option>
+<option>Khon Kaen</option>
+<option>Khonis Raioni</option>
+<option>Khorasan-e Janubi</option>
+<option>Khorasan-e Razavi</option>
+<option>Khorasan-e Shemali</option>
+<option>Khorasan</option>
+<option>Khorazm</option>
+<option>Khowst</option>
+<option>Khulna</option>
+<option>Khuzestan</option>
+<option>Kibale</option>
+<option>Kiboga</option>
+<option>Kibungo</option>
+<option>Kicevo</option>
+<option>Kidal</option>
+<option>Kidricevo Commune</option>
+<option>Kie-Ntem</option>
+<option>Kien Giang</option>
+<option>Kigali</option>
+<option>Kigali</option>
+<option>Kigoma</option>
+<option>Kikladhes</option>
+<option>Kildare</option>
+<option>Kilimanjaro</option>
+<option>Kilis</option>
+<option>Kilkenny</option>
+<option>Kilkis</option>
+<option>Kindia</option>
+<option>Kingston upon Hull, City of</option>
+<option>Kingston upon Thames</option>
+<option>Kingston</option>
+<option>Kinshasa</option>
+<option>Kirikkale</option>
+<option>Kirklareli</option>
+<option>Kirklees</option>
+<option>Kirov</option>
+<option>Kirovohrads'ka Oblast'</option>
+<option>Kirsehir</option>
+<option>Kirundo</option>
+<option>Kisela Voda</option>
+<option>Kisoro</option>
+<option>Kissidougou</option>
+<option>Kitgum</option>
+<option>Kjosarsysla</option>
+<option>Klaipedos Apskritis</option>
+<option>Klecevce</option>
+<option>Knowsley</option>
+<option>Kobarid Commune</option>
+<option>Kobilje Commune</option>
+<option>Kocaeli</option>
+<option>Kocani</option>
+<option>Kocevje Commune</option>
+<option>Kochi</option>
+<option>Kogi</option>
+<option>Koh Kong</option>
+<option>Kohkiluyeh va Buyer Ahmadi</option>
+<option>Kohtla-Jarve</option>
+<option>Kolda</option>
+<option>Komarom-Esztergom</option>
+<option>Komen Commune</option>
+<option>Komenda Commune</option>
+<option>Komi</option>
+<option>Komoe</option>
+<option>Komondjari</option>
+<option>Kompienga</option>
+<option>Kon Tum</option>
+<option>Konar</option>
+<option>Konce</option>
+<option>Kondovo</option>
+<option>Kondoz</option>
+<option>Konopiste</option>
+<option>Konya</option>
+<option>Koper-Capodistria Urban Commune</option>
+<option>Koprivnicko-Krizevacka</option>
+<option>Korce</option>
+<option>Kordestan</option>
+<option>Korinthia</option>
+<option>Koryak</option>
+<option>Kosel</option>
+<option>Kosi</option>
+<option>Kosice</option>
+<option>Kosovo</option>
+<option>Kosrae</option>
+<option>Kossi</option>
+<option>Kostanjevica na Krki</option>
+<option>Kostel Commune</option>
+<option>Kostroma</option>
+<option>Kotayk'</option>
+<option>Kotido</option>
+<option>Koubia</option>
+<option>Kouffo</option>
+<option>Kouffo</option>
+<option>Kouilou</option>
+<option>Koulikoro</option>
+<option>Koulpelogo</option>
+<option>Koundara</option>
+<option>Kouritenga</option>
+<option>Kouroussa</option>
+<option>Kourweogo</option>
+<option>Kozani</option>
+<option>Kozje Commune</option>
+<option>Krabi</option>
+<option>Kracheh</option>
+<option>Kralovehradecky kraj</option>
+<option>Kranj Commune</option>
+<option>Kranjska Gora Commune</option>
+<option>Krapinsko-Zagorska</option>
+<option>Kraslavas</option>
+<option>Krasnodar</option>
+<option>Krasnoyarsk</option>
+<option>Krasnoyarskiy Kray</option>
+<option>Kratovo</option>
+<option>Kriva Palanka</option>
+<option>Krivogastani</option>
+<option>Krizevci Commune</option>
+<option>Kronobergs Lan</option>
+<option>Krsko Commune</option>
+<option>Krung Thep</option>
+<option>Krusevo</option>
+<option>Krym</option>
+<option>Kuala Lumpur</option>
+<option>Kuhistoni Badakhshon</option>
+<option>Kujawsko-Pomorskie</option>
+<option>Kukes</option>
+<option>Kuklis</option>
+<option>Kukurecani</option>
+<option>Kuldigas</option>
+<option>Kumamoto</option>
+<option>Kumanovo</option>
+<option>Kumanovo</option>
+<option>Kumi</option>
+<option>Kunene</option>
+<option>Kungota Commune</option>
+<option>Kurdamir</option>
+<option>Kurdufan</option>
+<option>Kurdzhali</option>
+<option>Kurgan</option>
+<option>Kursk</option>
+<option>Kutahya</option>
+<option>Kuzma Commune</option>
+<option>Kwangju-jikhalsi</option>
+<option>Kwara</option>
+<option>KwaZulu-Natal</option>
+<option>Kweneng</option>
+<option>Kyenjojo</option>
+<option>Kyonggi-do</option>
+<option>Kyongsang-bukto</option>
+<option>Kyongsang-namdo</option>
+<option>Kyoto</option>
+<option>Kyrenia</option>
+<option>Kyustendil</option>
+<option>Kyyiv</option>
+<option>Kyyivs'ka Oblast'</option>
+<option>L'vivs'ka Oblast'</option>
+<option>La Altagracia</option>
+<option>La Carlota</option>
+<option>La Condamine</option>
+<option>La Digue</option>
+<option>La Guajira</option>
+<option>La Habana</option>
+<option>La Libertad</option>
+<option>La Libertad</option>
+<option>La Massana</option>
+<option>La Pampa</option>
+<option>La Paz</option>
+<option>La Paz</option>
+<option>La Paz</option>
+<option>La Rioja</option>
+<option>La Rioja</option>
+<option>La Riviere Anglaise</option>
+<option>La Romana</option>
+<option>La Union</option>
+<option>La Union</option>
+<option>La Vega</option>
+<option>La,youne-Boujdour-Sakia El Hamra</option>
+<option>Laamu</option>
+<option>Laane-Virumaa</option>
+<option>Laanemaa</option>
+<option>Labe</option>
+<option>Laborie</option>
+<option>Labuan</option>
+<option>Labunista</option>
+<option>Lac</option>
+<option>Lacin</option>
+<option>Lacs</option>
+<option>Laghman</option>
+<option>Laghouat</option>
+<option>Lagodekhis Raioni</option>
+<option>Lagos</option>
+<option>Laguna</option>
+<option>Lagunes</option>
+<option>Lahij</option>
+<option>Lahij</option>
+<option>Lai Chau</option>
+<option>Lakes</option>
+<option>Lakonia</option>
+<option>Lakshadweep</option>
+<option>Lam Dong</option>
+<option>Lambayeque</option>
+<option>Lambeth</option>
+<option>Lampang</option>
+<option>Lamphun</option>
+<option>Lampung</option>
+<option>Lanao del Norte</option>
+<option>Lanao del Sur</option>
+<option>Lancashire</option>
+<option>Lanch'khut'is Raioni</option>
+<option>Lang Son</option>
+<option>Languedoc-Roussillon</option>
+<option>Lankaran</option>
+<option>Lankaran</option>
+<option>Lao Cai</option>
+<option>Laoag</option>
+<option>Laois</option>
+<option>Lapland</option>
+<option>Lapu-Lapu</option>
+<option>Lara</option>
+<option>Larisa</option>
+<option>Larnaca</option>
+<option>Larne</option>
+<option>Las Pinas</option>
+<option>Las Tunas</option>
+<option>Lasithi</option>
+<option>Lasko Commune</option>
+<option>Lavalleja</option>
+<option>Lazio</option>
+<option>Lebap</option>
+<option>Leeds</option>
+<option>Legaspi</option>
+<option>Leicester</option>
+<option>Leicestershire</option>
+<option>Leiria</option>
+<option>Leitrim</option>
+<option>Lekoumou</option>
+<option>Lelouma</option>
+<option>Lempira</option>
+<option>Lenart Commune</option>
+<option>Lendava-Lendva Commune</option>
+<option>Leningrad</option>
+<option>Lentekhis Raioni</option>
+<option>Leon</option>
+<option>Leova</option>
+<option>Leraba</option>
+<option>Leribe</option>
+<option>Lerik</option>
+<option>Lesvos</option>
+<option>Levkas</option>
+<option>Lewisham</option>
+<option>Leyte</option>
+<option>Lezhe</option>
+<option>Lhaviyani</option>
+<option>Lhuntshi</option>
+<option>Liaoning</option>
+<option>Liban-Nord</option>
+<option>Liban-Nord</option>
+<option>Liban-Sud</option>
+<option>Liberecky kraj</option>
+<option>Libertador General Bernardo O'Higgins</option>
+<option>Licko-Senjska</option>
+<option>Liege</option>
+<option>Liepaja</option>
+<option>Liepajas</option>
+<option>Liguria</option>
+<option>Likoma</option>
+<option>Likouala</option>
+<option>Lilongwe</option>
+<option>Lima</option>
+<option>Limassol</option>
+<option>Limavady</option>
+<option>Limbazu</option>
+<option>Limburg</option>
+<option>Limburg</option>
+<option>Limerick</option>
+<option>Limon</option>
+<option>Limousin</option>
+<option>Limpopo</option>
+<option>Lincolnshire</option>
+<option>Lindi</option>
+<option>Line Islands</option>
+<option>Lipa</option>
+<option>Lipetsk</option>
+<option>Lipkovo</option>
+<option>Lira</option>
+<option>Lisboa</option>
+<option>Lisburn</option>
+<option>Litija Commune</option>
+<option>Litoral</option>
+<option>Littoral</option>
+<option>Littoral</option>
+<option>Littoral</option>
+<option>Liverpool</option>
+<option>Ljubljana Urban Commune</option>
+<option>Ljubno Commune</option>
+<option>Ljutomer Commune</option>
+<option>Lobaye</option>
+<option>Lodzkie</option>
+<option>Loei</option>
+<option>Lofa</option>
+<option>Lofa</option>
+<option>Log-Dragomer</option>
+<option>Logatec Commune</option>
+<option>Logone Occidental</option>
+<option>Logone Oriental</option>
+<option>Loja</option>
+<option>Lola</option>
+<option>Lombardia</option>
+<option>London, City of</option>
+<option>Long An</option>
+<option>Long Island</option>
+<option>Longford</option>
+<option>Lop Buri</option>
+<option>Lorestan</option>
+<option>Loreto</option>
+<option>Loroum</option>
+<option>Lorraine</option>
+<option>Lorri</option>
+<option>Los Lagos</option>
+<option>Los Lagos</option>
+<option>Los Rios</option>
+<option>Los Rios</option>
+<option>Los Santos</option>
+<option>Loska Dolina Commune</option>
+<option>Loski Potok Commune</option>
+<option>Louang Namtha</option>
+<option>Louangphrabang</option>
+<option>Louga</option>
+<option>Louisiana</option>
+<option>Louth</option>
+<option>Lovech</option>
+<option>Lovrenc na Pohorju Commune</option>
+<option>Lower River</option>
+<option>Lowgar</option>
+<option>Lozovo</option>
+<option>Luanda</option>
+<option>Luapula</option>
+<option>Lubelskie</option>
+<option>Lubombo</option>
+<option>Lubuskie</option>
+<option>Luce Commune</option>
+<option>Lucena</option>
+<option>Luderitz</option>
+<option>Ludzas</option>
+<option>Luhans'ka Oblast'</option>
+<option>Lukovica Commune</option>
+<option>Lukovo</option>
+<option>Lumbini</option>
+<option>Lunda Norte</option>
+<option>Lunda Sul</option>
+<option>Lusaka</option>
+<option>Luton</option>
+<option>Luwero</option>
+<option>Luxembourg</option>
+<option>Luxembourg</option>
+<option>Luzern</option>
+<option>M'sila</option>
+<option>Ma'akel</option>
+<option>Ma'an</option>
+<option>Ma'rib</option>
+<option>Maale</option>
+<option>Macau</option>
+<option>Macenta</option>
+<option>Machinga</option>
+<option>Madaba</option>
+<option>Madang</option>
+<option>Madanin</option>
+<option>Madeira</option>
+<option>Madhya Pradesh</option>
+<option>Madinat ach Shamal</option>
+<option>Madinat Hamad</option>
+<option>Madinat</option>
+<option>Madonas</option>
+<option>Madre de Dios</option>
+<option>Madrid</option>
+<option>Madriz</option>
+<option>Mae Hong Son</option>
+<option>Mafeteng</option>
+<option>Magadan</option>
+<option>Magallanes y de la Antartica Chilena</option>
+<option>Magdalena</option>
+<option>Magherafelt</option>
+<option>Magnisia</option>
+<option>Maguindanao</option>
+<option>Magwe</option>
+<option>Maha Sarakham</option>
+<option>Mahaica-Berbice</option>
+<option>Mahajanga</option>
+<option>Mahakali</option>
+<option>Maharashtra</option>
+<option>Mahilyowskaya Voblasts'</option>
+<option>Maine</option>
+<option>Maio</option>
+<option>Majsperk Commune</option>
+<option>Makamba</option>
+<option>Makedonska Kamenica</option>
+<option>Makedonski Brod</option>
+<option>Makedonski Brod</option>
+<option>Makira</option>
+<option>Makkah</option>
+<option>Makole</option>
+<option>Malabon</option>
+<option>Malaita</option>
+<option>Malakula</option>
+<option>Malampa</option>
+<option>Malanje</option>
+<option>Malatya</option>
+<option>Malaybalay</option>
+<option>Maldonado</option>
+<option>Mali</option>
+<option>Malopolskie</option>
+<option>Maltahohe</option>
+<option>Maluku Utara</option>
+<option>Maluku</option>
+<option>Mambere-Kadei</option>
+<option>Mamou</option>
+<option>Manabi</option>
+<option>Managua</option>
+<option>Manawatu-Wanganui</option>
+<option>Manchester</option>
+<option>Manchester</option>
+<option>Mandalay</option>
+<option>Mandaue</option>
+<option>Mandiana</option>
+<option>Mangghystau</option>
+<option>Mangochi</option>
+<option>Manica</option>
+<option>Manicaland</option>
+<option>Maniema</option>
+<option>Manila</option>
+<option>Manipur</option>
+<option>Manisa</option>
+<option>Manitoba</option>
+<option>Manouba</option>
+<option>Manus</option>
+<option>Manyara</option>
+<option>Manzini</option>
+<option>Maputo</option>
+<option>Maputo</option>
+<option>Mara</option>
+<option>Maradi</option>
+<option>Marahoue</option>
+<option>Maramures</option>
+<option>Maranhao</option>
+<option>Marawi</option>
+<option>Marche</option>
+<option>Mardin</option>
+<option>Margibi</option>
+<option>Maria Trinidad Sanchez</option>
+<option>Maribor Commune</option>
+<option>Mariental</option>
+<option>Marijampoles Apskritis</option>
+<option>Marinduque</option>
+<option>Maritime</option>
+<option>Mariy-El</option>
+<option>Markazi</option>
+<option>Markazi</option>
+<option>Markazi</option>
+<option>Markovci Commune</option>
+<option>Marlborough</option>
+<option>Marneulis Raioni</option>
+<option>Marowijne</option>
+<option>Marrakech-Tensift-Al Haouz</option>
+<option>Marsh Harbour</option>
+<option>Marshall Islands</option>
+<option>Martvilis Raioni</option>
+<option>Mary</option>
+<option>Maryland</option>
+<option>Maryland</option>
+<option>Maryland</option>
+<option>Masaka</option>
+<option>Masalli</option>
+<option>Masaya</option>
+<option>Masbate</option>
+<option>Mascara</option>
+<option>Maseru</option>
+<option>Mashonaland Central</option>
+<option>Mashonaland East</option>
+<option>Mashonaland West</option>
+<option>Masindi</option>
+<option>Masqat</option>
+<option>Massachusetts</option>
+<option>Masvingo</option>
+<option>Matabeleland North</option>
+<option>Matabeleland South</option>
+<option>Matagalpa</option>
+<option>Matam</option>
+<option>Matanzas</option>
+<option>Mato Grosso do Sul</option>
+<option>Mato Grosso</option>
+<option>Matruh</option>
+<option>Maule</option>
+<option>Mauren</option>
+<option>Mavrovi Anovi</option>
+<option>Mayaguana</option>
+<option>Mayaro</option>
+<option>Mayo-Kebbi</option>
+<option>Mayo</option>
+<option>Maysan</option>
+<option>Mayuge</option>
+<option>Mazandaran</option>
+<option>Mazandaran</option>
+<option>Mazowieckie</option>
+<option>Mbale</option>
+<option>Mbarara</option>
+<option>Mbeya</option>
+<option>Mbomou</option>
+<option>Mchinji</option>
+<option>Meath</option>
+<option>Mechi</option>
+<option>Mecklenburg-Vorpommern</option>
+<option>Medea</option>
+<option>Medimurska</option>
+<option>Medvode Commune</option>
+<option>Medway</option>
+<option>Meemu</option>
+<option>Meghalaya</option>
+<option>Mehedinti</option>
+<option>Meknes-Tafilalet</option>
+<option>Melaka</option>
+<option>Mendoza</option>
+<option>Meneng</option>
+<option>Menges Commune</option>
+<option>Merida</option>
+<option>Mersin</option>
+<option>Merthyr Tydfil</option>
+<option>Merton</option>
+<option>Meseista</option>
+<option>Messinia</option>
+<option>Mestiis Raioni</option>
+<option>Meta</option>
+<option>Metlika Commune</option>
+<option>Mexico</option>
+<option>Mezica Commune</option>
+<option>Michigan</option>
+<option>Michoacan de Ocampo</option>
+<option>Micoud</option>
+<option>Middlesbrough</option>
+<option>Midi-Pyrenees</option>
+<option>Midland</option>
+<option>Midlands</option>
+<option>Midlothian</option>
+<option>Midtjylland</option>
+<option>Mie</option>
+<option>Mikhaylovgrad</option>
+<option>Miklavz na Dravskem polju Commune</option>
+<option>Mila</option>
+<option>Milne Bay</option>
+<option>Milton Keynes</option>
+<option>Minas Gerais</option>
+<option>Mindoro Occidental</option>
+<option>Mindoro Oriental</option>
+<option>Mingacevir</option>
+<option>Minnesota</option>
+<option>Minsk</option>
+<option>Minskaya Voblasts'</option>
+<option>Mintaqat Juzur Hawar</option>
+<option>Miranda</option>
+<option>Miravci</option>
+<option>Miren-Kostanjevica Commune</option>
+<option>Mirna Pec Commune</option>
+<option>Mirna</option>
+<option>Misamis Occidental</option>
+<option>Misamis Oriental</option>
+<option>Misiones</option>
+<option>Misiones</option>
+<option>Miskolc</option>
+<option>Mislinja Commune</option>
+<option>Misratah</option>
+<option>Mississippi</option>
+<option>Missouri</option>
+<option>Miyagi</option>
+<option>Miyazaki</option>
+<option>Mizoram</option>
+<option>Mogila</option>
+<option>Mohales Hoek</option>
+<option>Moheli</option>
+<option>Moka</option>
+<option>Mokhotlong</option>
+<option>Mokronog-Trebelno</option>
+<option>Molise</option>
+<option>Mon State</option>
+<option>Monaco</option>
+<option>Monagas</option>
+<option>Monaghan</option>
+<option>Mondulkiri</option>
+<option>Mongar</option>
+<option>Monmouthshire</option>
+<option>Mono</option>
+<option>Monrovia</option>
+<option>Monsenor Nouel</option>
+<option>Mont Buxton</option>
+<option>Mont Fleuri</option>
+<option>Mont-Liban</option>
+<option>Montana</option>
+<option>Montana</option>
+<option>Monte Cristi</option>
+<option>Monte Giardino</option>
+<option>Monte Plata</option>
+<option>Monte-Carlo</option>
+<option>Montevideo</option>
+<option>Montserrado</option>
+<option>Mopti</option>
+<option>Moquegua</option>
+<option>Moravce Commune</option>
+<option>Moravske Toplice Commune</option>
+<option>Moravskoslezsky kraj</option>
+<option>Moray</option>
+<option>Morazan</option>
+<option>Mordovia</option>
+<option>More og Romsdal</option>
+<option>Morelos</option>
+<option>Morobe</option>
+<option>Morogoro</option>
+<option>Morona-Santiago</option>
+<option>Moroto</option>
+<option>Moscow City</option>
+<option>Moskva</option>
+<option>Mostaganem</option>
+<option>Mosteiros</option>
+<option>Mouhoun</option>
+<option>Mountain</option>
+<option>Moxico</option>
+<option>Moyen-Cavally</option>
+<option>Moyen-Chari</option>
+<option>Moyen-Comoe</option>
+<option>Moyen-Ogooue</option>
+<option>Moyle</option>
+<option>Moyo</option>
+<option>Mozirje Commune</option>
+<option>Mpigi</option>
+<option>Mpumalanga</option>
+<option>Mts'khet'is Raioni</option>
+<option>Mtwara</option>
+<option>Mubarak al Kabir</option>
+<option>Mubende</option>
+<option>Mudug</option>
+<option>Mugla</option>
+<option>Mukdahan</option>
+<option>Mukono</option>
+<option>Mulanje</option>
+<option>Muntinlupa</option>
+<option>Muramvya</option>
+<option>Murcia</option>
+<option>Mures</option>
+<option>Murmansk</option>
+<option>Murska Sobota Urban Commune</option>
+<option>Murtino</option>
+<option>Murzuq</option>
+<option>Mus</option>
+<option>Musandam</option>
+<option>Muta Commune</option>
+<option>Muyinga</option>
+<option>Mwanza</option>
+<option>Mwanza</option>
+<option>Mwaro</option>
+<option>Mykolayivs'ka Oblast'</option>
+<option>Myrasysla</option>
+<option>Mzimba</option>
+<option>N'zi-Comoe</option>
+<option>Naama</option>
+<option>Nabatiye</option>
+<option>Nabeul</option>
+<option>Naftalan</option>
+<option>Naga</option>
+<option>Nagaland</option>
+<option>Nagano</option>
+<option>Nagasaki</option>
+<option>Nagykanizsa</option>
+<option>Nairobi Area</option>
+<option>Najin Sonbong-si</option>
+<option>Najran</option>
+<option>Nakapiripirit</option>
+<option>Nakasongola</option>
+<option>Nakhon Nayok</option>
+<option>Nakhon Pathom</option>
+<option>Nakhon Phanom</option>
+<option>Nakhon Phanom</option>
+<option>Nakhon Ratchasima</option>
+<option>Nakhon Sawan</option>
+<option>Nakhon Si Thammarat</option>
+<option>Naklo Commune</option>
+<option>Nam Dinh</option>
+<option>Namaland</option>
+<option>Namangan</option>
+<option>Namentenga</option>
+<option>Namibe</option>
+<option>Namp'o-si</option>
+<option>Nampula</option>
+<option>Namur</option>
+<option>Nan</option>
+<option>Nana-Grebizi</option>
+<option>Nana-Mambere</option>
+<option>Nangarhar</option>
+<option>Naouri</option>
+<option>Napo</option>
+<option>Nara</option>
+<option>Narathiwat</option>
+<option>Narayani</option>
+<option>Narino</option>
+<option>Nariva</option>
+<option>Narva</option>
+<option>Naryn</option>
+<option>Nassarawa</option>
+<option>National Capital</option>
+<option>Navarra</option>
+<option>Navotas</option>
+<option>Nawoiy</option>
+<option>Naxcivan</option>
+<option>Nayala</option>
+<option>Nayarit</option>
+<option>Nazarje Commune</option>
+<option>Neamt</option>
+<option>Neath Port Talbot</option>
+<option>Nebbi</option>
+<option>Nebraska</option>
+<option>Neembucu</option>
+<option>Neftcala</option>
+<option>Negeri Sembilan</option>
+<option>Negotino-Polosko</option>
+<option>Negotino</option>
+<option>Negros Occidental</option>
+<option>Negros Occidental</option>
+<option>Negros Oriental</option>
+<option>Nei Mongol</option>
+<option>Nelson</option>
+<option>Nenets</option>
+<option>Neuchatel</option>
+<option>Neuquen</option>
+<option>Nevada</option>
+<option>Nevsehir</option>
+<option>New Brunswick</option>
+<option>New Hampshire</option>
+<option>New Ireland</option>
+<option>New Jersey</option>
+<option>New Mexico</option>
+<option>New Providence</option>
+<option>New South Wales</option>
+<option>New York</option>
+<option>Newcastle upon Tyne</option>
+<option>Newfoundland</option>
+<option>Newham</option>
+<option>Newport</option>
+<option>Newry and Mourne</option>
+<option>Newtownabbey</option>
+<option>Nghe An</option>
+<option>Ngounie</option>
+<option>Ngozi</option>
+<option>Niamey</option>
+<option>Niamey</option>
+<option>Niari</option>
+<option>Niassa</option>
+<option>Nibok</option>
+<option>Nichollstown and Berry Islands</option>
+<option>Nickerie</option>
+<option>Nicosia</option>
+<option>Nidwalden</option>
+<option>Niederosterreich</option>
+<option>Niedersachsen</option>
+<option>Nigde</option>
+<option>Niger</option>
+<option>Niigata</option>
+<option>Nimba</option>
+<option>Nimruz</option>
+<option>Ninawa</option>
+<option>Ningxia</option>
+<option>Ninh Binh</option>
+<option>Ninh Thuan</option>
+<option>Ninotsmindis Raioni</option>
+<option>Nippes</option>
+<option>Nisporeni</option>
+<option>Nitra</option>
+<option>Nizhegorod</option>
+<option>Nkhata Bay</option>
+<option>Nkhotakota</option>
+<option>Nograd</option>
+<option>Nohiyahoi Tobei Jumhuri</option>
+<option>Nong Bua Lamphu</option>
+<option>Nong Khai</option>
+<option>Nonthaburi</option>
+<option>Noonu</option>
+<option>Noord-Brabant</option>
+<option>Noord-Holland</option>
+<option>Nord-Est</option>
+<option>Nord-Kivu</option>
+<option>Nord-Ouest</option>
+<option>Nord-Ouest</option>
+<option>Nord-Pas-de-Calais</option>
+<option>Nord-Trondelag</option>
+<option>Nord</option>
+<option>Nord</option>
+<option>Nord</option>
+<option>Nordgronland</option>
+<option>Nordjylland</option>
+<option>Nordland</option>
+<option>Nordrhein-Westfalen</option>
+<option>Nordur-Mulasysla</option>
+<option>Nordur-Tingeyjarsysla</option>
+<option>Norfolk</option>
+<option>Norourland Eystra</option>
+<option>Norourland Vestra</option>
+<option>Norrbottens Lan</option>
+<option>Norte de Santander</option>
+<option>North Ayrshire</option>
+<option>North Bank</option>
+<option>North Carolina</option>
+<option>North Central</option>
+<option>North Cotabato</option>
+<option>North Dakota</option>
+<option>North Down</option>
+<option>North East Lincolnshire</option>
+<option>North Kazakhstan</option>
+<option>North Lanarkshire</option>
+<option>North Lincolnshire</option>
+<option>North Ossetia</option>
+<option>North Solomons</option>
+<option>North Somerset</option>
+<option>North Tyneside</option>
+<option>North Western</option>
+<option>North Yorkshire</option>
+<option>North-East</option>
+<option>North-Eastern</option>
+<option>North-West Frontier</option>
+<option>North-West</option>
+<option>North-West</option>
+<option>North-Western Province</option>
+<option>North-Western</option>
+<option>Northamptonshire</option>
+<option>Northern Areas</option>
+<option>Northern Bahr el Ghazal</option>
+<option>Northern Cape</option>
+<option>Northern Darfur</option>
+<option>Northern Mariana Islands</option>
+<option>Northern Samar</option>
+<option>Northern Territory</option>
+<option>Northern</option>
+<option>Northern</option>
+<option>Northern</option>
+<option>Northern</option>
+<option>Northern</option>
+<option>Northern</option>
+<option>Northland</option>
+<option>Northumberland</option>
+<option>Northwest Territories</option>
+<option>Nottingham</option>
+<option>Nottinghamshire</option>
+<option>Noumbiel</option>
+<option>Nova Gorica Urban Commune</option>
+<option>Nova Scotia</option>
+<option>Novaci</option>
+<option>Novgorod</option>
+<option>Novo mesto Urban Commune</option>
+<option>Novo Selo</option>
+<option>Novosibirsk</option>
+<option>Nsanje</option>
+<option>Ntcheu</option>
+<option>Ntchisi</option>
+<option>Ntungamo</option>
+<option>Nueva Ecija</option>
+<option>Nueva Esparta</option>
+<option>Nueva Segovia</option>
+<option>Nueva Vizcaya</option>
+<option>Nuevo Leon</option>
+<option>Nugaal</option>
+<option>Nugaal</option>
+<option>Nunavut</option>
+<option>Nurestan</option>
+<option>Nusa Tenggara Barat</option>
+<option>Nusa Tenggara Timur</option>
+<option>Nyanga</option>
+<option>Nyanza</option>
+<option>Nyiregyhaza</option>
+<option>Nzerekore</option>
+<option>Oaxaca</option>
+<option>Oberosterreich</option>
+<option>Oblesevo</option>
+<option>Obock</option>
+<option>Obwalden</option>
+<option>Ocnita</option>
+<option>Ocotepeque</option>
+<option>Odes'ka Oblast'</option>
+<option>Odranci Commune</option>
+<option>Offaly</option>
+<option>Ogooue-Ivindo</option>
+<option>Ogooue-Lolo</option>
+<option>Ogooue-Maritime</option>
+<option>Ogres</option>
+<option>Ogun</option>
+<option>Oguz</option>
+<option>Ohangwena</option>
+<option>Ohio</option>
+<option>Ohrid</option>
+<option>Ohrid</option>
+<option>Oio</option>
+<option>Oita</option>
+<option>Okahandja</option>
+<option>Okavango</option>
+<option>Okayama</option>
+<option>Okinawa</option>
+<option>Oklahoma</option>
+<option>Olancho</option>
+<option>Oldham</option>
+<option>Olomoucky kraj</option>
+<option>Olongapo</option>
+<option>Olt</option>
+<option>Omagh</option>
+<option>Omaheke</option>
+<option>Omaruru</option>
+<option>Ombella-Mpoko</option>
+<option>Omnogovi</option>
+<option>Omsk</option>
+<option>Omusati</option>
+<option>Ondo</option>
+<option>Onis Raioni</option>
+<option>Ontario</option>
+<option>Oost-Vlaanderen</option>
+<option>Oplotnica Commune</option>
+<option>Opolskie</option>
+<option>Oppland</option>
+<option>Oran</option>
+<option>Orange Walk</option>
+<option>Orasac</option>
+<option>Ordino</option>
+<option>Ordu</option>
+<option>Orebro Lan</option>
+<option>Oregon</option>
+<option>Orel</option>
+<option>Orellana</option>
+<option>Orenburg</option>
+<option>Orhei</option>
+<option>Orhon</option>
+<option>Oriental</option>
+<option>Orientale</option>
+<option>Orissa</option>
+<option>Orizari</option>
+<option>Orkney</option>
+<option>Ormoc</option>
+<option>Ormoz Commune</option>
+<option>Oromiya</option>
+<option>Oroquieta</option>
+<option>Oruro</option>
+<option>Oruzgan</option>
+<option>Osaka</option>
+<option>Osh</option>
+<option>Osh</option>
+<option>Oshana</option>
+<option>Oshikoto</option>
+<option>Osilnica Commune</option>
+<option>Osjecko-Baranjska</option>
+<option>Oslo</option>
+<option>Oslomej</option>
+<option>Osmaniye</option>
+<option>Ostergotlands Lan</option>
+<option>Ostfold</option>
+<option>Ostgronland</option>
+<option>Osun</option>
+<option>Otago</option>
+<option>Otjiwarongo</option>
+<option>Otjozondjupa</option>
+<option>Ouaddai</option>
+<option>Ouaka</option>
+<option>Ouargla</option>
+<option>Oubritenga</option>
+<option>Oudalan</option>
+<option>Oudomxai</option>
+<option>Oueme</option>
+<option>Oueme</option>
+<option>Ouest</option>
+<option>Ouest</option>
+<option>Ouest</option>
+<option>Ouham-Pende</option>
+<option>Ouham</option>
+<option>Oulu</option>
+<option>Oum el Bouaghi</option>
+<option>Outjo</option>
+<option>Overijssel</option>
+<option>Ovorhangay</option>
+<option>Owambo</option>
+<option>Oxfordshire</option>
+<option>Oyo</option>
+<option>Ozamis</option>
+<option>Ozurget'is Raioni</option>
+<option>P'ot'i</option>
+<option>P'yongan-bukto</option>
+<option>P'yongan-namdo</option>
+<option>P'yongyang-si</option>
+<option>Paama</option>
+<option>Pader</option>
+<option>Pagadian</option>
+<option>Paget</option>
+<option>Pahang</option>
+<option>Pailin</option>
+<option>Pais Vasco</option>
+<option>Paktia</option>
+<option>Paktika</option>
+<option>Palau</option>
+<option>Palauli</option>
+<option>Palawan</option>
+<option>Palayan</option>
+<option>Pallisa</option>
+<option>Pampanga</option>
+<option>Pamplemousses</option>
+<option>Panama</option>
+<option>Pando</option>
+<option>Panevezio Apskritis</option>
+<option>Pangasinan</option>
+<option>Panjshir</option>
+<option>Paphos</option>
+<option>Papua</option>
+<option>Para</option>
+<option>Para</option>
+<option>Paraguari</option>
+<option>Paraiba</option>
+<option>Paramaribo</option>
+<option>Parana</option>
+<option>Paranaque</option>
+<option>Pardubicky kraj</option>
+<option>Parnu</option>
+<option>Parnumaa</option>
+<option>Paro</option>
+<option>Parvan</option>
+<option>Pasay</option>
+<option>Pasco</option>
+<option>Passi</option>
+<option>Passore</option>
+<option>Pastaza</option>
+<option>Pathum Thani</option>
+<option>Pattani</option>
+<option>Paul</option>
+<option>Pavlodar</option>
+<option>Pays de la Loire</option>
+<option>Paysandu</option>
+<option>Pazardzhik</option>
+<option>Pecs</option>
+<option>Pedernales</option>
+<option>Pegu</option>
+<option>Pehcevo</option>
+<option>Pella</option>
+<option>Pemagatsel</option>
+<option>Pemba North</option>
+<option>Pemba South</option>
+<option>Pembroke</option>
+<option>Pembrokeshire</option>
+<option>Penama</option>
+<option>Pennsylvania</option>
+<option>Pentecote</option>
+<option>Penza</option>
+<option>Perak</option>
+<option>Peravia</option>
+<option>Peravia</option>
+<option>Perlis</option>
+<option>Perm'</option>
+<option>Permskiy Kray</option>
+<option>Pernambuco</option>
+<option>Pernik</option>
+<option>Perth and Kinross</option>
+<option>Pesnica Commune</option>
+<option>Pest</option>
+<option>Peten</option>
+<option>Peterborough</option>
+<option>Petrovec</option>
+<option>Phalombe</option>
+<option>Phangnga</option>
+<option>Phatthalung</option>
+<option>Phayao</option>
+<option>Phetchabun</option>
+<option>Phetchaburi</option>
+<option>Phichit</option>
+<option>Phitsanulok</option>
+<option>Phnum Penh</option>
+<option>Phnum Penh</option>
+<option>Phoenix Islands</option>
+<option>Phongsali</option>
+<option>Phra Nakhon Si Ayutthaya</option>
+<option>Phrae</option>
+<option>Phu Tho</option>
+<option>Phu Yen</option>
+<option>Phuket</option>
+<option>Piaui</option>
+<option>Picardie</option>
+<option>Pichincha</option>
+<option>Piemonte</option>
+<option>Pieria</option>
+<option>Pinar del Rio</option>
+<option>Piran-Pirano Commune</option>
+<option>Pita</option>
+<option>Piura</option>
+<option>Pivka Commune</option>
+<option>Plaines Wilhems</option>
+<option>Plaisance</option>
+<option>Planken</option>
+<option>Plasnica</option>
+<option>Plateau</option>
+<option>Plateau</option>
+<option>Plateau</option>
+<option>Plateaux</option>
+<option>Plateaux</option>
+<option>Pleven</option>
+<option>Plovdiv</option>
+<option>Plymouth</option>
+<option>Plzensky kraj</option>
+<option>Podares</option>
+<option>Podcetrtek Commune</option>
+<option>Podkarpackie</option>
+<option>Podlaskie</option>
+<option>Podlehnik Commune</option>
+<option>Podvelka Commune</option>
+<option>Pohnpei</option>
+<option>Pointe La Rue</option>
+<option>Poitou-Charentes</option>
+<option>Poljcane</option>
+<option>Poltavs'ka Oblast'</option>
+<option>Polvamaa</option>
+<option>Polzela Commune</option>
+<option>Pomeroon-Supenaam</option>
+<option>Pomorskie</option>
+<option>Poni</option>
+<option>Pool</option>
+<option>Poole</option>
+<option>Port Glaud</option>
+<option>Port Louis</option>
+<option>Port-of-Spain</option>
+<option>Portalegre</option>
+<option>Portland</option>
+<option>Porto</option>
+<option>Portsmouth</option>
+<option>Portuguesa</option>
+<option>Postojna Commune</option>
+<option>Potaro-Siparuni</option>
+<option>Potosi</option>
+<option>Powys</option>
+<option>Pozesko-Slavonska</option>
+<option>Prachin Buri</option>
+<option>Prachin Buri</option>
+<option>Prachuap Khiri Khan</option>
+<option>Prahova</option>
+<option>Praia</option>
+<option>Praslin</option>
+<option>Praslin</option>
+<option>Preah Seihanu</option>
+<option>Preah Vihear</option>
+<option>Prebold Commune</option>
+<option>Preddvor Commune</option>
+<option>Preilu</option>
+<option>Presidente Hayes</option>
+<option>Presov</option>
+<option>Prevalje Commune</option>
+<option>Preveza</option>
+<option>Prey Veng</option>
+<option>Prilep</option>
+<option>Prilep</option>
+<option>Primor'ye</option>
+<option>Primorsko-Goranska</option>
+<option>Prince Edward Island</option>
+<option>Principe</option>
+<option>Probistip</option>
+<option>Provence-Alpes-Cote d'Azur</option>
+<option>Pskov</option>
+<option>Ptuj Urban Commune</option>
+<option>Puconci Commune</option>
+<option>Puducherry</option>
+<option>Puebla</option>
+<option>Puerto Plata</option>
+<option>Puerto Princesa</option>
+<option>Puglia</option>
+<option>Pulau Pinang</option>
+<option>Punakha</option>
+<option>Punjab</option>
+<option>Punjab</option>
+<option>Puno</option>
+<option>Puntarenas</option>
+<option>Pursat</option>
+<option>Pusan-jikhalsi</option>
+<option>Putrajaya</option>
+<option>Putumayo</option>
+<option>Pwani</option>
+<option>Qabala</option>
+<option>Qachas Nek</option>
+<option>Qafsah</option>
+<option>Qaraghandy</option>
+<option>Qashqadaryo</option>
+<option>Qax</option>
+<option>Qazax</option>
+<option>Qazbegis Raioni</option>
+<option>Qazvin</option>
+<option>Qina</option>
+<option>Qinghai</option>
+<option>Qobustan</option>
+<option>Qom</option>
+<option>Qoraqalpoghiston</option>
+<option>Qostanay</option>
+<option>Quang Binh</option>
+<option>Quang Nam</option>
+<option>Quang Ngai</option>
+<option>Quang Ninh</option>
+<option>Quang Tri</option>
+<option>Quba</option>
+<option>Qubadli</option>
+<option>Quebec</option>
+<option>Queensland</option>
+<option>Queretaro de Arteaga</option>
+<option>Quetzaltenango</option>
+<option>Quezon City</option>
+<option>Quezon</option>
+<option>Quiche</option>
+<option>Quinara</option>
+<option>Quindio</option>
+<option>Quintana Roo</option>
+<option>Quirino</option>
+<option>Qusar</option>
+<option>Quthing</option>
+<option>Qvarlis Raioni</option>
+<option>Qyzylorda</option>
+<option>Raa</option>
+<option>Rabat-Sale-Zemmour-Zaer</option>
+<option>Race-Fram Commune</option>
+<option>Radece Commune</option>
+<option>Radenci Commune</option>
+<option>Radlje ob Dravi Commune</option>
+<option>Radovis</option>
+<option>Radovljica Commune</option>
+<option>Ragged Island</option>
+<option>Rajasthan</option>
+<option>Rajshahi</option>
+<option>Rakai</option>
+<option>Rakhine State</option>
+<option>Rangarvallasysla</option>
+<option>Rangoon</option>
+<option>Rangpur</option>
+<option>Rankovce</option>
+<option>Ranong</option>
+<option>Raplamaa</option>
+<option>Rapti</option>
+<option>Ras Al Khaimah</option>
+<option>Ratanakiri Kiri</option>
+<option>Ratanakiri</option>
+<option>Ratchaburi</option>
+<option>Ravne na Koroskem Commune</option>
+<option>Rayong</option>
+<option>Razgrad</option>
+<option>Razkrizje Commune</option>
+<option>Reading</option>
+<option>Recica ob Savinji</option>
+<option>Redbridge</option>
+<option>Redcar and Cleveland</option>
+<option>Redonda</option>
+<option>Region Autonoma Atlantico Sur</option>
+<option>Region Metropolitana</option>
+<option>Rehoboth</option>
+<option>Relizane</option>
+<option>Rence-Vogrsko</option>
+<option>Renfrewshire</option>
+<option>Rennell and Bellona</option>
+<option>Republika Srpska</option>
+<option>Resen</option>
+<option>Retalhuleu</option>
+<option>Rethimni</option>
+<option>Rezekne</option>
+<option>Rezeknes</option>
+<option>Rezina</option>
+<option>Rheinland-Pfalz</option>
+<option>Rhode Island</option>
+<option>Rhondda Cynon Taff</option>
+<option>Rhone-Alpes</option>
+<option>Riau</option>
+<option>Ribeira Grande</option>
+<option>Ribnica Commune</option>
+<option>Ribnica na Pohorju Commune</option>
+<option>Richmond upon Thames</option>
+<option>Rif Dimashq</option>
+<option>Rift Valley</option>
+<option>Riga</option>
+<option>Rigas</option>
+<option>Rio de Janeiro</option>
+<option>Rio Grande do Norte</option>
+<option>Rio Grande do Sul</option>
+<option>Rio Negro</option>
+<option>Rio Negro</option>
+<option>Rio San Juan</option>
+<option>Risaralda</option>
+<option>Riscani</option>
+<option>Rivas</option>
+<option>River Cess</option>
+<option>River Gee</option>
+<option>River Gee</option>
+<option>River Nile</option>
+<option>Rivera</option>
+<option>Rivers</option>
+<option>Riviere du Rempart</option>
+<option>Rivnens'ka Oblast'</option>
+<option>Rizal</option>
+<option>Rize</option>
+<option>Rocha</option>
+<option>Rochdale</option>
+<option>Rock Sound</option>
+<option>Rodhopi</option>
+<option>Rodrigues</option>
+<option>Rogaland</option>
+<option>Rogaska Slatina Commune</option>
+<option>Rogasovci Commune</option>
+<option>Rogatec Commune</option>
+<option>Roi Et</option>
+<option>Romblon</option>
+<option>Rondonia</option>
+<option>Roraima</option>
+<option>Roscommon</option>
+<option>Rosoman</option>
+<option>Rostov</option>
+<option>Rostusa</option>
+<option>Rotherham</option>
+<option>Rotuma</option>
+<option>Roxas</option>
+<option>Ruggell</option>
+<option>Rukungiri</option>
+<option>Rukwa</option>
+<option>Rumphi</option>
+<option>Ruse Commune</option>
+<option>Ruse</option>
+<option>Rust'avi</option>
+<option>Rutana</option>
+<option>Rutland</option>
+<option>Ruvuma</option>
+<option>Ruyigi</option>
+<option>Ryazan'</option>
+<option>Sa Kaeo</option>
+<option>Sa'dah</option>
+<option>Saaremaa</option>
+<option>Saarland</option>
+<option>Saatli</option>
+<option>Sabah</option>
+<option>Sabaragamuwa</option>
+<option>Sabha</option>
+<option>Sabirabad</option>
+<option>Sacatepequez</option>
+<option>Sach'kheris Raioni</option>
+<option>Sachsen-Anhalt</option>
+<option>Sachsen</option>
+<option>Saga</option>
+<option>Sagaing</option>
+<option>Sagarejos Raioni</option>
+<option>Sagarmatha</option>
+<option>Saida</option>
+<option>Saint Andrew</option>
+<option>Saint Andrew</option>
+<option>Saint Andrew</option>
+<option>Saint Andrew</option>
+<option>Saint Andrew</option>
+<option>Saint Andrew</option>
+<option>Saint Ann</option>
+<option>Saint Anne Sandy Point</option>
+<option>Saint Anthony</option>
+<option>Saint Catherine</option>
+<option>Saint David</option>
+<option>Saint David</option>
+<option>Saint David</option>
+<option>Saint David</option>
+<option>Saint Elizabeth</option>
+<option>Saint George Basseterre</option>
+<option>Saint George Gingerland</option>
+<option>Saint George's</option>
+<option>Saint George</option>
+<option>Saint George</option>
+<option>Saint George</option>
+<option>Saint George</option>
+<option>Saint George</option>
+<option>Saint George</option>
+<option>Saint George</option>
+<option>Saint Georges</option>
+<option>Saint Helena</option>
+<option>Saint James Windward</option>
+<option>Saint James</option>
+<option>Saint James</option>
+<option>Saint John Capisterre</option>
+<option>Saint John Figtree</option>
+<option>Saint John</option>
+<option>Saint John</option>
+<option>Saint John</option>
+<option>Saint John</option>
+<option>Saint Joseph</option>
+<option>Saint Joseph</option>
+<option>Saint Louis</option>
+<option>Saint Lucy</option>
+<option>Saint Luke</option>
+<option>Saint Mark</option>
+<option>Saint Mark</option>
+<option>Saint Mary Cayon</option>
+<option>Saint Mary</option>
+<option>Saint Mary</option>
+<option>Saint Michael</option>
+<option>Saint Patrick</option>
+<option>Saint Patrick</option>
+<option>Saint Patrick</option>
+<option>Saint Patrick</option>
+<option>Saint Paul Capisterre</option>
+<option>Saint Paul Charlestown</option>
+<option>Saint Paul</option>
+<option>Saint Paul</option>
+<option>Saint Peter Basseterre</option>
+<option>Saint Peter</option>
+<option>Saint Peter</option>
+<option>Saint Peter</option>
+<option>Saint Peter</option>
+<option>Saint Petersburg City</option>
+<option>Saint Philip</option>
+<option>Saint Philip</option>
+<option>Saint Thomas Lowland</option>
+<option>Saint Thomas Middle Island</option>
+<option>Saint Thomas</option>
+<option>Saint Thomas</option>
+<option>Saint-Louis</option>
+<option>Saitama</option>
+<option>Sakarya</option>
+<option>Sakha</option>
+<option>Sakhalin</option>
+<option>Saki</option>
+<option>Saki</option>
+<option>Sakon Nakhon</option>
+<option>Sal</option>
+<option>Salah ad Din</option>
+<option>Salaj</option>
+<option>Salamat</option>
+<option>Salcedo</option>
+<option>Saldus</option>
+<option>Salford</option>
+<option>Salgotarjan</option>
+<option>Salima</option>
+<option>Salovci Commune</option>
+<option>Salta</option>
+<option>Salto</option>
+<option>Salyan</option>
+<option>Salzburg</option>
+<option>Samana</option>
+<option>Samangan</option>
+<option>Samar</option>
+<option>Samara</option>
+<option>Samarqand</option>
+<option>Samaxi</option>
+<option>Samchi</option>
+<option>Samdrup</option>
+<option>Samkir</option>
+<option>Samokov</option>
+<option>Samos</option>
+<option>Samsun</option>
+<option>Samtrediis Raioni</option>
+<option>Samut Prakan</option>
+<option>Samut Sakhon</option>
+<option>Samut Songkhram</option>
+<option>Samux</option>
+<option>San Andres y Providencia</option>
+<option>San Blas</option>
+<option>San Carlos</option>
+<option>San Carlos</option>
+<option>San Cristobal</option>
+<option>San Fernando</option>
+<option>San Jose de Ocoa</option>
+<option>San Jose del Monte</option>
+<option>San Jose</option>
+<option>San Jose</option>
+<option>San Jose</option>
+<option>San Juan</option>
+<option>San Juan</option>
+<option>San Juan</option>
+<option>San Luis Potosi</option>
+<option>San Luis</option>
+<option>San Marcos</option>
+<option>San Marino</option>
+<option>San Martin</option>
+<option>San Miguel</option>
+<option>San Pablo</option>
+<option>San Pedro De Macoris</option>
+<option>San Pedro</option>
+<option>San Salvador and Rum Cay</option>
+<option>San Salvador</option>
+<option>San Vicente</option>
+<option>San'a'</option>
+<option>Sanaag</option>
+<option>Sanchez Ramirez</option>
+<option>Sancti Spiritus</option>
+<option>Sandaun</option>
+<option>Sandwell</option>
+<option>Sandy Point</option>
+<option>Sandys</option>
+<option>Sangha-Mbaere</option>
+<option>Sangha</option>
+<option>Sanguie</option>
+<option>Sankt Gallen</option>
+<option>Sanliurfa</option>
+<option>Sanma</option>
+<option>Sanmatenga</option>
+<option>Sant Julia de Loria</option>
+<option>Santa Ana</option>
+<option>Santa Barbara</option>
+<option>Santa Catarina</option>
+<option>Santa Catarina</option>
+<option>Santa Cruz</option>
+<option>Santa Cruz</option>
+<option>Santa Cruz</option>
+<option>Santa Fe</option>
+<option>Santa Rosa</option>
+<option>Santander</option>
+<option>Santarem</option>
+<option>Santiago de Cuba</option>
+<option>Santiago del Estero</option>
+<option>Santiago Rodriguez</option>
+<option>Santiago</option>
+<option>Santiago</option>
+<option>Santo Domingo</option>
+<option>Sao Domingos</option>
+<option>Sao Filipe</option>
+<option>Sao Miguel</option>
+<option>Sao Nicolau</option>
+<option>Sao Paulo</option>
+<option>Sao Tome</option>
+<option>Sao Vicente</option>
+<option>Sar-e Pol</option>
+<option>Saraburi</option>
+<option>Saraj</option>
+<option>Saramacca</option>
+<option>Sarangani</option>
+<option>Saratov</option>
+<option>Saravan</option>
+<option>Sarawak</option>
+<option>Sardegna</option>
+<option>Saskatchewan</option>
+<option>Satu Mare</option>
+<option>Satun</option>
+<option>Satupa</option>
+<option>Savanes</option>
+<option>Savanes</option>
+<option>Savannakhet</option>
+<option>Savanne</option>
+<option>Sawfajjin</option>
+<option>Schaan</option>
+<option>Schaffhausen</option>
+<option>Schellenberg</option>
+<option>Schleswig-Holstein</option>
+<option>Schwyz</option>
+<option>Scottish Borders, The</option>
+<option>Seenu</option>
+<option>Sefton</option>
+<option>Segou</option>
+<option>Selangor</option>
+<option>Selenge</option>
+<option>Selnica ob Dravi Commune</option>
+<option>Sembabule</option>
+<option>Semenawi K'eyih Bahri</option>
+<option>Semic Commune</option>
+<option>Semnan Province</option>
+<option>Semnan</option>
+<option>Sempeter-Vrtojba Commune</option>
+<option>Senakis Raioni</option>
+<option>Sencur Commune</option>
+<option>Seno</option>
+<option>Sentilj Commune</option>
+<option>Sentjernej Commune</option>
+<option>Sentjur pri Celju Commune</option>
+<option>Sentrupert</option>
+<option>Seoul-t'ukpyolsi</option>
+<option>Sergipe</option>
+<option>Serrai</option>
+<option>Serravalle</option>
+<option>Seti</option>
+<option>Setif</option>
+<option>Setubal</option>
+<option>Sevastopol'</option>
+<option>Sevnica Commune</option>
+<option>Sezana Commune</option>
+<option>Sfax</option>
+<option>Shaanxi</option>
+<option>Shabeellaha Dhexe</option>
+<option>Shabeellaha Hoose</option>
+<option>Shabwah</option>
+<option>Shamal Sina'</option>
+<option>Shan State</option>
+<option>Shandong</option>
+<option>Shanghai</option>
+<option>Shanxi</option>
+<option>Sharjah</option>
+<option>Shaviyani</option>
+<option>Shefa</option>
+<option>Sheffield</option>
+<option>Shemgang</option>
+<option>Shepherd</option>
+<option>Shetland Islands</option>
+<option>Shiga</option>
+<option>Shimane</option>
+<option>Shinyanga</option>
+<option>Shirak</option>
+<option>Shiselweni</option>
+<option>Shizuoka</option>
+<option>Shkoder</option>
+<option>Shropshire</option>
+<option>Shumen</option>
+<option>Siauliu Apskritis</option>
+<option>Sibensko-Kninska</option>
+<option>Sibiu</option>
+<option>Sichuan</option>
+<option>Sicilia</option>
+<option>Sidi Bel Abbes</option>
+<option>Sidi Bou Zid</option>
+<option>Siem Reap</option>
+<option>Sighnaghis Raioni</option>
+<option>Siguiri</option>
+<option>Siirt</option>
+<option>Sikasso</option>
+<option>Sikkim</option>
+<option>Silay</option>
+<option>Siliana</option>
+<option>Silistra</option>
+<option>Sillamae</option>
+<option>Sinaloa</option>
+<option>Sindh</option>
+<option>Sing Buri</option>
+<option>Singerei</option>
+<option>Singida</option>
+<option>Sino</option>
+<option>Sinop</option>
+<option>Sipalay</option>
+<option>Sipaliwini</option>
+<option>Sipkovica</option>
+<option>Siquijor</option>
+<option>Sirdaryo</option>
+<option>Sirnak</option>
+<option>Sironko</option>
+<option>Sisacko-Moslavacka</option>
+<option>Sisaket</option>
+<option>Sissili</option>
+<option>Sistan va Baluchestan</option>
+<option>Sitrah</option>
+<option>Sivas</option>
+<option>Siyazan</option>
+<option>Sjelland</option>
+<option>Skagafjardarsysla</option>
+<option>Skane Lan</option>
+<option>Skikda</option>
+<option>Skocjan Commune</option>
+<option>Skofja Loka Commune</option>
+<option>Skofljica Commune</option>
+<option>Slaskie</option>
+<option>Sligo</option>
+<option>Sliven</option>
+<option>Slough</option>
+<option>Slovenj Gradec Urban Commune</option>
+<option>Slovenska Bistrica Commune</option>
+<option>Slovenske Konjice Commune</option>
+<option>Smarje pri Jelsah Commune</option>
+<option>Smarjesk Toplice</option>
+<option>Smartno ob Paki Commune</option>
+<option>Smartno pri Litiji Commune</option>
+<option>Smiths</option>
+<option>Smolensk</option>
+<option>Smolyan</option>
+<option>Snafellsnes- og Hnappadalssysla</option>
+<option>Soc Trang</option>
+<option>Sodermanlands Lan</option>
+<option>Sodrazica Commune</option>
+<option>Sofala</option>
+<option>Sofiya</option>
+<option>Sogn og Fjordane</option>
+<option>Sokoto</option>
+<option>Solcava Commune</option>
+<option>Soldanesti</option>
+<option>Solihull</option>
+<option>Solola</option>
+<option>Solothurn</option>
+<option>Somerset</option>
+<option>Somogy</option>
+<option>Son La</option>
+<option>Songkhla</option>
+<option>Sonora</option>
+<option>Sonsonate</option>
+<option>Sool</option>
+<option>Sopiste</option>
+<option>Sopotnica</option>
+<option>Sopron</option>
+<option>Sor-Trondelag</option>
+<option>Soriano</option>
+<option>Soroca</option>
+<option>Soroti</option>
+<option>Sorsogon</option>
+<option>Sostanj Commune</option>
+<option>Soufriere</option>
+<option>Souk Ahras</option>
+<option>Soum</option>
+<option>Sourou</option>
+<option>Souss-Massa-Dr,a</option>
+<option>Sousse</option>
+<option>South Australia</option>
+<option>South Ayrshire</option>
+<option>South Carolina</option>
+<option>South Cotabato</option>
+<option>South Dakota</option>
+<option>South Gloucestershire</option>
+<option>South Kazakhstan</option>
+<option>South Lanarkshire</option>
+<option>South Town</option>
+<option>South Tyneside</option>
+<option>South-East</option>
+<option>Southampton</option>
+<option>Southampton</option>
+<option>Southend-on-Sea</option>
+<option>Southern Darfur</option>
+<option>Southern Finland</option>
+<option>Southern Highlands</option>
+<option>Southern Kordofan</option>
+<option>Southern Leyte</option>
+<option>Southern</option>
+<option>Southern</option>
+<option>Southern</option>
+<option>Southern</option>
+<option>Southland</option>
+<option>Southwark</option>
+<option>Splitsko-Dalmatinska</option>
+<option>Spot Bay</option>
+<option>Srbinovo</option>
+<option>Sredisce ob Dravi</option>
+<option>St. Helens</option>
+<option>Staffordshire</option>
+<option>Stake Bay</option>
+<option>Stann Creek</option>
+<option>Star Dojran</option>
+<option>Stara Zagora</option>
+<option>Staravina</option>
+<option>Staro Nagoricane</option>
+<option>Starse Commune</option>
+<option>Stavropol'</option>
+<option>Stefan-Voda</option>
+<option>Steiermark</option>
+<option>Stinga Nistrului</option>
+<option>Stip</option>
+<option>Stirling</option>
+<option>Stockholms Lan</option>
+<option>Stockport</option>
+<option>Stockton-on-Tees</option>
+<option>Stoke-on-Trent</option>
+<option>Store Commune</option>
+<option>Strabane</option>
+<option>Strandasysla</option>
+<option>Straseni</option>
+<option>Straza</option>
+<option>Stredocesky kraj</option>
+<option>Struga</option>
+<option>Struga</option>
+<option>Strumica</option>
+<option>Strumica</option>
+<option>Studenicani</option>
+<option>Stung Treng</option>
+<option>Suceava</option>
+<option>Suchitepequez</option>
+<option>Sucre</option>
+<option>Sucre</option>
+<option>Sucumbios</option>
+<option>Sud-Bandama</option>
+<option>Sud-Comoe</option>
+<option>Sud-Est</option>
+<option>Sud-Kivu</option>
+<option>Sud-Ouest</option>
+<option>Sud</option>
+<option>Sud</option>
+<option>Sud</option>
+<option>Sudur-Mulasysla</option>
+<option>Sudur-Tingeyjarsysla</option>
+<option>Suffolk</option>
+<option>Sughd</option>
+<option>Suhaj</option>
+<option>Suhbaatar</option>
+<option>Sukhothai</option>
+<option>Sulawesi Barat</option>
+<option>Sulawesi Selatan</option>
+<option>Sulawesi Tengah</option>
+<option>Sulawesi Tenggara</option>
+<option>Sulawesi Utara</option>
+<option>Sultan Kudarat</option>
+<option>Sulu</option>
+<option>Sumale</option>
+<option>Sumatera Barat</option>
+<option>Sumatera Selatan</option>
+<option>Sumatera Utara</option>
+<option>Sumqayit</option>
+<option>Sums'ka Oblast'</option>
+<option>Sunderland</option>
+<option>Suourland</option>
+<option>Suournes</option>
+<option>Suphan Buri</option>
+<option>Surat Thani</option>
+<option>Surigao del Norte</option>
+<option>Surigao del Norte</option>
+<option>Surigao del Sur</option>
+<option>Surigao</option>
+<option>Surin</option>
+<option>Surkhondaryo</option>
+<option>Surrey</option>
+<option>Surt</option>
+<option>Susa</option>
+<option>Susa</option>
+<option>Suto Orizari</option>
+<option>Sutton</option>
+<option>Svay Rieng</option>
+<option>Sverdlovsk</option>
+<option>Sveta Ana Commune</option>
+<option>Sveti Andraz v Slovenskih goricah Commune</option>
+<option>Sveti Jurij Commune</option>
+<option>Sveti Jurij v Slovenskih Goricah</option>
+<option>Sveti Nikole</option>
+<option>Swakopmund</option>
+<option>Swansea</option>
+<option>Swietokrzyskie</option>
+<option>Swindon</option>
+<option>Syddanmark</option>
+<option>Sylhet</option>
+<option>Syunik'</option>
+<option>Szabolcs-Szatmar-Bereg</option>
+<option>Szeged</option>
+<option>Szekesfehervar</option>
+<option>Szekszard</option>
+<option>Szolnok</option>
+<option>Szombathely</option>
+<option>T'ai-pei</option>
+<option>T'ai-wan</option>
+<option>T'bilisi</option>
+<option>T'elavis Raioni</option>
+<option>T'erjolis Raioni</option>
+<option>T'et'ritsqaros Raioni</option>
+<option>T'ianet'is Raioni</option>
+<option>Tabasco</option>
+<option>Tabor Commune</option>
+<option>Tabora</option>
+<option>Tabuk</option>
+<option>Tachira</option>
+<option>Tacloban</option>
+<option>Tacna</option>
+<option>Tacuarembo</option>
+<option>Tadjoura</option>
+<option>Tadla-Azilal</option>
+<option>Taegu-jikhalsi</option>
+<option>Taejon-jikhalsi</option>
+<option>Tafea</option>
+<option>Tagant</option>
+<option>Tagaytay</option>
+<option>Tagbilaran</option>
+<option>Tahoua</option>
+<option>Taizz</option>
+<option>Taizz</option>
+<option>Tak</option>
+<option>Takamaka</option>
+<option>Takeo</option>
+<option>Takhar</option>
+<option>Talas</option>
+<option>Tallinn</option>
+<option>Talsu</option>
+<option>Tamanghasset</option>
+<option>Tamaulipas</option>
+<option>Tambacounda</option>
+<option>Tambovskaya oblast</option>
+<option>Tameside</option>
+<option>Tamil Nadu</option>
+<option>Tandjile</option>
+<option>Tanga</option>
+<option>Tanger-Tetouan</option>
+<option>Tangub</option>
+<option>Tapoa</option>
+<option>Taraba</option>
+<option>Tarabulus</option>
+<option>Taraclia</option>
+<option>Taranaki</option>
+<option>Tarapaca</option>
+<option>Tarapaca</option>
+<option>Tarhunah</option>
+<option>Tarija</option>
+<option>Tarlac</option>
+<option>Tarrafal</option>
+<option>Tartar</option>
+<option>Tartu</option>
+<option>Tartumaa</option>
+<option>Tartus</option>
+<option>Tashigang</option>
+<option>Tasmania</option>
+<option>Tatabanya</option>
+<option>Tataouine</option>
+<option>Tatarstan</option>
+<option>Taurages Apskritis</option>
+<option>Tavush</option>
+<option>Tawitawi</option>
+<option>Tay Ninh</option>
+<option>Taymyr</option>
+<option>Taza-Al Hoceima-Taounate</option>
+<option>Tearce</option>
+<option>Tebessa</option>
+<option>Tehran</option>
+<option>Tekirdag</option>
+<option>Tel Aviv</option>
+<option>Telemark</option>
+<option>Telenesti</option>
+<option>Teleorman</option>
+<option>Telford and Wrekin</option>
+<option>Telimele</option>
+<option>Telsiu Apskritis</option>
+<option>Temburong</option>
+<option>Temotu</option>
+<option>Tenasserim</option>
+<option>Tennessee</option>
+<option>Terengganu</option>
+<option>Ternopil's'ka Oblast'</option>
+<option>Tete</option>
+<option>Tetovo</option>
+<option>Tetovo</option>
+<option>Texas</option>
+<option>Thaa</option>
+<option>Thaba-Tseka</option>
+<option>Thai Binh</option>
+<option>Thai Nguyen</option>
+<option>Thanh Hoa</option>
+<option>Thesprotia</option>
+<option>Thessaloniki</option>
+<option>Thies</option>
+<option>Thimphu</option>
+<option>Thua Thien-Hue</option>
+<option>Thurgau</option>
+<option>Thuringen</option>
+<option>Thurrock</option>
+<option>Thyolo</option>
+<option>Tianjin</option>
+<option>Tiaret</option>
+<option>Ticino</option>
+<option>Tien Giang</option>
+<option>Tierra del Fuego</option>
+<option>Tigray</option>
+<option>Timis</option>
+<option>Tindouf</option>
+<option>Tipaza</option>
+<option>Tipperary</option>
+<option>Tirane</option>
+<option>Tiris Zemmour</option>
+<option>Tirol</option>
+<option>Tisina Commune</option>
+<option>Tissemsilt</option>
+<option>Tizi Ouzou</option>
+<option>Tlaxcala</option>
+<option>Tlemcen</option>
+<option>Toamasina</option>
+<option>Tobago</option>
+<option>Tocantins</option>
+<option>Tochigi</option>
+<option>Togdheer</option>
+<option>Tokat</option>
+<option>Tokushima</option>
+<option>Tokyo</option>
+<option>Toledo</option>
+<option>Toledo</option>
+<option>Toliara</option>
+<option>Tolima</option>
+<option>Tolmin Commune</option>
+<option>Tolna</option>
+<option>Tombali</option>
+<option>Tombouctou</option>
+<option>Tomsk</option>
+<option>Tongatapu</option>
+<option>Tongsa</option>
+<option>Topolcani</option>
+<option>Torba</option>
+<option>Torbay</option>
+<option>Torfaen</option>
+<option>Tororo</option>
+<option>Toscana</option>
+<option>Toshkent</option>
+<option>Toshkent</option>
+<option>Totonicapan</option>
+<option>Tottori</option>
+<option>Tougue</option>
+<option>Tov</option>
+<option>Tovuz</option>
+<option>Tower Hamlets</option>
+<option>Toyama</option>
+<option>Tozeur</option>
+<option>Tqibuli</option>
+<option>Tra Vinh</option>
+<option>Trabzon</option>
+<option>Trafford</option>
+<option>Trang</option>
+<option>Trarza</option>
+<option>Trat</option>
+<option>Trbovlje Commune</option>
+<option>Trebnje Commune</option>
+<option>Trece Martires</option>
+<option>Treinta y Tres</option>
+<option>Trelawny</option>
+<option>Trencin</option>
+<option>Trentino-Alto Adige</option>
+<option>Triesen</option>
+<option>Triesenberg</option>
+<option>Trikala</option>
+<option>Trinity Palmetto Point</option>
+<option>Tripura</option>
+<option>Tristan da Cunha</option>
+<option>Trnava</option>
+<option>Trnovska vas Commune</option>
+<option>Troms</option>
+<option>Trujillo</option>
+<option>Trzic Commune</option>
+<option>Trzin Commune</option>
+<option>Ts'ageris Raioni</option>
+<option>Tsalenjikhis Raioni</option>
+<option>Tsalkis Raioni</option>
+<option>Tsqaltubo</option>
+<option>Tsumeb</option>
+<option>Tuamasaga</option>
+<option>Tubruq</option>
+<option>Tucuman</option>
+<option>Tukuma</option>
+<option>Tula</option>
+<option>Tulcea</option>
+<option>Tumbes</option>
+<option>Tunceli</option>
+<option>Tungurahua</option>
+<option>Tunis</option>
+<option>Turgovishte</option>
+<option>Turnisce Commune</option>
+<option>Tutong</option>
+<option>Tuva</option>
+<option>Tuy</option>
+<option>Tuyen Quang</option>
+<option>Tver'</option>
+<option>Tyumen'</option>
+<option>Uaboe</option>
+<option>Ubon Ratchathani</option>
+<option>Ubon Ratchathani</option>
+<option>Ucar</option>
+<option>Ucayali</option>
+<option>Udmurt</option>
+<option>Udon Thani</option>
+<option>Uige</option>
+<option>Ul'yanovsk</option>
+<option>Ulaanbaatar</option>
+<option>Ulsan-gwangyoksi</option>
+<option>Umbria</option>
+<option>Umm Al Quwain</option>
+<option>Umm Sa'id</option>
+<option>Umm Salal</option>
+<option>Ungheni</option>
+<option>Unity</option>
+<option>Upper Demerara-Berbice</option>
+<option>Upper East</option>
+<option>Upper Nile</option>
+<option>Upper Nile</option>
+<option>Upper River</option>
+<option>Upper Takutu-Upper Essequibo</option>
+<option>Upper West</option>
+<option>Uppsala Lan</option>
+<option>Uri</option>
+<option>Usak</option>
+<option>Ustecky kraj</option>
+<option>Usulutan</option>
+<option>Utah</option>
+<option>Utenos Apskritis</option>
+<option>Uthai Thani</option>
+<option>Utrecht</option>
+<option>Uttar Pradesh</option>
+<option>Uttaradit</option>
+<option>Uttarakhand</option>
+<option>Uva</option>
+<option>Uvs</option>
+<option>Va</option>
+<option>Vaavu</option>
+<option>Vaduz</option>
+<option>Vaisigano</option>
+<option>Valais</option>
+<option>Valandovo</option>
+<option>Valandovo</option>
+<option>Valcea</option>
+<option>Vale of Glamorgan, The</option>
+<option>Valgamaa</option>
+<option>Valkas</option>
+<option>Valle d'Aosta</option>
+<option>Valle del Cauca</option>
+<option>Valle</option>
+<option>Vallee du Bandama</option>
+<option>Valmieras</option>
+<option>Valparaiso</option>
+<option>Valverde</option>
+<option>Van</option>
+<option>Vanis Raioni</option>
+<option>Varazdinska</option>
+<option>Vardak</option>
+<option>Vargas</option>
+<option>Varmlands Lan</option>
+<option>Varna</option>
+<option>Vas</option>
+<option>Vasilevo</option>
+<option>Vaslui</option>
+<option>Vasterbottens Lan</option>
+<option>Vasternorrlands Lan</option>
+<option>Vastmanlands Lan</option>
+<option>Vastra Gotaland</option>
+<option>Vaud</option>
+<option>Vaupes</option>
+<option>Vava</option>
+<option>Vayots' Dzor</option>
+<option>Velenje Urban Commune</option>
+<option>Veles</option>
+<option>Veles</option>
+<option>Velesta</option>
+<option>Velika Polana Commune</option>
+<option>Velike Lasce Commune</option>
+<option>Veliko Turnovo</option>
+<option>Veneto</option>
+<option>Ventspils</option>
+<option>Ventspils</option>
+<option>Veracruz-Llave</option>
+<option>Veraguas</option>
+<option>Vermont</option>
+<option>Verzej Commune</option>
+<option>Vest-Agder</option>
+<option>Vestfiroir</option>
+<option>Vestfold</option>
+<option>Vestgronland</option>
+<option>Vestur-Bardastrandarsysla</option>
+<option>Vestur-Hunavatnssysla</option>
+<option>Vestur-Isafjardarsysla</option>
+<option>Vestur-Skaftafellssysla</option>
+<option>Vesturland</option>
+<option>Veszprem</option>
+<option>Veszprem</option>
+<option>Vevcani</option>
+<option>Viana do Castelo</option>
+<option>Vichada</option>
+<option>Victoria</option>
+<option>Victoria</option>
+<option>Videm Commune</option>
+<option>Vidin</option>
+<option>Vientiane</option>
+<option>Vieux-Fort</option>
+<option>Vila Real</option>
+<option>Viljandimaa</option>
+<option>Villa Clara</option>
+<option>Vilniaus Apskritis</option>
+<option>Vinh Long</option>
+<option>Vinh Phuc</option>
+<option>Vinica</option>
+<option>Vinnyts'ka Oblast'</option>
+<option>Vipava Commune</option>
+<option>Virgin Islands</option>
+<option>Virginia</option>
+<option>Viroviticko-Podravska</option>
+<option>Viseu</option>
+<option>Vitanje Commune</option>
+<option>Vitoliste</option>
+<option>Vitsyebskaya Voblasts'</option>
+<option>Vlaams-Brabant</option>
+<option>Vladimir</option>
+<option>Vlore</option>
+<option>Vodice Commune</option>
+<option>Voiotia</option>
+<option>Vojnik Commune</option>
+<option>Vojvodina</option>
+<option>Volgograd</option>
+<option>Vologda</option>
+<option>Volta</option>
+<option>Volyns'ka Oblast'</option>
+<option>Vorarlberg</option>
+<option>Voronezh</option>
+<option>Vorumaa</option>
+<option>Vrancea</option>
+<option>Vranestica</option>
+<option>Vransko Commune</option>
+<option>Vrapciste</option>
+<option>Vratnica</option>
+<option>Vratsa</option>
+<option>Vrhnika Commune</option>
+<option>Vrutok</option>
+<option>Vukovarsko-Srijemska</option>
+<option>Vuzenica Commune</option>
+<option>Vysocina</option>
+<option>Waikato</option>
+<option>Wakayama</option>
+<option>Wakefield</option>
+<option>Wakiso</option>
+<option>Wallonia</option>
+<option>Walsall</option>
+<option>Waltham Forest</option>
+<option>Wandsworth</option>
+<option>Wangdi Phodrang</option>
+<option>Wanica</option>
+<option>Warminsko-Mazurskie</option>
+<option>Warrap</option>
+<option>Warrington</option>
+<option>Warwick</option>
+<option>Warwickshire</option>
+<option>Washington</option>
+<option>Wasit</option>
+<option>Waterford</option>
+<option>Wele-Nzas</option>
+<option>Wellington</option>
+<option>West Bank</option>
+<option>West Bengal</option>
+<option>West Berkshire</option>
+<option>West Coast</option>
+<option>West Dunbartonshire</option>
+<option>West End</option>
+<option>West Kazakhstan</option>
+<option>West Lothian</option>
+<option>West New Britain</option>
+<option>West Sussex</option>
+<option>West Virginia</option>
+<option>West-Vlaanderen</option>
+<option>Western Area</option>
+<option>Western Australia</option>
+<option>Western Bahr el Ghazal</option>
+<option>Western Cape</option>
+<option>Western Equatoria</option>
+<option>Western Finland</option>
+<option>Western Highlands</option>
+<option>Western</option>
+<option>Western</option>
+<option>Western</option>
+<option>Western</option>
+<option>Western</option>
+<option>Western</option>
+<option>Western</option>
+<option>Western</option>
+<option>Western</option>
+<option>Westmeath</option>
+<option>Westminster</option>
+<option>Westmoreland</option>
+<option>Wexford</option>
+<option>Wicklow</option>
+<option>Wielkopolskie</option>
+<option>Wien</option>
+<option>Wigan</option>
+<option>Wiltshire</option>
+<option>Windhoek</option>
+<option>Windsor and Maidenhead</option>
+<option>Wirral</option>
+<option>Wisconsin</option>
+<option>Wokingham</option>
+<option>Woleu-Ntem</option>
+<option>Wolverhampton</option>
+<option>Woqooyi Galbeed</option>
+<option>Woqooyi Galbeed</option>
+<option>Worcestershire</option>
+<option>Worodougou</option>
+<option>Wrexham</option>
+<option>Wyoming</option>
+<option>Xacmaz</option>
+<option>Xaignabouri</option>
+<option>Xankandi</option>
+<option>Xanlar</option>
+<option>Xanthi</option>
+<option>Xiangkhoang</option>
+<option>Xinjiang</option>
+<option>Xizang</option>
+<option>Xizi</option>
+<option>Xocali</option>
+<option>Xocavand</option>
+<option>Yafran</option>
+<option>Yagha</option>
+<option>Yala</option>
+<option>Yalova</option>
+<option>Yamagata</option>
+<option>Yamaguchi</option>
+<option>Yamal-Nenets</option>
+<option>Yamanashi</option>
+<option>Yambol</option>
+<option>Yanggang-do</option>
+<option>Yangon</option>
+<option>Yap</option>
+<option>Yaracuy</option>
+<option>Yardimli</option>
+<option>Yaren</option>
+<option>Yaroslavl'</option>
+<option>Yasothon</option>
+<option>Yatenga</option>
+<option>Yazd</option>
+<option>Yazd</option>
+<option>YeDebub Biheroch Bihereseboch na Hizboch</option>
+<option>Yen Bai</option>
+<option>Yerevan</option>
+<option>Yerushalayim</option>
+<option>Yevlax</option>
+<option>Yevlax</option>
+<option>Yevrey</option>
+<option>Yobe</option>
+<option>Yogyakarta</option>
+<option>Yomou</option>
+<option>York</option>
+<option>Yoro</option>
+<option>Yozgat</option>
+<option>Ysyk-Kol</option>
+<option>Yucatan</option>
+<option>Yukon Territory</option>
+<option>Yumbe</option>
+<option>Yunnan</option>
+<option>Zabaykal'skiy Kray</option>
+<option>Zabol</option>
+<option>Zacapa</option>
+<option>Zacatecas</option>
+<option>Zachodniopomorskie</option>
+<option>Zadarska</option>
+<option>Zaghouan</option>
+<option>Zagorje ob Savi Commune</option>
+<option>Zagrebacka</option>
+<option>Zaire</option>
+<option>Zajas</option>
+<option>Zakarpats'ka Oblast'</option>
+<option>Zakinthos</option>
+<option>Zala</option>
+<option>Zalaegerszeg</option>
+<option>Zalec Commune</option>
+<option>Zambales</option>
+<option>Zambales</option>
+<option>Zambezia</option>
+<option>Zamboanga del Norte</option>
+<option>Zamboanga del Sur</option>
+<option>Zamboanga</option>
+<option>Zamboanga</option>
+<option>Zamfara</option>
+<option>Zamora-Chinchipe</option>
+<option>Zangilan</option>
+<option>Zanjan</option>
+<option>Zanjan</option>
+<option>Zanjan</option>
+<option>Zanzan</option>
+<option>Zanzibar Central</option>
+<option>Zanzibar North</option>
+<option>Zanzibar Urban</option>
+<option>Zaporiz'ka Oblast'</option>
+<option>Zaqatala</option>
+<option>Zardab</option>
+<option>Zavrc Commune</option>
+<option>Zeeland</option>
+<option>Zelaya</option>
+<option>Zelenikovo</option>
+<option>Zelezniki Commune</option>
+<option>Zelino</option>
+<option>Zestap'onis Raioni</option>
+<option>Zetale Commune</option>
+<option>Zhambyl</option>
+<option>Zhejiang</option>
+<option>Zhytomyrs'ka Oblast'</option>
+<option>Ziguinchor</option>
+<option>Zilina</option>
+<option>Zinder</option>
+<option>Ziri Commune</option>
+<option>Ziro</option>
+<option>Zirovnica Commune</option>
+<option>Zitose</option>
+<option>Zletovo</option>
+<option>Zlinsky kraj</option>
+<option>Zlitan</option>
+<option>Zomba</option>
+<option>Zondoma</option>
+<option>Zonguldak</option>
+<option>Zou</option>
+<option>Zou</option>
+<option>Zoundweogo</option>
+<option>Zrece Commune</option>
+<option>Zrnovci</option>
+<option>Zufar</option>
+<option>Zug</option>
+<option>Zugdidi</option>
+<option>Zugdidis Raioni</option>
+<option>Zuid-Holland</option>
+<option>Zulia</option>
+<option>Zurich</option>
+<option>Zuzemberk Commune</option>
+									</select>
+
+								</div>
+
+<div style="margin-top:15px;">
+	<input type="text" size="46" spellcheck="true" placeholder="Type in a city" style="padding:10px;border-radius:5px"></input> 
+</div>
+
+							</td>
+						</tr>
+					</table>
+
+
+
+
+					<br/>
+					<br/>
+
+					<div>
+
+						<table style="margin-left:auto;margin-right:auto">
+							<tr>
+								<td>
+									<div>
+										September
+									</div>
+								</td>
+								<td class="text-right">
+									<div>
+										2015
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<div class="btn-group">
+										<table>
+											<tr>
+												<td>
+
+													<label class="btn btn-primary btn-static">
+														<input type="checkbox" autocomplete="off"> S
+													</label>
+
+												</td>
+												<td>
+													<label class="btn btn-primary btn-static">
+														<input type="checkbox" autocomplete="off"> M
+													</label>
+												</td>
+												<td>
+													<label class="btn btn-primary btn-static">
+														<input type="checkbox" autocomplete="off"> T
+													</label>
+												</td>
+												<td>
+													<label class="btn btn-primary btn-static">
+														<input type="checkbox" autocomplete="off"> W
+													</label>
+												</td>
+												<td>
+													<label class="btn btn-primary btn-static">
+														<input type="checkbox" autocomplete="off"> T
+													</label>
+												</td>
+												<td>
+													<label class="btn btn-primary btn-static">
+														<input type="checkbox" autocomplete="off"> F
+													</label>
+												</td>
+												<td>
+													<label class="btn btn-primary btn-static">
+														<input type="checkbox" autocomplete="off"> S
+													</label>
+												</td>
+											</tr>
+
+											<tr>
+												<td>
+													<label class="btn btn-primary btn-blank">
+														<input type="checkbox" autocomplete="off"> &nbsp;
+													</label>
+												</td>
+												<td>
+													<label class="btn btn-primary btn-blank">
+														<input type="checkbox" autocomplete="off"> &nbsp;
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 1
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 2
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 3
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 4
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 5
+													</label>
+												</td>
+											</tr>
+
+											<tr>
+												<td>
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 6
+													</label>
+												</td>
+												<td>
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 7
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 8
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 9
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 10
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 11
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 12
+													</label>
+												</td>
+											</tr>
+
+
+											<tr>
+												<td>
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 13
+													</label>
+												</td>
+												<td>
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 14
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 15
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 16
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 17
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 18
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 19
+													</label>
+												</td>
+											</tr>
+
+											<tr>
+												<td>
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 20
+													</label>
+												</td>
+												<td>
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 21
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 22
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 23
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 24
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 25
+													</label>
+												</td>
+												<td data-toggle="buttons">
+													<label class="btn btn-primary">
+														<input type="checkbox" autocomplete="off"> 26
+													</label>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</td>
+							</tr>
+						</table>
+
+
+					</div>
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+		<br/>
+
+
+
+		<table style="margin-left:auto;margin-right:auto">
+			<tr>
+				<td>
+					<div class="btn btn-primary"><font size="3em">Save and continue</font>
+					</div>
+				</td>
+			</tr>
+		</table>
+
+
+		<br/>
+		<br/>
+		<br/>
+
+
+
+
+
+		<!-- FOOTER -->
+		<footer>
+			<p class="pull-right"><a href="#">Back to top</a>
+			</p>
+			<p>&copy; 2015 TravelDateDiscover &middot; <a href="travel-about.html">About Us</a> &middot; <a href="travel-testimonials.html">Testimonials</a> &middot; <a href="travel-privacy.html">Privacy</a> &middot; <a href="travel-terms.html">Terms</a>
+			</p>
+		</footer>
+
+	</div>
+	<!-- /.container -->
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== 
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="bootstrap-3.0.3%203/dist/js/bootstrap.min.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="bootstrap-3.0.3%203/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+	<script src="js/chosen.jquery.js" type="text/javascript"></script>
+	<script src="docsupport/prism.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var config = {
+			'.chosen-select': {},
+			'.chosen-select-deselect': {
+				allow_single_deselect: true
+			},
+			'.chosen-select-no-single': {
+				disable_search_threshold: 10
+			},
+			'.chosen-select-no-results': {
+				no_results_text: 'Oops, nothing found!'
+			},
+			'.chosen-select-width': {
+				width: "95%"
+			}
+		}
+		for (var selector in config) {
+			$(selector).chosen(config[selector]);
+		}
+	</script>
+
+
+</body>
+
+</html>

@@ -132,3 +132,7 @@ body {
     margin-top: 120px;
   }
 }
+
+.birthday input {
+	size: 5 !important;
+}
