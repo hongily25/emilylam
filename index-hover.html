@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Direction-Aware Hover Effect with CSS3 and jQuery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Direction-Aware Hover Effect with CSS3 and jQuery" />
+        <meta name="keywords" content="hover, css3, jquery, effect, direction, aware, depending, thumbnails" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400italic' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" type="text/css" href="css/demo-hover.css" />
+        <link rel="stylesheet" type="text/css" href="css/style-hover.css" />
+			<!-- Add fancyBox -->
+<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+        <script src="js/modernizr.custom.97074.js"></script>
+			<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+        <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
+    </head>
+    <body>
+        <div class="container">
+		
+			<header class="clearfix">
+				<span>The portfolio of </span>
+				<h1><span>{ Emily Lam }</span></h1>
+				<p>An award-winning graphic designer, front-end developer, and entrepreneur. </p>
+			</header>
+			<section>
+				<ul id="da-thumbs" class="da-thumbs">
+					<li>
+						<a class="fancybox" rel="group" href="images/1big.jpg">
+							<img src="images/1.jpg" />
+							<div><span>Dealing with Demons by David Hairabedian</span></div>
+						</a>
+					</li>
+					<li>
+						<a class="fancybox" rel="group" href="images/2big.jpg">
+							<img src="images/2.jpg" />
+							<div><span>The Unforgiving Sea by Rupert Colley</span></div>
+						</a>
+					</li>
+					<li>
+						<a class="fancybox" rel="group" href="images/3big.jpg">
+							<img src="images/3.jpg" />
+							<div><span>Crossfit Delivers! Your lean, firm, and sexiest body yet</span></div>
+						</a>
+					</li>
+					<li>
+						<a class="fancybox" rel="group" href="images/4big.jpg">
+							<img src="images/4.jpg" />
+							<div><span>Key West Advertisement</span></div>
+						</a>
+					</li>
+					<li>	
+						<a class="fancybox" rel="group" href="images/5big.jpg">
+							<img src="images/5.jpg" />
+							<div><span>Dealing with Demons II by David Hairabedian</span></div>
+						</a>
+					</li>
+					<li>
+						<a class="fancybox" rel="group" href="images/6big.jpg">
+							<img src="images/6.jpg" />
+							<div><span>Essential Oil Magic for Organic Beauty by Arav Books</span></div>
+						</a>
+					</li>
+					<li>
+						<a class="fancybox" rel="group" href="images/7big.jpg">
+							<img src="images/7.jpg" />
+							<div><span>Yetta and Felicia Survey Contest Flyer</span></div>
+						</a>
+					</li>
+					<li>
+						<a class="fancybox" rel="group" href="images/8big.jpg">
+							<img src="images/8.jpg" />
+							<div><span>Domme Chronicles by Sharyn Ferns</span></div>
+						</a>
+					</li>
+					<li>\
+						<a class="fancybox" rel="group" href="images/9big.jpg">
+							<img src="images/9.jpg" />
+							<div><span>Romance No Moulin Rouge by Catherine Lemesle</span></div>
+						</a>
+					</li>
+					<li>
+						<a class="fancybox" rel="group" href="images/10big.jpg">
+							<img src="images/10.jpg" />
+							<div><span>Abyssal Sanctuary by Gavin Hetherington</span></div>
+						</a>
+					</li>
+					<li>
+						<a class="fancybox" rel="group" href="images/11big.jpg">
+							<img src="images/11.jpg" />
+							<div><span>The 4 Proven Marketing systems by Montele J. Hogan</span></div>
+						</a>
+					</li>
+					<li>
+						<a class="fancybox" rel="group" href="images/12big.jpg">
+							<img src="images/12.jpg" />
+							<div><span>Leadership branding landing page for Felicia R. Davis</span></div>
+						</a>
+					</li>
+				
+				</ul>
+			</section>
+        </div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
+		<script type="text/javascript">
+			$(function() {
+			
+				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+			});
+		</script>
+		
+    </body>
+</html>
