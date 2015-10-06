@@ -12,7 +12,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400italic' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" type="text/css" href="css/demo-hover.css" />
         <link rel="stylesheet" type="text/css" href="css/style-hover.css" />
-
+			
         <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
     </head>
     <body>
@@ -101,12 +101,13 @@
 				</ul>
 			</section>
         </div>
-	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
+			
 		<script type="text/javascript">
 			$(function() {
 			
-				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+				$('#da-thumbs > li').each( function() { $(this).hoverdir(); } );
 
 			});
 		</script>
