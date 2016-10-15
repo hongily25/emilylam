@@ -1,0 +1,19 @@
+﻿<div class="att-header att-header-animation">
+    <div id="back-icon" ng-click="backCallback()" ng-show="isSecondaryScreen()">
+        <i class="icon-back"></i>
+    </div>
+
+    <div id="app-brand" class="att-header-app-name-animation" ng-show="isHomeScreen()">        
+        <img ng-src="{{appLogo}}"  alt="" id="app-icon">
+        <span id="app-name">{{appName}}</span>
+    </div>
+    <div id="current-view" ng-class="{'centered': isSecondaryScreen()}" ng-show="isPrimaryScreen() || isSecondaryScreen()">
+        
+        <span id="view-name">{{viewName}}</span>
+    </div>
+    <div id="alignment-helper" ng-show="isPrimaryScreen()"></div>
+    <div id="drawer-button" ng-click="toggleDrawer()">
+        <i class="icon-menu"></i>
+    </div>
+
+</div>

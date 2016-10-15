@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+    <title>Park Your Car</title>
+	  <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	
+    <link rel="stylesheet" href="att-sdk/0.0.8/styles/att-sdk.css">
+    <link rel="stylesheet" href="styles/main.css" />
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
+	<style>
+		
+		
+	 body {
+		 background-color: #000;
+		 padding-top: 24px;
+  padding-bottom: 24px;
+		 font-weight: 400;
+	 }
+		
+		h1 { 
+			font-size: 48px;
+			
+			font-weight: 100;
+		}
+		
+		h2 { 
+			font-size: 32px;
+			font-weight: 100;
+		}
+		
+.navbar {
+  margin-bottom: 20px;
+}
+		
+		.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+		
+		.btn {
+			background-color: #6bc7f5 !important;
+		}
+		
+		.btn.btn-primary {
+						border-color: #6bc7f5 !important;
+		}
+		
+		.btn-primary {
+						background-image: none;
+			border-radius: 24px;
+		}
+	
+	</style>
+	
+</head>
+<body ng-app="app">
+	
+	
+	
+    <att-header app-name="appName" current-item="viewName" app-image="images/att-icon.png"></att-header>
+	
+    <att-content has-header="true" background-img="images/att-stencil.png">
+			
+			 <div class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default" style="background-color:#232323;border:0">
+        <div class="container-fluid" style="background-color:#232323;border:0">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="http://i.imgur.com/jPOcw0q.png" style="height:30px;width:60px"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active" style="background-color:#232323;border:0"><a href="#" style="background-color:#232323;border:0">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Destination address <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./">Park Your Car <span class="sr-only">(current)</span></a></li>
+              <li><a href="../navbar-static-top/">Parking Lot List</a></li>
+              <li><a href="../navbar-fixed-top/">Parking 1</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron" style="background-color: #232323">
+        <div class="container" style="background-color: #232323">
+
+      <form class="form-signin">
+        <h2 class="form-signin-heading" style="color:#FFF;text-align:center">PARK YOUR CAR</h2>
+        <label for="inputEmail" class="sr-only">Destination address</label>
+        <input type="text" id="inputEmail" class="form-control" placeholder="Destination address" required autofocus style="background-color:#232323;border:1px solid #FFF;border-radius:24px">
+        
+        <br>
+        <a class="btn btn-lg btn-primary btn-block" href="/index-2.html" style="background-color:#6bc7f5 !important">Start</a>
+      </form>
+
+    </div> <!-- /container -->
+      </div>
+    </div> <!-- /container -->
+			
+		
+  
+			
+        <ng-view></ng-view>
+    </att-content>
+    <att-drawer>
+        <att-menu title="title" items="appLinks"></att-menu>
+    </att-drawer>
+    <att-loader></att-loader>
+
+    <!-- DEC API -->
+    <script src="att-sdk/0.0.8/scripts/Properties.js"></script>
+    <script src="https://garagesvservices.ericy.com/hwadecjssdk-1/lib/dec/js/minified/DECSdk.min.js"></script>
+    <script src="https://garagesvservices.ericy.com/hwadecjssdk-1/lib/dec/js/minified/Promise.min.js"></script>
+    <script type="text/javascript" src="https://garagesvservices.ericy.com/hwadecjssdk-1/lib/dec/json/Media.json"></script>
+
+    <!-- APP FRAMEWORK -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js"></script>
+    <script src="att-sdk/0.0.8/scripts/connectedCarSDK-tpls.js"></script>
+    <script src="scripts/app.js"></script>
+
+    <!--Controllers-->
+    <script src="firstPage/controllers/FirstPageCtrl.js"></script>
+    <script src="mediaPlayer/controllers/MediaPlayerCtrl.js"></script>
+</body>
+</html>

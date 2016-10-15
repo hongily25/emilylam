@@ -1,0 +1,57 @@
+﻿<div class="att-media-player">
+  <div class="header">
+      <div class="album-art" ng-click="getCurrentMedia()">
+          <img ng-if="nowPlaying.track.art" ng-src="{{nowPlaying.track.art}}" alt="">
+          <div ng-if="!nowPlaying.track.art" id="headphones-icon-holder-outer">
+              <div id="headphones-icon-holder-inner">
+                  <i class="icon-headphones"></i>
+              </div>
+          </div>
+      </div>
+
+    <div class="media-title">
+      <span class="current">{{nowPlaying.track.title}}</span>
+      <span class="author">{{nowPlaying.track.artist}}</span>
+    </div>
+      <span class="next" ng-show="!playerOption.shuffle">
+          Next: <span class="font-medium">{{getNextTrack().artist}} - {{getNextTrack().title}}</span>
+      </span>
+  </div>
+
+  <div class="main-controls">
+    <div class="btn-group-media">
+      <a ng-click="previous()" class="btn btn-circ small"><span class="icon-skip-left"></span></a>
+        <a ng-if="!isPlayerPaused" ng-click="pause()" class="btn btn-circ large sep-lr-40"><span class="icon-pause"></span></a>
+        <a ng-if="isPlayerPaused" ng-click="play()" class="btn btn-circ large sep-lr-40"><span class="icon-play"></span></a>
+      <a ng-click="next()" class="btn btn-circ small"><span class="icon-skip-right"></span></a>
+    </div>
+  </div>
+
+    <div class="sub-controls">
+        <a class="btn btn-icon sep-r-40" ng-click="toggleShuffle()"><span class="icon-shuffle" ng-class="{'white-icon': playerOption.shuffle}"></span></a>
+        <a class="btn btn-icon" ng-click="toggleRepeat()"><span class="icon-repeat" ng-class="{'white-icon': playerOption.repeat}"></span></a>
+        <a class="btn btn-icon volume-icon pull-right" ng-class="{'active': showVolume}" ng-click="volume()"><span class="icon-volume-down"></span></a>
+        <div class="sep-top-10">
+            <att-slider type="default"
+                        min="{{nowPlaying.progress.min}}"
+                        max="{{nowPlaying.progress.max}}"
+                        ng-model="nowPlaying.progress.val"
+                        text-left="{{nowPlaying.progress.elapsedTime}}"
+                        text-right="{{nowPlaying.progress.remainingTime}}"
+                        parent-control="time">
+            </att-slider>
+        </div>
+    </div>
+
+  <div class="volume-panel" ng-class="{'show': showVolume}">
+    VOLUME AT {{currentVolume}}%
+    <att-slider type="default"
+                min="{{minVolume}}"
+                max="{{maxVolume}}"
+                ng-model="currentVolume"
+                text-left="{{minVolume}}"
+                text-right="{{maxVolume}}"
+                parent-control="volume">
+    </att-slider>
+  </div>
+</div>

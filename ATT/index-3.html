@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+    <title>Park Your Car</title>
+	  <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	
+    <link rel="stylesheet" href="att-sdk/0.0.8/styles/att-sdk.css">
+    <link rel="stylesheet" href="styles/main.css" />
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
+	<style>
+		
+		
+	 body {
+		 background-color: #000;
+		 padding-top: 24px;
+  padding-bottom: 24px;
+		 font-weight: 400;
+	 }
+		
+		h1 { 
+			font-size: 48px;
+			
+			font-weight: 100;
+		}
+		
+		h2 { 
+			font-size: 32px;
+			font-weight: 100;
+		}
+		
+.navbar {
+  margin-bottom: 20px;
+}
+		
+		.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+		
+		.btn {
+			background-color: #6bc7f5 !important;
+		}
+		
+		.btn.btn-primary {
+						border-color: #6bc7f5 !important;
+		}
+		
+		.btn-primary {
+						background-image: none;
+			border-radius: 24px;
+		}
+	
+	</style>
+	
+</head>
+<body ng-app="app">
+	
+	
+	
+    <att-header app-name="appName" current-item="viewName" app-image="images/att-icon.png"></att-header>
+	
+    <att-content has-header="true" background-img="images/att-stencil.png">
+			
+			 <div class="container">
+
+     
+
+				 
+
+				 <div>
+					 
+					 <div style="background-color:#232323;height:40px;color:#FFF;padding:10px">
+						 <div style="display:inline-block"> <a href="/index-2.html"><span class="glyphicon glyphicon glyphicon-arrow-left"></span></a></div>
+						 <div style="display:inline-block;text-align:center;width:80%"> PARKING SPOT LIST</div>
+						 <div style="display:inline-block;float:right">  <span class="glyphicon glyphicon-menu-hamburger"></span></div>
+						 
+						 
+					 
+					 </div>
+
+     <img src="http://i.imgur.com/WwKLNWr.jpg">
+					 
+					 
+        </div>
+				 
+				 				
+				 
+				 
+				 
+
+
+    </div> <!-- /container -->
+			
+		
+  
+			
+        <ng-view></ng-view>
+    </att-content>
+    <att-drawer>
+        <att-menu title="title" items="appLinks"></att-menu>
+    </att-drawer>
+    <att-loader></att-loader>
+
+    <!-- DEC API -->
+    <script src="att-sdk/0.0.8/scripts/Properties.js"></script>
+    <script src="https://garagesvservices.ericy.com/hwadecjssdk-1/lib/dec/js/minified/DECSdk.min.js"></script>
+    <script src="https://garagesvservices.ericy.com/hwadecjssdk-1/lib/dec/js/minified/Promise.min.js"></script>
+    <script type="text/javascript" src="https://garagesvservices.ericy.com/hwadecjssdk-1/lib/dec/json/Media.json"></script>
+
+    <!-- APP FRAMEWORK -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js"></script>
+    <script src="att-sdk/0.0.8/scripts/connectedCarSDK-tpls.js"></script>
+    <script src="scripts/app.js"></script>
+
+    <!--Controllers-->
+    <script src="firstPage/controllers/FirstPageCtrl.js"></script>
+    <script src="mediaPlayer/controllers/MediaPlayerCtrl.js"></script>
+</body>
+</html>

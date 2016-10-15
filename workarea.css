@@ -1,0 +1,106 @@
+div.footer_top.footer_top_full {
+	padding: 2px 24px;
+	background-color: #0475c1;
+	width: 1022px;
+	margin: 0 auto;
+}
+	
+.footer_top_holder {
+	background-color: #FFF !important;
+}
+
+.footer_bottom_holder {
+	background-color: #FFF !important;
+}
+
+.footer_bottom {
+	width: 1022px;
+	display: block;
+	margin: 20px auto 10px;
+}
+
+
+.hide-homepage-row {
+	display: none !important;
+}
+
+@media (max-width: 767px) {
+	.footer_bottom > img {
+		display: none !important;
+	}
+}
+
+nav.main_menu {
+	position: relative !important;
+	width: 100%;
+	left: 0;
+	margin-top: 100px;
+	height: 40px;
+	background-color: #0475c1;
+}
+
+#menu-top_menu {
+	left: 0 !important;
+	background-color: #0475c1 !important;
+}
+
+nav.main_menu > ul > li > a > span {
+	color: #FFF !important;
+}
+
+nav.main_menu > ul > li > a {
+	line-height: 40px !important;
+}
+
+span.line {
+	background-color: #0475c1 !important;
+}
+
+.menu-item {
+	height: 40px !important;
+}
+
+.header_bottom {
+ box-shadow: none !important;
+}
+
+
+#nav-menu-item-14192 > a > span:nth-child(2):after,
+#nav-menu-item-14203 > a > span:nth-child(2):after
+ {
+	content: " ▼";
+	font-size: 9px;
+	padding-left: 5px;
+}
+
+.content .title .container,
+.content .container {
+	background-color: #FFF !important;
+}
+
+@media (min-width: 768px) {
+	.homepage-row .wpb_text_column {
+		min-height: 220px;
+	}
+}
+
+.content {
+	margin-top: 0 !important;
+}
+
+.homepage-tagline {
+	text-align: center;
+	font-size: 42px;
+	line-height: initial;
+	color: #1f83c6;
+	padding-top: 30px;
+}
+
+/*
+
+background-image:url(http://primetimepack.com/wp-content/uploads/2016/02/Custom-header.jpg);
+
+http://primetimepack.com/wp-content/uploads/2016/02/second-slide-solid.jpg
+
+background-image:url(http://primetimepack.com/wp-content/uploads/2016/02/third-kraft.jpg);
+
